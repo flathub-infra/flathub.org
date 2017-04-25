@@ -41,8 +41,12 @@ description: Build and distribution service for Flatpak applications.
             <span class="unselectable">$ </span>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         
         %p
-          You can then browse and install applications in the normal manner. See the Flatpak command line tutorial for more information on this.
+          You can then browse and install applications in the normal manner. See the Flatpak 
+          = link_to "command line tutorial", "http://flatpak.org/command-line.html"
+          for more information on this.
 
         %h2 Submitting apps
         %p
-          If you have an app that you would like to make available through Flathub, please see the submission guidelines.
+          If you have an app that you would like to make available through Flathub, please see the 
+          = succeed "." do
+            = link_to "submission guidelines", "https://github.com/flatpak/flathub/wiki/Submission-Guidelines"
