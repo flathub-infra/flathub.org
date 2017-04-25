@@ -1,0 +1,48 @@
+---
+title: Flathub
+description: Build and distribution service for Flatpak applications.
+---
+%header
+  .header-content
+    .container
+      .row
+        .col-sm-8.col-sm-offset-2
+          %h1 Welcome to Flathub
+      .row
+        .col-sm-8.col-sm-offset-2
+          %p
+            Flathub is a build and distribution service for Flatpak applications. Its goal is to act as a central hub for making desktop applications available to users.
+      .row
+        .col-sm-8.col-sm-offset-2
+          %p
+            This service is in the early stages of development. If you are interested in helping us to build it, please get in touch using the standard Flatpak communication channels.
+    
+%section
+  .container
+    .row
+      .col-sm-2
+        %ul.icons
+          %li
+            %a.fa.fa-twitter.solo{href: "https://twitter.com/FlatpakApps"}
+              %span Instagram
+        
+      .col-sm-8
+        %h2#using Using Flathub
+        %p
+          If you would like to help test Flathub, you can add the repository and install apps from it. To do this, you will need to install Flatpak, if you haven't already. After that, there are two options:
+        %p
+          If you are on Fedora 25, OpenSUSE Tumbleweed, Debian Testing, Arch, or Mageia Cauldron, you can download the repository file and use GNOME Software to install it.
+
+        %p
+          From the command line, run: 
+          
+        %pre
+          :preserve
+            <span class="unselectable">$ </span>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+        
+        %p
+          You can then browse and install applications in the normal manner. See the Flatpak command line tutorial for more information on this.
+
+        %h2 Submitting apps
+        %p
+          If you have an app that you would like to make available through Flathub, please see the submission guidelines.
