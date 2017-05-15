@@ -124,7 +124,7 @@ aside {
   transition: all .35s;
   color: white;
   border-width: 0;
-  background-color: transparentize($primary_color,0.2);
+  background-color: $primary_color;
   .navbar-toggle {
     border-color: white;
     .icon-bar { background-color: white; }
@@ -133,6 +133,7 @@ aside {
 .navbar-collapse {
   border-width: 0;
 }
+
 .navbar-default .navbar-header .navbar-brand {
   font-family: 'Source Sans Pro', 'Source Sans', sans-serif;
   font-weight: 700;
@@ -154,7 +155,7 @@ aside {
   font-weight: light;
   font-size: 110%;
   font-weight: 400;
-  color: white;
+  color: transparentize(white, 0.2);
 }
 
 .navbar-default .nav > li>a:hover,
@@ -165,17 +166,20 @@ aside {
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
   background-color: transparent;
+  color: transparentize(white, 0.2);
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
+    color: white;
 }
 
 
 @media(min-width:768px) {
   .navbar-default {
     border-width: none;
+    background-color: transparentize($primary_color,0.2);
     /* background-image: linear-gradient(to bottom,transparentize(#fff,.1),transparentize(#fff,0.9)); */
   }
 
