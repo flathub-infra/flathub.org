@@ -240,10 +240,12 @@ header {
       margin-top: 0;
       margin-bottom: 1em;
       font-size: 250%;
+      background-color: transparentize($primary_color, 0.2);
     }
     h2 {
       margin-top: 2em;
       margin-bottom: 1em;
+      background-color: $primary_color;
     }
     hr {
       margin: 30px auto;
@@ -253,6 +255,7 @@ header {
       margin-bottom: 50px;
       font-size: 110%;
       font-weight: 300;
+      background-color: $primary_color;
     }
   }
 }
