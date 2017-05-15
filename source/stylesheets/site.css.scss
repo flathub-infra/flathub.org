@@ -154,7 +154,7 @@ aside {
   font-weight: light;
   font-size: 110%;
   font-weight: 400;
-  color: rgba(255,255,255,.8);
+  color: white;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -198,7 +198,7 @@ aside {
   }
 
   .navbar-default.affix {
-
+    background-color: $primary_color;
   }
 
   .navbar-default.affix .navbar-header .navbar-brand {
@@ -212,12 +212,12 @@ aside {
 
   .navbar-default.affix .nav > li>a,
   .navbar-default.affix .nav>li>a:focus {
-    color: transparentize(white,0.5);
+    color: white;
   }
 
   .navbar-default.affix .nav > li>a:hover,
   .navbar-default.affix .nav>li>a:focus:hover {
-    color: white;
+    /* color: white; */
   }
 }
 
