@@ -15,27 +15,32 @@ description: Build and distribution service for Flatpak applications.
       .row
         .col-sm-8.col-sm-offset-2
           %p
-            This service is in the early stages of development. If you are interested in helping us to build it, please get in touch using the standard Flatpak communication channels.
+            To download desktop applications on a modern Linux-based system,
+            = link_to "download", "https://flathub.org/repo/flathub.flatpakrepo"
+            the repository file and add it to your system with GNOME Software
+            or the Flatpak command line.
     
 %section
   .container
     .row
       .col-sm-8.col-sm-offset-2
-        %h2#using Using Flathub
         %p
-          If you would like to help test Flathub, you can add the repository and install apps from it. To do this, you will need to install Flatpak, if you haven't already. After that, there are two options:
+          To download and install applications from Flathub, you will need to install Flatpak (if you haven't already) and then add the repository in one of two ways:
+
+        %h2#using Using Flathub in GNOME Software
         %p
           If you are on Arch, Debian Stretch (or later), Endless OS, Fedora 25 (or later), Mageia 6 (or later), or OpenSUSE Tumbleweed, you can 
           = link_to "download", "https://flathub.org/repo/flathub.flatpakrepo"
           the repository file and use GNOME Software to install it.
 
+        %h2#using Using Flathub on the Command Line
         %p
           From the command line, run: 
-          
+
         %pre
           :preserve
             <span class="unselectable">$ </span>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-        
+
         %p
           You can then browse and install applications in the normal manner. See the Flatpak 
           = link_to "command line tutorial", "http://flatpak.org/command-line.html"
@@ -43,9 +48,10 @@ description: Build and distribution service for Flatpak applications.
 
         %h2 Submitting apps
         %p
-          If you have an app that you would like to make available through Flathub, please see the 
-          = succeed "." do
-            = link_to "submission guidelines", "https://github.com/flathub/flathub/wiki/Submission-Guidelines"
+          If you develop a Linux application and would like to make it available via Flathub, we would appreciate your contribution.
+          Follow the instructions at
+          = link_to "submission guidelines", "https://github.com/flathub/flathub/wiki/Submission-Guidelines"
+          to submit your app.
 
         %h2 Reporting issues
         %p
