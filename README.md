@@ -14,3 +14,8 @@ To run a local web server to test the site:
 
 Edit the haml/scss files and commit your changes, pushing to 
 origin/master.
+
+To deploy, simply:
+
+   bundle exec middleman build
+   bundle exec middleman deploy
