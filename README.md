@@ -17,5 +17,5 @@ origin/master.
 
 To deploy, simply:
 
-   bundle exec middleman build
-   bundle exec middleman deploy
+    bundle exec middleman build
+    bundle exec middleman deploy
