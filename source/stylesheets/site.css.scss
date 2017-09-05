@@ -696,4 +696,27 @@ table {
   }
 }
 
-
+.apptile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img.icon {
+    margin-right: 15px;
+  }
+  div {
+    flex: 1;
+    flex-direction: row;
+  }
+  h4 {
+    font-size: 120%; font-weight: 300;
+    color: #000;
+    margin: 0;
+  }
+  p { font-size: 90%; }
+  .btn {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background: url('/img/download.svg') no-repeat center;
+  }
+}
