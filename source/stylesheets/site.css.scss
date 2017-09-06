@@ -580,6 +580,72 @@ table {
   }
 }
 
+
+.appslist {
+  padding: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-times: stretch;
+  justify-content: flex-start;
+  min-height: 200px;
+}
+.apptile {
+  position: relative;
+  flex: 1;
+  margin: 6px;
+  padding: 12px;
+  border: 1px solid lighten($neutral_color, 20%);
+  border-radius: 4px;
+  min-height: 180px;
+  min-width: 200px;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  overflow: hidden;
+  &:hover, &:active {
+    border-width: 2px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    & img.icon {
+     width: 200px; height: 200px;
+     margin: -100px 0 0 -100px;
+     opacity: 1;
+    }
+  }
+  
+
+  img.icon {
+    position: absolute;
+    width: 128px; height: 128px;
+    top: 50%; left: 50%;
+    margin: -64px 0px 0px -64px;
+    transition: all 200ms;
+    opacity: .6;
+  }
+  
+  div {
+    position: absolute;
+    top: 40%;
+    left: 0; right: 0;
+    bottom: 0;
+    flex: 1;
+    flex-direction: row;
+    background-color: rgba(255,255,255,0.8);
+    padding: 12px;
+    border-top: 3px solid white;
+  }
+  
+  h4 {
+    font-size: 100%; font-weight: 600;
+    text-transform: capitalize;
+    color: $neutral_color;
+    margin: 0 0 2px 0;
+  }
+  p { font-size: 80%; }
+}
+
+
 #footer {
   font-size: 90%;
   a {
@@ -703,66 +769,4 @@ table {
   }
 }
 
-.appslist {
-  padding: 12px 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-times: stretch;
-  justify-content: flex-start;
-  min-height: 200px;
-}
-.apptile {
-  position: relative;
-  flex: 1;
-  margin: 6px;
-  padding: 12px;
-  border: 1px solid lighten($neutral_color, 20%);
-  border-radius: 4px;
-  min-height: 180px;
-  min-width: 200px;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-  overflow: hidden;
-  &:hover, &:active {
-    border-width: 2px;
-    margin: 5px;
-    text-decoration: none;
-    color: black;
-    & img.icon {
-     width: 200px; height: 200px;
-     margin: -100px 0 0 -100px;
-     opacity: 1;
-    }
-  }
-  
 
-  img.icon {
-    position: absolute;
-    width: 128px; height: 128px;
-    top: 50%; left: 50%;
-    margin: -64px 0px 0px -64px;
-    transition: all 200ms;
-    opacity: .6;
-  }
-  
-  div {
-    position: absolute;
-    top: 40%;
-    left: 0; right: 0;
-    bottom: 0;
-    flex: 1;
-    flex-direction: row;
-    background-color: rgba(255,255,255,0.8);
-    padding: 12px;
-    border-top: 3px solid white;
-  }
-  
-  h4 {
-    font-size: 100%; font-weight: 600;
-    text-transform: capitalize;
-    color: $neutral_color;
-    margin: 0 0 2px 0;
-  }
-  p { font-size: 80%; }
-}
