@@ -2,5 +2,5 @@
   link: "#using"
 - title: Flatpak
   link: "http://flatpak.org"
-#- title: Third and Last Menuitem
-#  link: "third.html"
+- title: Applications
+  link: "apps.html"

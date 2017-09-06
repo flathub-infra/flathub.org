@@ -1,0 +1,51 @@
+---
+title: Applications hosted on Flathub
+description: Applications distributed as Flatpaks, ready to download.
+---
+%section
+  .container
+    .row
+      .col-lg-10.col-lg-offset-1
+        %h1 Flatpak Applications
+        %p 
+          This page lists some of the apps that are available as Flatpaks, along with instructions for how 
+          to try them. Read more about 
+          =link_to "Flatpak website", "http://flapak.org"
+
+        %ul#tabs.nav.nav-tabs{"role" => "tablist"}
+          %li.active{:role => "presentation"}
+            %a{:href => "#graphical", :role => "tab", "data-toggle" => "tab"} Click to Download
+          %li{:role => "presentation"}
+            %a{:href => "#cli", :role => "tab", "data-toggle" => "tab"} Command Line
+        
+        .tab-content.mediumgap
+          %div#graphical.tab-pane.active.fade.in{:role => "tabpanel"}
+            .appslist
+              - data.appstream.apps.each do |i|
+                %a{:class => 'apptile', :href => i.flatpakref}
+                  - if i.icons["128"]
+                    = image_tag i.icons["128"], :class => 'icon'
+                  - elsif i.icons["64"]
+                    = image_tag i.icons["64"], :class => 'icon'
+
+                  %div
+                    %h4 #{i.name}
+                    %p #{i.summary}
+                        
+
+          %div#cli.tab-pane.fade{:role => "tabpanel"}
+
+            %p
+              These command line instructions require Flatpak 0.6.13 or newer.
+              Once installed, applications can be launched from the usual place in your desktop. For more
+              information on how to update and manage your applications, see the 
+              =link_to "command line tutorial.", "command-line.html"
+
+            - data.appstream.apps.each do |i|
+              - if (i.flatpakref)
+                %a{:name => i.name}
+                %h4 #{i.name}
+
+                %pre
+                  <span class="unselectable">$ </span>flatpak install --from #{i.flatpakref}
+
