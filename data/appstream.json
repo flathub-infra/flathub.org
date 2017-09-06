@@ -31,6 +31,17 @@
     }
   },
   {
+    "id": "org.xiphos.Xiphos",
+    "ref": "app/org.xiphos.Xiphos/x86_64/stable",
+    "name": "Xiphos",
+    "summary": "Bible Study Guide",
+    "flatpakref": "https://flathub.org/repo/appstream/org.xiphos.Xiphos.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.xiphos.Xiphos.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.xiphos.Xiphos.png"
+    }
+  },
+  {
     "id": "org.libretro.RetroArch",
     "ref": "app/org.libretro.RetroArch/x86_64/stable",
     "name": "RetroArch",
@@ -104,6 +115,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.vinszent.GnomeTwitch.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.vinszent.GnomeTwitch.png"
+    }
+  },
+  {
+    "id": "io.github.EndlessSky.endless-sky",
+    "ref": "app/io.github.EndlessSky.endless-sky/x86_64/stable",
+    "name": "Endless Sky",
+    "summary": "Space exploration and combat game",
+    "flatpakref": "https://flathub.org/repo/appstream/io.github.EndlessSky.endless-sky.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.EndlessSky.endless-sky.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.EndlessSky.endless-sky.png"
     }
   },
   {
