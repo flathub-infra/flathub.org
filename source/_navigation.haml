@@ -7,11 +7,11 @@
             = link_to i.title, i.link, :class => "page-scroll"
     -else
       - data.menu.each do |i|
-        -if (!i.onlyfooter)
-          - if i.link.match('^#').nil?
-            %li
+        - if (!i.onlyfooter)
+          %li{class: ((current_page.path == i.link) ? 'active': nil)}
+            - if i.link.match('^#').nil?
               = link_to i.title, i.link, :class => "page-scroll"
-          - else
-            %li
-              = "<a href='index.html#{i.link}'>#{i.title}</a>"
+            - else
+              %li
+                = "<a href='index.html#{i.link}'>#{i.title}</a>"
 

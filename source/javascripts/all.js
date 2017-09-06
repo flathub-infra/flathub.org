@@ -31,5 +31,5 @@
     $('#toc').on('click', 'a', function(event) {
       $(this).addClass('page-scroll');
     });
-
+   
 })(jQuery); // End of use strict
