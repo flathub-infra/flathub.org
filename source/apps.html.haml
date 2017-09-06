@@ -21,7 +21,7 @@ description: Applications distributed as Flatpaks, ready to download.
         .tab-content.mediumgap
           %div#graphical.tab-pane.active.fade.in{:role => "tabpanel"}
             .appslist
-              - data.appstream.apps.each do |i|
+              - data.appstream.apps.sort_by{ |i| i.name.downcase }.each do |i|
                 %a{:class => 'apptile', :href => i.flatpakref}
                   - if i.icons["128"]
                     = image_tag i.icons["128"], :class => 'icon'
@@ -41,7 +41,7 @@ description: Applications distributed as Flatpaks, ready to download.
               information on how to update and manage your applications, see the 
               =link_to "command line tutorial.", "command-line.html"
 
-            - data.appstream.apps.each do |i|
+            - data.appstream.apps.sort_by{ |i| i.name.downcase }.each do |i|
               - if (i.flatpakref)
                 %a{:name => i.name}
                 %h4 #{i.name}
