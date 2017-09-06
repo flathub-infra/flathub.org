@@ -602,9 +602,10 @@ table {
   color: black;
   text-decoration: none;
   overflow: hidden;
+  flex-grow: 0;
   &:hover, &:active {
     border-width: 2px;
-    margin: 5px;
+    padding: 11px;
     text-decoration: none;
     color: black;
     & img.icon {
@@ -612,6 +613,7 @@ table {
      margin: -100px 0 0 -100px;
      opacity: 1;
     }
+    & div { left: -1px; right: -1px; }
   }
   
 
