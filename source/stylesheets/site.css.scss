@@ -49,22 +49,28 @@ a {
   -moz-transition: color .35s;
   transition: color .35s;
   &:active, &:visited { color: $primary_color; }
+  &:hover, &:focus {
+    color: lighten($primary_color,5%);
+  }
+  &.search {
+    img {
+      display: inline-block;
+      margin-right: 3px;
+      margin-top: -2px;
+    }
+  }
+  .header-content & {
+    color: white;
+    font-weight: bold;
+    transition: all 200ms;
+    opacity: 0.8;
+    &:hover, &:active {
+      opacity: 1;
+    }
+  }
 }
 
 ul { font-size: 12pt; }
-
-a:hover,
-a:focus {
-  color: lighten($primary_color,5%);
-}
-
-a.search {
-  img {
-    display: inline-block;
-    margin-right: 3px;
-    margin-top: -2px;
-  }
-}
 
 h1,
 h2,
