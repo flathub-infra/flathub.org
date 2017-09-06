@@ -1,6 +1,7 @@
 - title: Using Flathub
   link: "#using"
-- title: Flatpak
-  link: "http://flatpak.org"
 - title: Applications
   link: "apps.html"
+- title: Flatpak
+  link: "http://flatpak.org"
+
