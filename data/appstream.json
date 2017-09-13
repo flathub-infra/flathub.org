@@ -321,6 +321,16 @@
     }
   },
   {
+    "id": "com.github.ojubaorg.Othman",
+    "ref": "app/com.github.ojubaorg.Othman/x86_64/stable",
+    "name": "Othman Quran Browser",
+    "summary": "Electronic Quran Browser",
+    "flatpakref": "https://flathub.org/repo/appstream/com.github.ojubaorg.Othman.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.ojubaorg.Othman.png"
+    }
+  },
+  {
     "id": "net.sourceforge.atanks",
     "ref": "app/net.sourceforge.atanks/x86_64/stable",
     "name": "Atomic Tanks",
@@ -372,6 +382,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.tux4kids.tuxmath.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.tux4kids.tuxmath.png"
+    }
+  },
+  {
+    "id": "org.gnome.Photos",
+    "ref": "app/org.gnome.Photos/x86_64/stable",
+    "name": "Photos",
+    "summary": "Access, organize and share your photos on GNOME",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Photos.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Photos.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Photos.png"
     }
   },
   {
@@ -651,6 +672,17 @@
     }
   },
   {
+    "id": "org.videolan.VLC",
+    "ref": "app/org.videolan.VLC/x86_64/stable",
+    "name": "VLC media player",
+    "summary": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.",
+    "flatpakref": "https://flathub.org/repo/appstream/org.videolan.VLC.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.videolan.VLC.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.videolan.VLC.png"
+    }
+  },
+  {
     "id": "net.sourceforge.mars-game",
     "ref": "app/net.sourceforge.mars-game/x86_64/stable",
     "name": "M.A.R.S. - A ridiculous shooter",
@@ -693,16 +725,6 @@
     }
   },
   {
-    "id": "org.frozen_bubble.frozen-bubble",
-    "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
-    "name": "Frozen Bubble",
-    "summary": "An addictive game about frozen bubbles",
-    "flatpakref": "https://flathub.org/repo/appstream/org.frozen_bubble.frozen-bubble.flatpakref",
-    "icons": {
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
-    }
-  },
-  {
     "id": "ch.x29a.playitslowly",
     "ref": "app/ch.x29a.playitslowly/x86_64/stable",
     "name": "Play it Slowly",
@@ -722,6 +744,16 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnucash.GnuCash.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnucash.GnuCash.png"
+    }
+  },
+  {
+    "id": "org.frozen_bubble.frozen-bubble",
+    "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
+    "name": "Frozen Bubble",
+    "summary": "An addictive game about frozen bubbles",
+    "flatpakref": "https://flathub.org/repo/appstream/org.frozen_bubble.frozen-bubble.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
     }
   },
   {
@@ -807,6 +839,17 @@
     "flatpakref": "https://flathub.org/repo/appstream/org.wesnoth.Wesnoth.flatpakref",
     "icons": {
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.wesnoth.Wesnoth.png"
+    }
+  },
+  {
+    "id": "com.github.JannikHv.Gydl",
+    "ref": "app/com.github.JannikHv.Gydl/x86_64/stable",
+    "name": "Gydl",
+    "summary": "Download content from sites like YouTube",
+    "flatpakref": "https://flathub.org/repo/appstream/com.github.JannikHv.Gydl.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.JannikHv.Gydl.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.JannikHv.Gydl.png"
     }
   },
   {
