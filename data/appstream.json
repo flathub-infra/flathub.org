@@ -607,6 +607,17 @@
     }
   },
   {
+    "id": "ca._0ldsk00l.Nestopia",
+    "ref": "app/ca._0ldsk00l.Nestopia/x86_64/stable",
+    "name": "Nestopia",
+    "summary": "A Nintendo Entertainment System emulator",
+    "flatpakref": "https://flathub.org/repo/appstream/ca._0ldsk00l.Nestopia.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca._0ldsk00l.Nestopia.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca._0ldsk00l.Nestopia.png"
+    }
+  },
+  {
     "id": "org.gnome.eog",
     "ref": "app/org.gnome.eog/x86_64/stable",
     "name": "Eye of GNOME",
@@ -674,8 +685,8 @@
   {
     "id": "org.videolan.VLC",
     "ref": "app/org.videolan.VLC/x86_64/stable",
-    "name": "VLC media player",
-    "summary": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.",
+    "name": "VLC",
+    "summary": "VLC media player, the open-source multimedia player",
     "flatpakref": "https://flathub.org/repo/appstream/org.videolan.VLC.flatpakref",
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.videolan.VLC.png",
@@ -705,17 +716,6 @@
     }
   },
   {
-    "id": "org.geogebra.GeoGebra",
-    "ref": "app/org.geogebra.GeoGebra/x86_64/stable",
-    "name": "GeoGebra",
-    "summary": "Dynamic mathematics software",
-    "flatpakref": "https://flathub.org/repo/appstream/org.geogebra.GeoGebra.flatpakref",
-    "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.geogebra.GeoGebra.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.geogebra.GeoGebra.png"
-    }
-  },
-  {
     "id": "com.slack.Slack",
     "ref": "app/com.slack.Slack/x86_64/stable",
     "name": "Slack",
@@ -725,14 +725,14 @@
     }
   },
   {
-    "id": "ch.x29a.playitslowly",
-    "ref": "app/ch.x29a.playitslowly/x86_64/stable",
-    "name": "Play it Slowly",
-    "summary": "Play music at a different speed",
-    "flatpakref": "https://flathub.org/repo/appstream/ch.x29a.playitslowly.flatpakref",
+    "id": "org.geogebra.GeoGebra",
+    "ref": "app/org.geogebra.GeoGebra/x86_64/stable",
+    "name": "GeoGebra",
+    "summary": "Dynamic mathematics software",
+    "flatpakref": "https://flathub.org/repo/appstream/org.geogebra.GeoGebra.flatpakref",
     "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ch.x29a.playitslowly.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ch.x29a.playitslowly.png"
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.geogebra.GeoGebra.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.geogebra.GeoGebra.png"
     }
   },
   {
@@ -754,6 +754,17 @@
     "flatpakref": "https://flathub.org/repo/appstream/org.frozen_bubble.frozen-bubble.flatpakref",
     "icons": {
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
+    }
+  },
+  {
+    "id": "ch.x29a.playitslowly",
+    "ref": "app/ch.x29a.playitslowly/x86_64/stable",
+    "name": "Play it Slowly",
+    "summary": "Play music at a different speed",
+    "flatpakref": "https://flathub.org/repo/appstream/ch.x29a.playitslowly.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ch.x29a.playitslowly.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ch.x29a.playitslowly.png"
     }
   },
   {
@@ -861,6 +872,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.play0ad.zeroad.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.play0ad.zeroad.png"
+    }
+  },
+  {
+    "id": "com.snes9x.Snes9x",
+    "ref": "app/com.snes9x.Snes9x/x86_64/stable",
+    "name": "Snes9x",
+    "summary": "A Super Nintendo emulator",
+    "flatpakref": "https://flathub.org/repo/appstream/com.snes9x.Snes9x.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.snes9x.Snes9x.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.snes9x.Snes9x.png"
     }
   },
   {
