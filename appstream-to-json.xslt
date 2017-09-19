@@ -6,9 +6,7 @@
   <xsl:param name="arch" select="'x86_64'"/>
   <xsl:template match="/components">
     <xsl:text>{ "apps" : [&#10;</xsl:text>
-    <xsl:apply-templates select="component[starts-with(bundle, 'app/')]">
-      <xsl:sort select="bundle"/>
-    </xsl:apply-templates>
+    <xsl:apply-templates select="component[starts-with(bundle, 'app/')]"/>
     <xsl:text>]}&#10;</xsl:text>
   </xsl:template>
 
