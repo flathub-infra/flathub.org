@@ -769,6 +769,16 @@
     }
   },
   {
+    "id": "org.godotengine.Godot",
+    "ref": "app/org.godotengine.Godot/x86_64/stable",
+    "name": "Godot",
+    "summary": "Godot game engine editor",
+    "flatpakref": "https://flathub.org/repo/appstream/org.godotengine.Godot.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.godotengine.Godot.png"
+    }
+  },
+  {
     "id": "org.inkscape.Inkscape",
     "ref": "app/org.inkscape.Inkscape/x86_64/stable",
     "name": "Inkscape",
