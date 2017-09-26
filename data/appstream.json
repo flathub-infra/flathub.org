@@ -290,6 +290,17 @@
     }
   },
   {
+    "id": "org.gnome.frogr",
+    "ref": "app/org.gnome.frogr/x86_64/stable",
+    "name": "frogr",
+    "summary": "frogr: a Flickr Remote Organizer for GNOME",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gnome.frogr.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.frogr.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.frogr.png"
+    }
+  },
+  {
     "id": "net.olofson.KoboDeluxe",
     "ref": "app/net.olofson.KoboDeluxe/x86_64/stable",
     "name": "Kobo Deluxe",
@@ -437,17 +448,6 @@
     }
   },
   {
-    "id": "org.mypaint.MyPaint",
-    "ref": "app/org.mypaint.MyPaint/x86_64/stable",
-    "name": "MyPaint",
-    "summary": "Painting program for digital artists",
-    "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
-    "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
-    }
-  },
-  {
     "id": "org.ppsspp.PPSSPP",
     "ref": "app/org.ppsspp.PPSSPP/x86_64/stable",
     "name": "PPSSPP",
@@ -459,6 +459,17 @@
     }
   },
   {
+    "id": "org.sparkleshare.SparkleShare",
+    "ref": "app/org.sparkleshare.SparkleShare/x86_64/stable",
+    "name": "SparkleShare",
+    "summary": "Self hosted, instant, secure file sync",
+    "flatpakref": "https://flathub.org/repo/appstream/org.sparkleshare.SparkleShare.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.sparkleshare.SparkleShare.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.sparkleshare.SparkleShare.png"
+    }
+  },
+  {
     "id": "io.gitlab.osslugaru.Lugaru",
     "ref": "app/io.gitlab.osslugaru.Lugaru/x86_64/stable",
     "name": "Lugaru HD",
@@ -467,6 +478,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.gitlab.osslugaru.Lugaru.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.gitlab.osslugaru.Lugaru.png"
+    }
+  },
+  {
+    "id": "org.mypaint.MyPaint",
+    "ref": "app/org.mypaint.MyPaint/x86_64/stable",
+    "name": "MyPaint",
+    "summary": "Painting program for digital artists",
+    "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
     }
   },
   {
@@ -510,6 +532,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.supertuxkart.SuperTuxKart.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.supertuxkart.SuperTuxKart.png"
+    }
+  },
+  {
+    "id": "org.nextcloud.Nextcloud",
+    "ref": "app/org.nextcloud.Nextcloud/x86_64/stable",
+    "name": "Nextcloud",
+    "summary": "Nextcloud sync client",
+    "flatpakref": "https://flathub.org/repo/appstream/org.nextcloud.Nextcloud.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.nextcloud.Nextcloud.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.nextcloud.Nextcloud.png"
     }
   },
   {
@@ -758,16 +791,6 @@
     }
   },
   {
-    "id": "org.frozen_bubble.frozen-bubble",
-    "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
-    "name": "Frozen Bubble",
-    "summary": "An addictive game about frozen bubbles",
-    "flatpakref": "https://flathub.org/repo/appstream/org.frozen_bubble.frozen-bubble.flatpakref",
-    "icons": {
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
-    }
-  },
-  {
     "id": "org.gnucash.GnuCash",
     "ref": "app/org.gnucash.GnuCash/x86_64/stable",
     "name": "GnuCash",
@@ -776,6 +799,16 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnucash.GnuCash.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnucash.GnuCash.png"
+    }
+  },
+  {
+    "id": "org.frozen_bubble.frozen-bubble",
+    "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
+    "name": "Frozen Bubble",
+    "summary": "An addictive game about frozen bubbles",
+    "flatpakref": "https://flathub.org/repo/appstream/org.frozen_bubble.frozen-bubble.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
     }
   },
   {
@@ -854,6 +887,17 @@
     }
   },
   {
+    "id": "com.github.gkarsay.parlatype",
+    "ref": "app/com.github.gkarsay.parlatype/x86_64/stable",
+    "name": "Parlatype",
+    "summary": "Media player for manual speech transcription",
+    "flatpakref": "https://flathub.org/repo/appstream/com.github.gkarsay.parlatype.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.gkarsay.parlatype.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.gkarsay.parlatype.png"
+    }
+  },
+  {
     "id": "org.megaglest.MegaGlest",
     "ref": "app/org.megaglest.MegaGlest/x86_64/stable",
     "name": "MegaGlest",
@@ -861,6 +905,17 @@
     "flatpakref": "https://flathub.org/repo/appstream/org.megaglest.MegaGlest.flatpakref",
     "icons": {
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.megaglest.MegaGlest.png"
+    }
+  },
+  {
+    "id": "org.gnode.NixView",
+    "ref": "app/org.gnode.NixView/x86_64/stable",
+    "name": "NixView",
+    "summary": "Viewer for nix datafiles",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gnode.NixView.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
     }
   },
   {
@@ -882,6 +937,15 @@
     "flatpakref": "https://flathub.org/repo/appstream/org.wesnoth.Wesnoth.flatpakref",
     "icons": {
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.wesnoth.Wesnoth.png"
+    }
+  },
+  {
+    "id": "com.skype.Client",
+    "ref": "app/com.skype.Client/x86_64/stable",
+    "name": "Skype",
+    "summary": "Call and message skype users, with video chat support",
+    "flatpakref": "https://flathub.org/repo/appstream/com.skype.Client.flatpakref",
+    "icons": {
     }
   },
   {
@@ -937,6 +1001,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.teeworlds.Teeworlds.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.teeworlds.Teeworlds.png"
+    }
+  },
+  {
+    "id": "org.gottcode.FocusWriter",
+    "ref": "app/org.gottcode.FocusWriter/x86_64/stable",
+    "name": "FocusWriter",
+    "summary": "Fullscreen word processor",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gottcode.FocusWriter.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gottcode.FocusWriter.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gottcode.FocusWriter.png"
     }
   }
 ]}
