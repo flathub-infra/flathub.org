@@ -684,6 +684,17 @@
     }
   },
   {
+    "id": "org.gnome.Geary",
+    "ref": "app/org.gnome.Geary/x86_64/stable",
+    "name": "Geary",
+    "summary": "Send and receive email",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Geary.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Geary.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Geary.png"
+    }
+  },
+  {
     "id": "com.tux4kids.tuxtype",
     "ref": "app/com.tux4kids.tuxtype/x86_64/stable",
     "name": "Tux Typing",
@@ -757,6 +768,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Nautilus.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Nautilus.png"
+    }
+  },
+  {
+    "id": "com.github.philip_scott.spice-up",
+    "ref": "app/com.github.philip_scott.spice-up/x86_64/stable",
+    "name": "Spice-Up",
+    "summary": "Create simple and beautiful presentations",
+    "flatpakref": "https://flathub.org/repo/appstream/com.github.philip_scott.spice-up.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.philip_scott.spice-up.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.philip_scott.spice-up.png"
     }
   },
   {
