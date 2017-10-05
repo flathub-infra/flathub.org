@@ -86,6 +86,16 @@
     }
   },
   {
+    "id": "org.gnome.Hitori",
+    "ref": "app/org.gnome.Hitori/x86_64/stable",
+    "name": "GNOME Hitori",
+    "summary": "Play the Hitori puzzle game",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Hitori.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Hitori.png"
+    }
+  },
+  {
     "id": "org.gnome.Lollypop",
     "ref": "app/org.gnome.Lollypop/x86_64/stable",
     "name": "Lollypop",
@@ -298,6 +308,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.frogr.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.frogr.png"
+    }
+  },
+  {
+    "id": "org.pitivi.Pitivi",
+    "ref": "app/org.pitivi.Pitivi/x86_64/stable",
+    "name": "Pitivi",
+    "summary": "Create and edit your own movies",
+    "flatpakref": "https://flathub.org/repo/appstream/org.pitivi.Pitivi.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.pitivi.Pitivi.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.pitivi.Pitivi.png"
     }
   },
   {
@@ -920,16 +941,6 @@
     }
   },
   {
-    "id": "org.megaglest.MegaGlest",
-    "ref": "app/org.megaglest.MegaGlest/x86_64/stable",
-    "name": "MegaGlest",
-    "summary": "Real time strategy game (RTS)",
-    "flatpakref": "https://flathub.org/repo/appstream/org.megaglest.MegaGlest.flatpakref",
-    "icons": {
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.megaglest.MegaGlest.png"
-    }
-  },
-  {
     "id": "org.gnode.NixView",
     "ref": "app/org.gnode.NixView/x86_64/stable",
     "name": "NixView",
@@ -938,6 +949,16 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
+    }
+  },
+  {
+    "id": "org.megaglest.MegaGlest",
+    "ref": "app/org.megaglest.MegaGlest/x86_64/stable",
+    "name": "MegaGlest",
+    "summary": "Real time strategy game (RTS)",
+    "flatpakref": "https://flathub.org/repo/appstream/org.megaglest.MegaGlest.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.megaglest.MegaGlest.png"
     }
   },
   {
@@ -1023,6 +1044,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.teeworlds.Teeworlds.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.teeworlds.Teeworlds.png"
+    }
+  },
+  {
+    "id": "org.telegram.desktop",
+    "ref": "app/org.telegram.desktop/x86_64/stable",
+    "name": "Telegram Desktop",
+    "summary": "Telegram Desktop messenger",
+    "flatpakref": "https://flathub.org/repo/appstream/org.telegram.desktop.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.telegram.desktop.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.telegram.desktop.png"
     }
   },
   {
