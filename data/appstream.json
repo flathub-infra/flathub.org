@@ -246,6 +246,17 @@
     }
   },
   {
+    "id": "org.gnome.Builder",
+    "ref": "app/org.gnome.Builder/x86_64/stable",
+    "name": "Builder",
+    "summary": "An IDE for GNOME",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Builder.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Builder.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Builder.png"
+    }
+  },
+  {
     "id": "net.sourceforge.Ri-li",
     "ref": "app/net.sourceforge.Ri-li/x86_64/stable",
     "name": "Ri-li",
@@ -823,17 +834,6 @@
     }
   },
   {
-    "id": "ch.x29a.playitslowly",
-    "ref": "app/ch.x29a.playitslowly/x86_64/stable",
-    "name": "Play it Slowly",
-    "summary": "Play music at a different speed",
-    "flatpakref": "https://flathub.org/repo/appstream/ch.x29a.playitslowly.flatpakref",
-    "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ch.x29a.playitslowly.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ch.x29a.playitslowly.png"
-    }
-  },
-  {
     "id": "org.gnucash.GnuCash",
     "ref": "app/org.gnucash.GnuCash/x86_64/stable",
     "name": "GnuCash",
@@ -842,6 +842,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnucash.GnuCash.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnucash.GnuCash.png"
+    }
+  },
+  {
+    "id": "ch.x29a.playitslowly",
+    "ref": "app/ch.x29a.playitslowly/x86_64/stable",
+    "name": "Play it Slowly",
+    "summary": "Play music at a different speed",
+    "flatpakref": "https://flathub.org/repo/appstream/ch.x29a.playitslowly.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ch.x29a.playitslowly.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ch.x29a.playitslowly.png"
     }
   },
   {
