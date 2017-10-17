@@ -480,6 +480,17 @@
     }
   },
   {
+    "id": "org.mypaint.MyPaint",
+    "ref": "app/org.mypaint.MyPaint/x86_64/stable",
+    "name": "MyPaint",
+    "summary": "Painting program for digital artists",
+    "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
+    }
+  },
+  {
     "id": "org.ppsspp.PPSSPP",
     "ref": "app/org.ppsspp.PPSSPP/x86_64/stable",
     "name": "PPSSPP",
@@ -510,17 +521,6 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.gitlab.osslugaru.Lugaru.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.gitlab.osslugaru.Lugaru.png"
-    }
-  },
-  {
-    "id": "org.mypaint.MyPaint",
-    "ref": "app/org.mypaint.MyPaint/x86_64/stable",
-    "name": "MyPaint",
-    "summary": "Painting program for digital artists",
-    "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
-    "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
     }
   },
   {
@@ -734,6 +734,17 @@
     "flatpakref": "https://flathub.org/repo/appstream/com.tux4kids.tuxtype.flatpakref",
     "icons": {
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.tux4kids.tuxtype.png"
+    }
+  },
+  {
+    "id": "org.gimp.GIMP",
+    "ref": "app/org.gimp.GIMP/x86_64/stable",
+    "name": "GNU Image Manipulation Program",
+    "summary": "Create images and edit photographs",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gimp.GIMP.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gimp.GIMP.png"
     }
   },
   {
