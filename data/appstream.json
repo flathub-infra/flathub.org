@@ -107,6 +107,17 @@
     }
   },
   {
+    "id": "org.gnome.clocks",
+    "ref": "app/org.gnome.clocks/x86_64/stable",
+    "name": "GNOME Clocks",
+    "summary": "Clocks for world times, plus alarms, stopwatch and a timer",
+    "flatpakref": "https://flathub.org/repo/appstream/org.gnome.clocks.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.clocks.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.clocks.png"
+    }
+  },
+  {
     "id": "org.supertuxproject.SuperTux",
     "ref": "app/org.supertuxproject.SuperTux/x86_64/stable",
     "name": "SuperTux 2",
@@ -278,17 +289,6 @@
     }
   },
   {
-    "id": "net.sourceforge.TuxFootball",
-    "ref": "app/net.sourceforge.TuxFootball/x86_64/stable",
-    "name": "Tux Football",
-    "summary": "A great 2D soccer (sometimes called football) game",
-    "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.TuxFootball.flatpakref",
-    "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.TuxFootball.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.TuxFootball.png"
-    }
-  },
-  {
     "id": "ca.desrt.dconf-editor",
     "ref": "app/ca.desrt.dconf-editor/x86_64/stable",
     "name": "Dconf Editor",
@@ -297,6 +297,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca.desrt.dconf-editor.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca.desrt.dconf-editor.png"
+    }
+  },
+  {
+    "id": "net.sourceforge.TuxFootball",
+    "ref": "app/net.sourceforge.TuxFootball/x86_64/stable",
+    "name": "Tux Football",
+    "summary": "A great 2D soccer (sometimes called football) game",
+    "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.TuxFootball.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.TuxFootball.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.TuxFootball.png"
     }
   },
   {
@@ -372,6 +383,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.freedesktop.Bustle.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.freedesktop.Bustle.png"
+    }
+  },
+  {
+    "id": "org.octave.Octave",
+    "ref": "app/org.octave.Octave/x86_64/stable",
+    "name": "GNU Octave",
+    "summary": "Interactive programming environment for numerical computations",
+    "flatpakref": "https://flathub.org/repo/appstream/org.octave.Octave.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.octave.Octave.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.octave.Octave.png"
     }
   },
   {
@@ -480,17 +502,6 @@
     }
   },
   {
-    "id": "org.mypaint.MyPaint",
-    "ref": "app/org.mypaint.MyPaint/x86_64/stable",
-    "name": "MyPaint",
-    "summary": "Painting program for digital artists",
-    "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
-    "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
-    }
-  },
-  {
     "id": "org.ppsspp.PPSSPP",
     "ref": "app/org.ppsspp.PPSSPP/x86_64/stable",
     "name": "PPSSPP",
@@ -510,6 +521,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.sparkleshare.SparkleShare.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.sparkleshare.SparkleShare.png"
+    }
+  },
+  {
+    "id": "org.mypaint.MyPaint",
+    "ref": "app/org.mypaint.MyPaint/x86_64/stable",
+    "name": "MyPaint",
+    "summary": "Painting program for digital artists",
+    "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
     }
   },
   {
@@ -543,6 +565,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.filezillaproject.Filezilla.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.filezillaproject.Filezilla.png"
+    }
+  },
+  {
+    "id": "fr.free.Homebank",
+    "ref": "app/fr.free.Homebank/x86_64/stable",
+    "name": "HomeBank",
+    "summary": "Free, easy, personal accounting for everyone",
+    "flatpakref": "https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/fr.free.Homebank.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/fr.free.Homebank.png"
     }
   },
   {
@@ -611,6 +644,15 @@
     }
   },
   {
+    "id": "com.viber.Viber",
+    "ref": "app/com.viber.Viber/x86_64/stable",
+    "name": "Viber",
+    "summary": "We connect people, no matter who they are or where they are from.",
+    "flatpakref": "https://flathub.org/repo/appstream/com.viber.Viber.flatpakref",
+    "icons": {
+    }
+  },
+  {
     "id": "nl.openoffice.bluefish",
     "ref": "app/nl.openoffice.bluefish/x86_64/stable",
     "name": "Bluefish",
@@ -629,6 +671,16 @@
     "flatpakref": "https://flathub.org/repo/appstream/net.blockout.BlockOutII.flatpakref",
     "icons": {
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.blockout.BlockOutII.png"
+    }
+  },
+  {
+    "id": "io.github.Freedoom-Phase-1",
+    "ref": "app/io.github.Freedoom-Phase-1/x86_64/stable",
+    "name": "Freedoom: Phase 1",
+    "summary": "First-person shooter based on the Doom engine",
+    "flatpakref": "https://flathub.org/repo/appstream/io.github.Freedoom-Phase-1.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Freedoom-Phase-1.png"
     }
   },
   {
@@ -672,17 +724,6 @@
     }
   },
   {
-    "id": "io.thp.numptyphysics",
-    "ref": "app/io.thp.numptyphysics/x86_64/stable",
-    "name": "NumptyPhysics",
-    "summary": "A crayon-drawing based physics puzzle game",
-    "flatpakref": "https://flathub.org/repo/appstream/io.thp.numptyphysics.flatpakref",
-    "icons": {
-      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.thp.numptyphysics.png",
-      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.thp.numptyphysics.png"
-    }
-  },
-  {
     "id": "ca._0ldsk00l.Nestopia",
     "ref": "app/ca._0ldsk00l.Nestopia/x86_64/stable",
     "name": "Nestopia",
@@ -691,6 +732,17 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca._0ldsk00l.Nestopia.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca._0ldsk00l.Nestopia.png"
+    }
+  },
+  {
+    "id": "io.thp.numptyphysics",
+    "ref": "app/io.thp.numptyphysics/x86_64/stable",
+    "name": "NumptyPhysics",
+    "summary": "A crayon-drawing based physics puzzle game",
+    "flatpakref": "https://flathub.org/repo/appstream/io.thp.numptyphysics.flatpakref",
+    "icons": {
+      "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.thp.numptyphysics.png",
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.thp.numptyphysics.png"
     }
   },
   {
@@ -949,6 +1001,16 @@
     "icons": {
       "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.seul.pingus.png",
       "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.seul.pingus.png"
+    }
+  },
+  {
+    "id": "net.sourceforge.Klavaro",
+    "ref": "app/net.sourceforge.Klavaro/x86_64/stable",
+    "name": "Klavaro",
+    "summary": "A touch typing tutor",
+    "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.Klavaro.flatpakref",
+    "icons": {
+      "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.Klavaro.png"
     }
   },
   {
