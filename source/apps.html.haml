@@ -22,7 +22,7 @@ description: Applications distributed as Flatpaks, ready to download.
           %div#graphical.tab-pane.active.fade.in{:role => "tabpanel"}
             .appslist
               - data.appstream.apps.sort_by{ |i| i.name.downcase }.each do |i|
-                %a{:class => 'apptile', :href => i.flatpakref}
+                %a{:class => 'apptile', :href => i.flatpakref, :style => "background-color: #{i.color}"}
                   - if i.icons["128"]
                     = image_tag i.icons["128"], :class => 'icon'
                   - elsif i.icons["64"]

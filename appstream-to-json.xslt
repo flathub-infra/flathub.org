@@ -28,6 +28,8 @@
     <xsl:value-of select="$baseurl"/>
     <xsl:value-of select="substring-before(substring-after(bundle, '/'), '/')"/>
     <xsl:text>.flatpakref",&#10;</xsl:text>
+    <xsl:text>    "color": "#888</xsl:text>
+    <xsl:text>",&#10;</xsl:text>
     <xsl:text>    "icons": {&#10;</xsl:text>
     <xsl:apply-templates select="icon[@type='cached']"/>
     <xsl:text>    }</xsl:text>
