@@ -31,7 +31,7 @@
     <xsl:text>    "color": "#888</xsl:text>
     <xsl:text>",&#10;</xsl:text>
     <xsl:text>    "icons": {&#10;</xsl:text>
-    <xsl:apply-templates select="icon[@type='cached']"/>
+    <xsl:apply-templates select="icon[@type='cached' or @type='remote']"/>
     <xsl:text>    }</xsl:text>
     <xsl:text>&#10;</xsl:text>
     <xsl:text>  }</xsl:text>
@@ -40,7 +40,7 @@
     </xsl:if>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
-  <xsl:template match="icon">
+  <xsl:template match="icon[@type='cached']">
     <xsl:text>      "</xsl:text>
     <xsl:value-of select="@width"/>
     <xsl:text>": "</xsl:text>
@@ -53,7 +53,18 @@
     <xsl:text>/</xsl:text>
     <xsl:value-of select="."/>
     <xsl:text>"</xsl:text>
-    <xsl:if test="following-sibling::icon">
+    <xsl:if test="following-sibling::icon[@type='cached' or @type='remote']">
+      <xsl:text>,</xsl:text>
+    </xsl:if>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+  <xsl:template match="icon[@type='remote']">
+    <xsl:text>      "</xsl:text>
+    <xsl:value-of select="@width"/>
+    <xsl:text>": "</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>"</xsl:text>
+    <xsl:if test="following-sibling::icon[@type='cached' or @type='remote']">
       <xsl:text>,</xsl:text>
     </xsl:if>
     <xsl:text>&#10;</xsl:text>
