@@ -21,6 +21,6 @@ apps['apps'].each do |app|
     puts app["name"] + ' - ' + color
   end
 end
-File.write(APPSJSON, apps.to_json)
+File.write(APPSJSON, JSON.pretty_generate(apps))
 
 
