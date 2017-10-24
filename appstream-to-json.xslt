@@ -60,7 +60,12 @@
   </xsl:template>
   <xsl:template match="icon[@type='remote']">
     <xsl:text>      "</xsl:text>
-    <xsl:value-of select="@width"/>
+    <xsl:choose>
+      <xsl:when test="@width">
+        <xsl:value-of select="@width"/>
+      </xsl:when>
+      <xsl:otherwise>64</xsl:otherwise>
+    </xsl:choose>
     <xsl:text>": "</xsl:text>
     <xsl:value-of select="."/>
     <xsl:text>"</xsl:text>
