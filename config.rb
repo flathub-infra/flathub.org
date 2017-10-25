@@ -45,6 +45,7 @@ end
 
 activate :relative_assets
 set :relative_links, true
+activate :directory_indexes
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
