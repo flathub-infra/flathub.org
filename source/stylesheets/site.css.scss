@@ -610,9 +610,9 @@ table {
     text-decoration: none;
     color: black;
     & img.icon {
-     width: 64px; height: 64px;
+     width: 66px; height: 66px;
      margin: 0 0 0 -32px;
-     top: 8%;
+     top: 8.5%; left: 50%;
      opacity: 1;
     }
     & div { left: -1px; right: -1px; }
@@ -621,10 +621,10 @@ table {
 
   img.icon {
     position: absolute;
-    width: 256px; height: 256px;
-    top: 50%; left: 50%;
-    margin: -128px 0px 0px -128px;
-    transition: all 200ms;
+    width: 64px; height: 64px;
+    top: 8%; left: 50%;
+    margin: 0 0 0 -32px;
+    transition: all 100ms;
     opacity: .6;
   }
   
