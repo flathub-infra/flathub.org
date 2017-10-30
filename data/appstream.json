@@ -587,6 +587,18 @@
       }
     },
     {
+      "id": "org.musescore.MuseScore",
+      "ref": "app/org.musescore.MuseScore/x86_64/stable",
+      "name": "MuseScore",
+      "summary": "Free music composition and notation software",
+      "flatpakref": "https://flathub.org/repo/appstream/org.musescore.MuseScore.flatpakref",
+      "color": "#E5E1D7",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.musescore.MuseScore.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.musescore.MuseScore.png"
+      }
+    },
+    {
       "id": "io.gitlab.osslugaru.Lugaru",
       "ref": "app/io.gitlab.osslugaru.Lugaru/x86_64/stable",
       "name": "Lugaru HD",
