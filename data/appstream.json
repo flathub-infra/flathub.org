@@ -1149,18 +1149,6 @@
       }
     },
     {
-      "id": "org.gnode.NixView",
-      "ref": "app/org.gnode.NixView/x86_64/stable",
-      "name": "NixView",
-      "summary": "Viewer for nix datafiles",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnode.NixView.flatpakref",
-      "color": "#B7BACE",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
-      }
-    },
-    {
       "id": "org.megaglest.MegaGlest",
       "ref": "app/org.megaglest.MegaGlest/x86_64/stable",
       "name": "MegaGlest",
@@ -1184,6 +1172,18 @@
       }
     },
     {
+      "id": "org.gnode.NixView",
+      "ref": "app/org.gnode.NixView/x86_64/stable",
+      "name": "NixView",
+      "summary": "Viewer for nix datafiles",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnode.NixView.flatpakref",
+      "color": "#B7BACE",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
+      }
+    },
+    {
       "id": "org.wesnoth.Wesnoth",
       "ref": "app/org.wesnoth.Wesnoth/x86_64/stable",
       "name": "Battle for Wesnoth",
@@ -1192,6 +1192,18 @@
       "color": "#8F8165",
       "icons": {
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.wesnoth.Wesnoth.png"
+      }
+    },
+    {
+      "id": "com.github.rssguard",
+      "ref": "app/com.github.rssguard/x86_64/stable",
+      "name": "RSS Guard",
+      "summary": "Simple (yet powerful) feed reader",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.rssguard.flatpakref",
+      "color": "#FF780A",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.rssguard.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.rssguard.png"
       }
     },
     {
@@ -1239,6 +1251,18 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.snes9x.Snes9x.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.snes9x.Snes9x.png"
+      }
+    },
+    {
+      "id": "org.tordini.flavio.Minitube",
+      "ref": "app/org.tordini.flavio.Minitube/x86_64/stable",
+      "name": "Minitube",
+      "summary": "YouTube app",
+      "flatpakref": "https://flathub.org/repo/appstream/org.tordini.flavio.Minitube.flatpakref",
+      "color": "#9099A3",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.tordini.flavio.Minitube.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.tordini.flavio.Minitube.png"
       }
     },
     {
