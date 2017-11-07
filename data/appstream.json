@@ -1,6 +1,17 @@
 {
   "apps": [
     {
+      "id": "com.github.babluboy.bookworm",
+      "ref": "app/com.github.babluboy.bookworm/x86_64/stable",
+      "name": "Bookworm",
+      "summary": "A simple, focused eBook reader",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.babluboy.bookworm.flatpakref",
+      "color": "#B865AA",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.babluboy.bookworm.png"
+      }
+    },
+    {
       "id": "org.tuxpaint.Tuxpaint",
       "ref": "app/org.tuxpaint.Tuxpaint/x86_64/stable",
       "name": "Tux Paint",
@@ -294,17 +305,6 @@
       }
     },
     {
-      "id": "net.sourceforge.Ri-li",
-      "ref": "app/net.sourceforge.Ri-li/x86_64/stable",
-      "name": "Ri-li",
-      "summary": "Kidsgame, drive a toy wood engine",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.Ri-li.flatpakref",
-      "color": "#664B5E",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.Ri-li.png"
-      }
-    },
-    {
       "id": "org.gnome.gedit",
       "ref": "app/org.gnome.gedit/x86_64/stable",
       "name": "gedit",
@@ -314,6 +314,17 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.gedit.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.gedit.png"
+      }
+    },
+    {
+      "id": "net.sourceforge.Ri-li",
+      "ref": "app/net.sourceforge.Ri-li/x86_64/stable",
+      "name": "Ri-li",
+      "summary": "Kidsgame, drive a toy wood engine",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.Ri-li.flatpakref",
+      "color": "#664B5E",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.Ri-li.png"
       }
     },
     {
@@ -350,6 +361,16 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.inkscape.Inkscape.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.inkscape.Inkscape.png"
+      }
+    },
+    {
+      "id": "org.gnome.Calculator",
+      "ref": "app/org.gnome.Calculator/x86_64/stable",
+      "name": "GNOME Calculator",
+      "summary": "Perform arithmetic, scientific or financial calculations",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Calculator.flatpakref",
+      "color": "#888",
+      "icons": {
       }
     },
     {
@@ -458,18 +479,6 @@
       }
     },
     {
-      "id": "com.github.wwmm.pulseeffects",
-      "ref": "app/com.github.wwmm.pulseeffects/x86_64/stable",
-      "name": "PulseEffects",
-      "summary": "Audio Effects for PulseAudio Applications",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.wwmm.pulseeffects.flatpakref",
-      "color": "#4D5B42",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.wwmm.pulseeffects.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.wwmm.pulseeffects.png"
-      }
-    },
-    {
       "id": "org.gnome.Calendar",
       "ref": "app/org.gnome.Calendar/x86_64/stable",
       "name": "Calendar",
@@ -479,6 +488,18 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Calendar.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Calendar.png"
+      }
+    },
+    {
+      "id": "com.github.wwmm.pulseeffects",
+      "ref": "app/com.github.wwmm.pulseeffects/x86_64/stable",
+      "name": "PulseEffects",
+      "summary": "Audio Effects for PulseAudio Applications",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.wwmm.pulseeffects.flatpakref",
+      "color": "#4D5B42",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.wwmm.pulseeffects.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.wwmm.pulseeffects.png"
       }
     },
     {
@@ -694,18 +715,6 @@
       }
     },
     {
-      "id": "org.musicbrainz.Picard",
-      "ref": "app/org.musicbrainz.Picard/x86_64/stable",
-      "name": "Picard",
-      "summary": "MusicBrainz's music tagger",
-      "flatpakref": "https://flathub.org/repo/appstream/org.musicbrainz.Picard.flatpakref",
-      "color": "#C57885",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.musicbrainz.Picard.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.musicbrainz.Picard.png"
-      }
-    },
-    {
       "id": "org.DolphinEmu.dolphin-emu",
       "ref": "app/org.DolphinEmu.dolphin-emu/x86_64/stable",
       "name": "Dolphin Emulator",
@@ -718,14 +727,15 @@
       }
     },
     {
-      "id": "com.viber.Viber",
-      "ref": "app/com.viber.Viber/x86_64/stable",
-      "name": "Viber",
-      "summary": "We connect people, no matter who they are or where they are from.",
-      "flatpakref": "https://flathub.org/repo/appstream/com.viber.Viber.flatpakref",
-      "color": "#B7B4D2",
+      "id": "org.musicbrainz.Picard",
+      "ref": "app/org.musicbrainz.Picard/x86_64/stable",
+      "name": "Picard",
+      "summary": "MusicBrainz's music tagger",
+      "flatpakref": "https://flathub.org/repo/appstream/org.musicbrainz.Picard.flatpakref",
+      "color": "#C57885",
       "icons": {
-        "64": "https://lh3.googleusercontent.com/8WsuI2NpvYJljZshzCgLXKRLnFLzz3q4I3JGw3L0vfintPGEiTChOXDIrnoXFFfme58=w64"
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.musicbrainz.Picard.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.musicbrainz.Picard.png"
       }
     },
     {
@@ -738,6 +748,17 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/nl.openoffice.bluefish.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/nl.openoffice.bluefish.png"
+      }
+    },
+    {
+      "id": "com.viber.Viber",
+      "ref": "app/com.viber.Viber/x86_64/stable",
+      "name": "Viber",
+      "summary": "We connect people, no matter who they are or where they are from.",
+      "flatpakref": "https://flathub.org/repo/appstream/com.viber.Viber.flatpakref",
+      "color": "#B7B4D2",
+      "icons": {
+        "64": "https://lh3.googleusercontent.com/8WsuI2NpvYJljZshzCgLXKRLnFLzz3q4I3JGw3L0vfintPGEiTChOXDIrnoXFFfme58=w64"
       }
     },
     {
@@ -831,18 +852,6 @@
       }
     },
     {
-      "id": "ca._0ldsk00l.Nestopia",
-      "ref": "app/ca._0ldsk00l.Nestopia/x86_64/stable",
-      "name": "Nestopia",
-      "summary": "A Nintendo Entertainment System emulator",
-      "flatpakref": "https://flathub.org/repo/appstream/ca._0ldsk00l.Nestopia.flatpakref",
-      "color": "#4B5958",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca._0ldsk00l.Nestopia.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca._0ldsk00l.Nestopia.png"
-      }
-    },
-    {
       "id": "io.thp.numptyphysics",
       "ref": "app/io.thp.numptyphysics/x86_64/stable",
       "name": "NumptyPhysics",
@@ -852,6 +861,18 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.thp.numptyphysics.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.thp.numptyphysics.png"
+      }
+    },
+    {
+      "id": "ca._0ldsk00l.Nestopia",
+      "ref": "app/ca._0ldsk00l.Nestopia/x86_64/stable",
+      "name": "Nestopia",
+      "summary": "A Nintendo Entertainment System emulator",
+      "flatpakref": "https://flathub.org/repo/appstream/ca._0ldsk00l.Nestopia.flatpakref",
+      "color": "#4B5958",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca._0ldsk00l.Nestopia.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca._0ldsk00l.Nestopia.png"
       }
     },
     {
@@ -876,6 +897,18 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.freeciv.Freeciv.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.freeciv.Freeciv.png"
+      }
+    },
+    {
+      "id": "org.gnome.Characters",
+      "ref": "app/org.gnome.Characters/x86_64/stable",
+      "name": "GNOME Characters",
+      "summary": "Character map application",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Characters.flatpakref",
+      "color": "#A5A4A5",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Characters.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Characters.png"
       }
     },
     {
@@ -935,6 +968,16 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.Hexchat.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Hexchat.png"
+      }
+    },
+    {
+      "id": "org.gnome.Dictionary",
+      "ref": "app/org.gnome.Dictionary/x86_64/stable",
+      "name": "GNOME Dictionary",
+      "summary": "Check word definitions and spellings in an online dictionary",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Dictionary.flatpakref",
+      "color": "#888",
+      "icons": {
       }
     },
     {
@@ -1021,18 +1064,6 @@
       }
     },
     {
-      "id": "org.gnucash.GnuCash",
-      "ref": "app/org.gnucash.GnuCash/x86_64/stable",
-      "name": "GnuCash",
-      "summary": "Manage your finances, accounts, and investments",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnucash.GnuCash.flatpakref",
-      "color": "#B8BCA4",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnucash.GnuCash.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnucash.GnuCash.png"
-      }
-    },
-    {
       "id": "ch.x29a.playitslowly",
       "ref": "app/ch.x29a.playitslowly/x86_64/stable",
       "name": "Play it Slowly",
@@ -1045,6 +1076,18 @@
       }
     },
     {
+      "id": "org.gnucash.GnuCash",
+      "ref": "app/org.gnucash.GnuCash/x86_64/stable",
+      "name": "GnuCash",
+      "summary": "Manage your finances, accounts, and investments",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnucash.GnuCash.flatpakref",
+      "color": "#B8BCA4",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnucash.GnuCash.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnucash.GnuCash.png"
+      }
+    },
+    {
       "id": "org.frozen_bubble.frozen-bubble",
       "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
       "name": "Frozen Bubble",
@@ -1053,6 +1096,18 @@
       "color": "#BC9D7E",
       "icons": {
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
+      }
+    },
+    {
+      "id": "org.gnome.Maps",
+      "ref": "app/org.gnome.Maps/x86_64/stable",
+      "name": "GNOME Maps",
+      "summary": "Find places around the world",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Maps.flatpakref",
+      "color": "#CB9584",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Maps.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Maps.png"
       }
     },
     {
@@ -1184,15 +1239,15 @@
       }
     },
     {
-      "id": "org.gnode.NixView",
-      "ref": "app/org.gnode.NixView/x86_64/stable",
-      "name": "NixView",
-      "summary": "Viewer for nix datafiles",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnode.NixView.flatpakref",
-      "color": "#B7BACE",
+      "id": "org.gnome.bijiben",
+      "ref": "app/org.gnome.bijiben/x86_64/stable",
+      "name": "Bijiben",
+      "summary": "Quickly jot notes",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.bijiben.flatpakref",
+      "color": "#EDDC57",
       "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.bijiben.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.bijiben.png"
       }
     },
     {
@@ -1204,6 +1259,18 @@
       "color": "#8F8165",
       "icons": {
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.wesnoth.Wesnoth.png"
+      }
+    },
+    {
+      "id": "org.gnode.NixView",
+      "ref": "app/org.gnode.NixView/x86_64/stable",
+      "name": "NixView",
+      "summary": "Viewer for nix datafiles",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnode.NixView.flatpakref",
+      "color": "#B7BACE",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
       }
     },
     {
@@ -1314,6 +1381,18 @@
       }
     },
     {
+      "id": "com.frac_tion.teleport",
+      "ref": "app/com.frac_tion.teleport/x86_64/stable",
+      "name": "Teleport",
+      "summary": "Share files over the local network",
+      "flatpakref": "https://flathub.org/repo/appstream/com.frac_tion.teleport.flatpakref",
+      "color": "#9AD4D5",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.frac_tion.teleport.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.frac_tion.teleport.png"
+      }
+    },
+    {
       "id": "org.gottcode.FocusWriter",
       "ref": "app/org.gottcode.FocusWriter/x86_64/stable",
       "name": "FocusWriter",
@@ -1323,6 +1402,18 @@
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gottcode.FocusWriter.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gottcode.FocusWriter.png"
+      }
+    },
+    {
+      "id": "org.gnome.Games",
+      "ref": "app/org.gnome.Games/x86_64/stable",
+      "name": "Games",
+      "summary": "Simple game launcher for GNOME",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Games.flatpakref",
+      "color": "#B4B7BB",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Games.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Games.png"
       }
     }
   ]
