@@ -1,1420 +1,1468 @@
 {
   "apps": [
     {
-      "id": "com.github.babluboy.bookworm",
-      "ref": "app/com.github.babluboy.bookworm/x86_64/stable",
-      "name": "Bookworm",
-      "summary": "A simple, focused eBook reader",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.babluboy.bookworm.flatpakref",
-      "color": "#B865AA",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.babluboy.bookworm.png"
-      }
-    },
-    {
-      "id": "org.tuxpaint.Tuxpaint",
-      "ref": "app/org.tuxpaint.Tuxpaint/x86_64/stable",
-      "name": "Tux Paint",
-      "summary": "A drawing program for children",
-      "flatpakref": "https://flathub.org/repo/appstream/org.tuxpaint.Tuxpaint.flatpakref",
-      "color": "#96897D",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.tuxpaint.Tuxpaint.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.tuxpaint.Tuxpaint.png"
-      }
-    },
-    {
-      "id": "com.albiononline.AlbionOnline",
-      "ref": "app/com.albiononline.AlbionOnline/x86_64/stable",
-      "name": "Albion Online",
-      "summary": "MMORPG open medieval fantasy game",
-      "flatpakref": "https://flathub.org/repo/appstream/com.albiononline.AlbionOnline.flatpakref",
-      "color": "#888",
-      "icons": {
-      }
-    },
-    {
-      "id": "com.github.dahenson.agenda",
-      "ref": "app/com.github.dahenson.agenda/x86_64/stable",
-      "name": "Agenda",
-      "summary": "Get things done",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.dahenson.agenda.flatpakref",
-      "color": "#DBDDE0",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.dahenson.agenda.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.dahenson.agenda.png"
-      }
-    },
-    {
-      "id": "org.xiphos.Xiphos",
-      "ref": "app/org.xiphos.Xiphos/x86_64/stable",
-      "name": "Xiphos",
-      "summary": "Bible Study Guide",
-      "flatpakref": "https://flathub.org/repo/appstream/org.xiphos.Xiphos.flatpakref",
-      "color": "#BD9891",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.xiphos.Xiphos.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.xiphos.Xiphos.png"
-      }
-    },
-    {
-      "id": "org.libretro.RetroArch",
-      "ref": "app/org.libretro.RetroArch/x86_64/stable",
-      "name": "RetroArch",
-      "summary": "Frontend for emulators, game engines and media players.",
-      "flatpakref": "https://flathub.org/repo/appstream/org.libretro.RetroArch.flatpakref",
-      "color": "#858585",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.libretro.RetroArch.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.libretro.RetroArch.png"
-      }
-    },
-    {
-      "id": "com.uploadedlobster.peek",
-      "ref": "app/com.uploadedlobster.peek/x86_64/stable",
-      "name": "Peek",
-      "summary": "Simple animated GIF screen recorder with an easy to use interface",
-      "flatpakref": "https://flathub.org/repo/appstream/com.uploadedlobster.peek.flatpakref",
-      "color": "#F9BFAA",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.uploadedlobster.peek.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.uploadedlobster.peek.png"
-      }
-    },
-    {
-      "id": "io.github.GnomeMpv",
-      "ref": "app/io.github.GnomeMpv/x86_64/stable",
-      "name": "GNOME MPV",
-      "summary": "GTK+ frontend for mpv",
-      "flatpakref": "https://flathub.org/repo/appstream/io.github.GnomeMpv.flatpakref",
-      "color": "#92C1FF",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.GnomeMpv.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.GnomeMpv.png"
-      }
-    },
-    {
-      "id": "com.valvesoftware.Steam",
-      "ref": "app/com.valvesoftware.Steam/x86_64/stable",
-      "name": "Steam",
-      "summary": "Application for managing and playing games on Steam",
-      "flatpakref": "https://flathub.org/repo/appstream/com.valvesoftware.Steam.flatpakref",
-      "color": "#7C8699",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.valvesoftware.Steam.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.valvesoftware.Steam.png"
-      }
-    },
-    {
-      "id": "org.gnome.Hitori",
-      "ref": "app/org.gnome.Hitori/x86_64/stable",
-      "name": "GNOME Hitori",
-      "summary": "Play the Hitori puzzle game",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Hitori.flatpakref",
-      "color": "#CDC5BD",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Hitori.png"
-      }
-    },
-    {
-      "id": "org.gnome.Lollypop",
-      "ref": "app/org.gnome.Lollypop/x86_64/stable",
-      "name": "Lollypop",
-      "summary": "Play and organize your music collection",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Lollypop.flatpakref",
-      "color": "#F9BFC6",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Lollypop.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Lollypop.png"
-      }
-    },
-    {
-      "id": "org.gnome.clocks",
-      "ref": "app/org.gnome.clocks/x86_64/stable",
-      "name": "GNOME Clocks",
-      "summary": "Clocks for world times, plus alarms, stopwatch and a timer",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.clocks.flatpakref",
-      "color": "#535355",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.clocks.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.clocks.png"
-      }
-    },
-    {
-      "id": "org.supertuxproject.SuperTux",
-      "ref": "app/org.supertuxproject.SuperTux/x86_64/stable",
-      "name": "SuperTux 2",
-      "summary": "Run and jump game similar to Super Mario",
-      "flatpakref": "https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref",
-      "color": "#8E969B",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.supertuxproject.SuperTux.png"
-      }
-    },
-    {
-      "id": "com.vinszent.GnomeTwitch",
-      "ref": "app/com.vinszent.GnomeTwitch/x86_64/stable",
-      "name": "GNOME Twitch",
-      "summary": "Twitch desktop client",
-      "flatpakref": "https://flathub.org/repo/appstream/com.vinszent.GnomeTwitch.flatpakref",
-      "color": "#B1A8CC",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.vinszent.GnomeTwitch.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.vinszent.GnomeTwitch.png"
-      }
-    },
-    {
-      "id": "io.github.EndlessSky.endless-sky",
-      "ref": "app/io.github.EndlessSky.endless-sky/x86_64/stable",
-      "name": "Endless Sky",
-      "summary": "Space exploration and combat game",
-      "flatpakref": "https://flathub.org/repo/appstream/io.github.EndlessSky.endless-sky.flatpakref",
-      "color": "#76615B",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.EndlessSky.endless-sky.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.EndlessSky.endless-sky.png"
-      }
-    },
-    {
-      "id": "org.gnome.iagno",
-      "ref": "app/org.gnome.iagno/x86_64/stable",
-      "name": "Iagno",
-      "summary": "Dominate the board in a classic version of Reversi",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.iagno.flatpakref",
-      "color": "#B8B288",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.iagno.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.iagno.png"
-      }
-    },
-    {
-      "id": "com.transmissionbt.Transmission",
-      "ref": "app/com.transmissionbt.Transmission/x86_64/stable",
-      "name": "Transmission",
-      "summary": "Download and share files over BitTorrent",
-      "flatpakref": "https://flathub.org/repo/appstream/com.transmissionbt.Transmission.flatpakref",
-      "color": "#B6AEAC",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.transmissionbt.Transmission.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.transmissionbt.Transmission.png"
-      }
-    },
-    {
-      "id": "net.minetest.Minetest",
-      "ref": "app/net.minetest.Minetest/x86_64/stable",
-      "name": "Minetest",
-      "summary": "Multiplayer infinite-world block sandbox game",
-      "flatpakref": "https://flathub.org/repo/appstream/net.minetest.Minetest.flatpakref",
-      "color": "#899A61",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.minetest.Minetest.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.minetest.Minetest.png"
-      }
-    },
-    {
-      "id": "org.gnome.Polari",
-      "ref": "app/org.gnome.Polari/x86_64/stable",
-      "name": "Polari",
-      "summary": "An Internet Relay Chat Client for GNOME",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Polari.flatpakref",
-      "color": "#D4EAC7",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Polari.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Polari.png"
-      }
-    },
-    {
-      "id": "org.darktable.Darktable",
-      "ref": "app/org.darktable.Darktable/x86_64/stable",
-      "name": "darktable",
-      "summary": "Organize and develop images from digital cameras",
-      "flatpakref": "https://flathub.org/repo/appstream/org.darktable.Darktable.flatpakref",
-      "color": "#916963",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.darktable.Darktable.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.darktable.Darktable.png"
-      }
-    },
-    {
-      "id": "org.debian.TuxPuck",
-      "ref": "app/org.debian.TuxPuck/x86_64/stable",
-      "name": "TuxPuck",
-      "summary": "3D Shufflepuck Pong Game",
-      "flatpakref": "https://flathub.org/repo/appstream/org.debian.TuxPuck.flatpakref",
-      "color": "#99C5E1",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.debian.TuxPuck.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.chromium-bsu",
-      "ref": "app/net.sourceforge.chromium-bsu/x86_64/stable",
-      "name": "Chromium B.S.U.",
-      "summary": "Fast paced, arcade-style, top-scrolling space shooter",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.chromium-bsu.flatpakref",
-      "color": "#706A8D",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.chromium-bsu.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.ExtremeTuxRacer",
-      "ref": "app/net.sourceforge.ExtremeTuxRacer/x86_64/stable",
-      "name": "Extreme Tuxracer",
-      "summary": "High speed arctic racing game based on Tux Racer",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.ExtremeTuxRacer.flatpakref",
-      "color": "#D2735C",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.ExtremeTuxRacer.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.ExtremeTuxRacer.png"
-      }
-    },
-    {
-      "id": "org.tuxfamily.XMoto",
-      "ref": "app/org.tuxfamily.XMoto/x86_64/stable",
-      "name": "XMoto",
-      "summary": "2D motocross platform game",
-      "flatpakref": "https://flathub.org/repo/appstream/org.tuxfamily.XMoto.flatpakref",
-      "color": "#634F34",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.tuxfamily.XMoto.png"
-      }
-    },
-    {
-      "id": "org.blender.Blender",
-      "ref": "app/org.blender.Blender/x86_64/stable",
-      "name": "Blender",
-      "summary": "A 3D creation application",
-      "flatpakref": "https://flathub.org/repo/appstream/org.blender.Blender.flatpakref",
-      "color": "#D89C7F",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.blender.Blender.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.blender.Blender.png"
-      }
-    },
-    {
-      "id": "org.gnome.Builder",
-      "ref": "app/org.gnome.Builder/x86_64/stable",
-      "name": "Builder",
-      "summary": "An IDE for GNOME",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Builder.flatpakref",
-      "color": "#9B954C",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Builder.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Builder.png"
-      }
-    },
-    {
-      "id": "org.gnome.gedit",
-      "ref": "app/org.gnome.gedit/x86_64/stable",
-      "name": "gedit",
-      "summary": "Edit text files",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.gedit.flatpakref",
-      "color": "#DAD5D0",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.gedit.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.gedit.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.Ri-li",
-      "ref": "app/net.sourceforge.Ri-li/x86_64/stable",
-      "name": "Ri-li",
-      "summary": "Kidsgame, drive a toy wood engine",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.Ri-li.flatpakref",
-      "color": "#664B5E",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.Ri-li.png"
-      }
-    },
-    {
-      "id": "ca.desrt.dconf-editor",
-      "ref": "app/ca.desrt.dconf-editor/x86_64/stable",
-      "name": "Dconf Editor",
-      "summary": "A graphical tool for editing the dconf database",
-      "flatpakref": "https://flathub.org/repo/appstream/ca.desrt.dconf-editor.flatpakref",
-      "color": "#C1A8A8",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca.desrt.dconf-editor.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca.desrt.dconf-editor.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.TuxFootball",
-      "ref": "app/net.sourceforge.TuxFootball/x86_64/stable",
-      "name": "Tux Football",
-      "summary": "A great 2D soccer (sometimes called football) game",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.TuxFootball.flatpakref",
-      "color": "#A6A6A6",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.TuxFootball.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.TuxFootball.png"
-      }
-    },
-    {
-      "id": "org.inkscape.Inkscape",
-      "ref": "app/org.inkscape.Inkscape/x86_64/stable",
-      "name": "Inkscape",
-      "summary": "Vector Graphics Editor",
-      "flatpakref": "https://flathub.org/repo/appstream/org.inkscape.Inkscape.flatpakref",
-      "color": "#5A5A5F",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.inkscape.Inkscape.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.inkscape.Inkscape.png"
-      }
-    },
-    {
-      "id": "org.gnome.Calculator",
-      "ref": "app/org.gnome.Calculator/x86_64/stable",
-      "name": "GNOME Calculator",
-      "summary": "Perform arithmetic, scientific or financial calculations",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Calculator.flatpakref",
-      "color": "#888",
-      "icons": {
-      }
-    },
-    {
-      "id": "org.gnome.frogr",
-      "ref": "app/org.gnome.frogr/x86_64/stable",
-      "name": "frogr",
-      "summary": "frogr: a Flickr Remote Organizer for GNOME",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.frogr.flatpakref",
-      "color": "#A1CE7D",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.frogr.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.frogr.png"
-      }
-    },
-    {
-      "id": "org.pitivi.Pitivi",
-      "ref": "app/org.pitivi.Pitivi/x86_64/stable",
-      "name": "Pitivi",
-      "summary": "Create and edit your own movies",
-      "flatpakref": "https://flathub.org/repo/appstream/org.pitivi.Pitivi.flatpakref",
-      "color": "#504B4A",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.pitivi.Pitivi.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.pitivi.Pitivi.png"
-      }
-    },
-    {
-      "id": "net.olofson.KoboDeluxe",
-      "ref": "app/net.olofson.KoboDeluxe/x86_64/stable",
-      "name": "Kobo Deluxe",
-      "summary": "Third person scrolling 2D shooter",
-      "flatpakref": "https://flathub.org/repo/appstream/net.olofson.KoboDeluxe.flatpakref",
-      "color": "#737886",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.olofson.KoboDeluxe.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.olofson.KoboDeluxe.png"
-      }
-    },
-    {
-      "id": "com.discordapp.Discord",
-      "ref": "app/com.discordapp.Discord/x86_64/stable",
-      "name": "Discord",
-      "summary": "Chat client",
-      "flatpakref": "https://flathub.org/repo/appstream/com.discordapp.Discord.flatpakref",
-      "color": "#A4ADD7",
-      "icons": {
-        "64": "https://lh3.googleusercontent.com/_4zBNFjA8S9yjNB_ONwqBvxTvyXYdC7Nh1jYZ2x6YEcldBr2fyijdjM2J5EoVdTpnkA=w256"
-      }
-    },
-    {
-      "id": "de.haeckerfelix.gradio",
-      "ref": "app/de.haeckerfelix.gradio/x86_64/stable",
-      "name": "Gradio",
-      "summary": "Find and listen to internet radio stations",
-      "flatpakref": "https://flathub.org/repo/appstream/de.haeckerfelix.gradio.flatpakref",
-      "color": "#626973",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/de.haeckerfelix.gradio.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/de.haeckerfelix.gradio.png"
-      }
-    },
-    {
-      "id": "org.freedesktop.Bustle",
-      "ref": "app/org.freedesktop.Bustle/x86_64/stable",
-      "name": "Bustle",
-      "summary": "Draw sequence diagrams of D-Bus activity",
-      "flatpakref": "https://flathub.org/repo/appstream/org.freedesktop.Bustle.flatpakref",
-      "color": "#4E7C4E",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.freedesktop.Bustle.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.freedesktop.Bustle.png"
-      }
-    },
-    {
-      "id": "org.octave.Octave",
-      "ref": "app/org.octave.Octave/x86_64/stable",
-      "name": "GNU Octave",
-      "summary": "Interactive programming environment for numerical computations",
-      "flatpakref": "https://flathub.org/repo/appstream/org.octave.Octave.flatpakref",
-      "color": "#AF949D",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.octave.Octave.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.octave.Octave.png"
-      }
-    },
-    {
-      "id": "com.github.ojubaorg.Othman",
-      "ref": "app/com.github.ojubaorg.Othman/x86_64/stable",
-      "name": "Othman Quran Browser",
-      "summary": "Electronic Quran Browser",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.ojubaorg.Othman.flatpakref",
-      "color": "#A19C81",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.ojubaorg.Othman.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.atanks",
-      "ref": "app/net.sourceforge.atanks/x86_64/stable",
-      "name": "Atomic Tanks",
-      "summary": "Turn-based artillery strategy game",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.atanks.flatpakref",
-      "color": "#6C894D",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.atanks.png"
-      }
-    },
-    {
-      "id": "org.gnome.Calendar",
-      "ref": "app/org.gnome.Calendar/x86_64/stable",
-      "name": "Calendar",
-      "summary": "Calendar for GNOME",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Calendar.flatpakref",
-      "color": "#C2CBDE",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Calendar.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Calendar.png"
-      }
-    },
-    {
-      "id": "com.github.wwmm.pulseeffects",
-      "ref": "app/com.github.wwmm.pulseeffects/x86_64/stable",
-      "name": "PulseEffects",
-      "summary": "Audio Effects for PulseAudio Applications",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.wwmm.pulseeffects.flatpakref",
-      "color": "#4D5B42",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.wwmm.pulseeffects.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.wwmm.pulseeffects.png"
-      }
-    },
-    {
-      "id": "org.gna.Warmux",
-      "ref": "app/org.gna.Warmux/x86_64/stable",
-      "name": "Warmux",
-      "summary": "A 2D game where funny characters launch funny weapons",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gna.Warmux.flatpakref",
-      "color": "#736F66",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gna.Warmux.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gna.Warmux.png"
-      }
-    },
-    {
-      "id": "com.tux4kids.tuxmath",
-      "ref": "app/com.tux4kids.tuxmath/x86_64/stable",
-      "name": "Tux, of Math Command",
-      "summary": "TuxMath is an arcade game that helps kids practice their math facts",
-      "flatpakref": "https://flathub.org/repo/appstream/com.tux4kids.tuxmath.flatpakref",
-      "color": "#C0BAA9",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.tux4kids.tuxmath.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.tux4kids.tuxmath.png"
-      }
-    },
-    {
-      "id": "org.gnome.Photos",
-      "ref": "app/org.gnome.Photos/x86_64/stable",
-      "name": "Photos",
-      "summary": "Access, organize and share your photos on GNOME",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Photos.flatpakref",
-      "color": "#716F6E",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Photos.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Photos.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.btanks",
-      "ref": "app/net.sourceforge.btanks/x86_64/stable",
-      "name": "Battle Tanks",
-      "summary": "A fun filled scrolling game with battle tanks",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.btanks.flatpakref",
-      "color": "#B8A361",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.btanks.png"
-      }
-    },
-    {
-      "id": "org.gnome.FeedReader",
-      "ref": "app/org.gnome.FeedReader/x86_64/stable",
-      "name": "FeedReader",
-      "summary": "RSS client for various webservices",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.FeedReader.flatpakref",
-      "color": "#F39464",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.FeedReader.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.FeedReader.png"
-      }
-    },
-    {
-      "id": "io.elementary.code",
-      "ref": "app/io.elementary.code/x86_64/stable",
-      "name": "Scratch",
-      "summary": "The text editor that works",
-      "flatpakref": "https://flathub.org/repo/appstream/io.elementary.code.flatpakref",
-      "color": "#888",
-      "icons": {
-      }
-    },
-    {
-      "id": "org.ppsspp.PPSSPP",
-      "ref": "app/org.ppsspp.PPSSPP/x86_64/stable",
-      "name": "PPSSPP",
-      "summary": "A PlayStation Portable emulator",
-      "flatpakref": "https://flathub.org/repo/appstream/org.ppsspp.PPSSPP.flatpakref",
-      "color": "#83B5C5",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.ppsspp.PPSSPP.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.ppsspp.PPSSPP.png"
-      }
-    },
-    {
-      "id": "org.sparkleshare.SparkleShare",
-      "ref": "app/org.sparkleshare.SparkleShare/x86_64/stable",
-      "name": "SparkleShare",
-      "summary": "Self hosted, instant, secure file sync",
-      "flatpakref": "https://flathub.org/repo/appstream/org.sparkleshare.SparkleShare.flatpakref",
-      "color": "#F59941",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.sparkleshare.SparkleShare.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.sparkleshare.SparkleShare.png"
-      }
-    },
-    {
-      "id": "org.mypaint.MyPaint",
-      "ref": "app/org.mypaint.MyPaint/x86_64/stable",
-      "name": "MyPaint",
-      "summary": "Painting program for digital artists",
-      "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
-      "color": "#C0BBBC",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
-      }
-    },
-    {
-      "id": "org.musescore.MuseScore",
-      "ref": "app/org.musescore.MuseScore/x86_64/stable",
-      "name": "MuseScore",
-      "summary": "Free music composition and notation software",
-      "flatpakref": "https://flathub.org/repo/appstream/org.musescore.MuseScore.flatpakref",
-      "color": "#E5E1D7",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.musescore.MuseScore.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.musescore.MuseScore.png"
-      }
-    },
-    {
-      "id": "io.gitlab.osslugaru.Lugaru",
-      "ref": "app/io.gitlab.osslugaru.Lugaru/x86_64/stable",
-      "name": "Lugaru HD",
-      "summary": "Third person ninja rabbit fighting game",
-      "flatpakref": "https://flathub.org/repo/appstream/io.gitlab.osslugaru.Lugaru.flatpakref",
-      "color": "#595970",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.gitlab.osslugaru.Lugaru.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.gitlab.osslugaru.Lugaru.png"
-      }
-    },
-    {
-      "id": "io.mgba.mGBA",
-      "ref": "app/io.mgba.mGBA/x86_64/stable",
-      "name": "mGBA",
-      "summary": "Nintendo Game Boy Advance Emulator",
-      "flatpakref": "https://flathub.org/repo/appstream/io.mgba.mGBA.flatpakref",
-      "color": "#5C4B92",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.mgba.mGBA.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.mgba.mGBA.png"
-      }
-    },
-    {
-      "id": "org.filezillaproject.Filezilla",
-      "ref": "app/org.filezillaproject.Filezilla/x86_64/stable",
-      "name": "FileZilla",
-      "summary": "Download and upload files via FTP, FTPS and SFTP",
-      "flatpakref": "https://flathub.org/repo/appstream/org.filezillaproject.Filezilla.flatpakref",
-      "color": "#C68D8D",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.filezillaproject.Filezilla.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.filezillaproject.Filezilla.png"
-      }
-    },
-    {
-      "id": "fr.free.Homebank",
-      "ref": "app/fr.free.Homebank/x86_64/stable",
-      "name": "HomeBank",
-      "summary": "Free, easy, personal accounting for everyone",
-      "flatpakref": "https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref",
-      "color": "#DCD2A2",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/fr.free.Homebank.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/fr.free.Homebank.png"
-      }
-    },
-    {
-      "id": "org.armagetronad.ArmagetronAdvanced",
-      "ref": "app/org.armagetronad.ArmagetronAdvanced/x86_64/stable",
-      "name": "Armagetron Advanced",
-      "summary": "3D motorcycle battle",
-      "flatpakref": "https://flathub.org/repo/appstream/org.armagetronad.ArmagetronAdvanced.flatpakref",
-      "color": "#826838",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.armagetronad.ArmagetronAdvanced.png"
-      }
-    },
-    {
-      "id": "net.supertuxkart.SuperTuxKart",
-      "ref": "app/net.supertuxkart.SuperTuxKart/x86_64/stable",
-      "name": "SuperTuxKart",
-      "summary": "A racing game",
-      "flatpakref": "https://flathub.org/repo/appstream/net.supertuxkart.SuperTuxKart.flatpakref",
-      "color": "#92675C",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.supertuxkart.SuperTuxKart.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.supertuxkart.SuperTuxKart.png"
-      }
-    },
-    {
-      "id": "org.nextcloud.Nextcloud",
-      "ref": "app/org.nextcloud.Nextcloud/x86_64/stable",
-      "name": "Nextcloud",
-      "summary": "Nextcloud sync client",
-      "flatpakref": "https://flathub.org/repo/appstream/org.nextcloud.Nextcloud.flatpakref",
-      "color": "#6C93BD",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.nextcloud.Nextcloud.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.nextcloud.Nextcloud.png"
-      }
-    },
-    {
-      "id": "org.gnome.Recipes",
-      "ref": "app/org.gnome.Recipes/x86_64/stable",
-      "name": "Recipes",
-      "summary": "GNOME loves to cook",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Recipes.flatpakref",
-      "color": "#D2B28B",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Recipes.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Recipes.png"
-      }
-    },
-    {
-      "id": "org.DolphinEmu.dolphin-emu",
-      "ref": "app/org.DolphinEmu.dolphin-emu/x86_64/stable",
-      "name": "Dolphin Emulator",
-      "summary": "GameCube / Wii / Triforce Emulator",
-      "flatpakref": "https://flathub.org/repo/appstream/org.DolphinEmu.dolphin-emu.flatpakref",
-      "color": "#2FACED",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.DolphinEmu.dolphin-emu.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.DolphinEmu.dolphin-emu.png"
-      }
-    },
-    {
-      "id": "org.musicbrainz.Picard",
-      "ref": "app/org.musicbrainz.Picard/x86_64/stable",
-      "name": "Picard",
-      "summary": "MusicBrainz's music tagger",
-      "flatpakref": "https://flathub.org/repo/appstream/org.musicbrainz.Picard.flatpakref",
-      "color": "#C57885",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.musicbrainz.Picard.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.musicbrainz.Picard.png"
-      }
-    },
-    {
-      "id": "nl.openoffice.bluefish",
-      "ref": "app/nl.openoffice.bluefish/x86_64/stable",
-      "name": "Bluefish",
-      "summary": "Text editor with many web and software development extra's",
-      "flatpakref": "https://flathub.org/repo/appstream/nl.openoffice.bluefish.flatpakref",
-      "color": "#5C7CAB",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/nl.openoffice.bluefish.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/nl.openoffice.bluefish.png"
-      }
-    },
-    {
-      "id": "com.viber.Viber",
-      "ref": "app/com.viber.Viber/x86_64/stable",
-      "name": "Viber",
-      "summary": "We connect people, no matter who they are or where they are from.",
-      "flatpakref": "https://flathub.org/repo/appstream/com.viber.Viber.flatpakref",
-      "color": "#B7B4D2",
-      "icons": {
-        "64": "https://lh3.googleusercontent.com/8WsuI2NpvYJljZshzCgLXKRLnFLzz3q4I3JGw3L0vfintPGEiTChOXDIrnoXFFfme58=w64"
-      }
-    },
-    {
-      "id": "net.blockout.BlockOutII",
-      "ref": "app/net.blockout.BlockOutII/x86_64/stable",
-      "name": "BlockOut II",
-      "summary": "A free adaptation of the original BlockOut game",
-      "flatpakref": "https://flathub.org/repo/appstream/net.blockout.BlockOutII.flatpakref",
-      "color": "#8B8B8B",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.blockout.BlockOutII.png"
-      }
-    },
-    {
-      "id": "io.github.Freedoom-Phase-1",
-      "ref": "app/io.github.Freedoom-Phase-1/x86_64/stable",
-      "name": "Freedoom: Phase 1",
-      "summary": "First-person shooter based on the Doom engine",
-      "flatpakref": "https://flathub.org/repo/appstream/io.github.Freedoom-Phase-1.flatpakref",
-      "color": "#616159",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Freedoom-Phase-1.png"
-      }
-    },
-    {
-      "id": "org.gnome.Glade",
-      "ref": "app/org.gnome.Glade/x86_64/stable",
-      "name": "Glade",
-      "summary": "Create or open user interface designs for GTK+ applications",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Glade.flatpakref",
-      "color": "#BCD9A8",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Glade.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Glade.png"
-      }
-    },
-    {
-      "id": "com.spotify.Client",
-      "ref": "app/com.spotify.Client/x86_64/stable",
-      "name": "Spotify",
-      "summary": "Online music streaming service",
-      "flatpakref": "https://flathub.org/repo/appstream/com.spotify.Client.flatpakref",
-      "color": "#1DC558",
-      "icons": {
-        "64": "https://lh3.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w64"
-      }
-    },
-    {
-      "id": "io.github.Freedoom-Phase-2",
-      "ref": "app/io.github.Freedoom-Phase-2/x86_64/stable",
-      "name": "Freedoom: Phase 2",
-      "summary": "First-person shooter based on the Doom engine",
-      "flatpakref": "https://flathub.org/repo/appstream/io.github.Freedoom-Phase-2.flatpakref",
-      "color": "#653F3B",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Freedoom-Phase-2.png"
-      }
-    },
-    {
-      "id": "com.github.needleandthread.vocal",
-      "ref": "app/com.github.needleandthread.vocal/x86_64/stable",
-      "name": "Vocal",
-      "summary": "A Great Podcast Client for the Modern Free Desktop",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.needleandthread.vocal.flatpakref",
-      "color": "#B794D4",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.needleandthread.vocal.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.needleandthread.vocal.png"
-      }
-    },
-    {
-      "id": "io.github.cloose.CuteMarkEd",
-      "ref": "app/io.github.cloose.CuteMarkEd/x86_64/stable",
-      "name": "CuteMarkEd",
-      "summary": "Qt Markdown Editor",
-      "flatpakref": "https://flathub.org/repo/appstream/io.github.cloose.CuteMarkEd.flatpakref",
-      "color": "#D2CACB",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.cloose.CuteMarkEd.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.cloose.CuteMarkEd.png"
-      }
-    },
-    {
-      "id": "com.jagex.RuneScape",
-      "ref": "app/com.jagex.RuneScape/x86_64/stable",
-      "name": "RuneScape",
-      "summary": "A free-to-play fantasy MMORPG",
-      "flatpakref": "https://flathub.org/repo/appstream/com.jagex.RuneScape.flatpakref",
-      "color": "#888",
-      "icons": {
-      }
-    },
-    {
-      "id": "io.thp.numptyphysics",
-      "ref": "app/io.thp.numptyphysics/x86_64/stable",
-      "name": "NumptyPhysics",
-      "summary": "A crayon-drawing based physics puzzle game",
-      "flatpakref": "https://flathub.org/repo/appstream/io.thp.numptyphysics.flatpakref",
-      "color": "#CCC4BD",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.thp.numptyphysics.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.thp.numptyphysics.png"
-      }
-    },
-    {
-      "id": "ca._0ldsk00l.Nestopia",
-      "ref": "app/ca._0ldsk00l.Nestopia/x86_64/stable",
-      "name": "Nestopia",
-      "summary": "A Nintendo Entertainment System emulator",
-      "flatpakref": "https://flathub.org/repo/appstream/ca._0ldsk00l.Nestopia.flatpakref",
       "color": "#4B5958",
+      "flatpakref": "https://flathub.org/repo/appstream/ca._0ldsk00l.Nestopia.flatpakref",
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca._0ldsk00l.Nestopia.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca._0ldsk00l.Nestopia.png"
-      }
+      },
+      "id": "ca._0ldsk00l.Nestopia",
+      "name": "Nestopia",
+      "ref": "app/ca._0ldsk00l.Nestopia/x86_64/stable",
+      "summary": "A Nintendo Entertainment System emulator"
     },
     {
-      "id": "org.gnome.eog",
-      "ref": "app/org.gnome.eog/x86_64/stable",
-      "name": "Eye of GNOME",
-      "summary": "Browse and rotate images",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.eog.flatpakref",
-      "color": "#BDBEAB",
+      "color": "#C1A8A8",
+      "flatpakref": "https://flathub.org/repo/appstream/ca.desrt.dconf-editor.flatpakref",
       "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.eog.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.eog.png"
-      }
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ca.desrt.dconf-editor.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ca.desrt.dconf-editor.png"
+      },
+      "id": "ca.desrt.dconf-editor",
+      "name": "Dconf Editor",
+      "ref": "app/ca.desrt.dconf-editor/x86_64/stable",
+      "summary": "A graphical tool for editing the dconf database"
     },
     {
-      "id": "org.freeciv.Freeciv",
-      "ref": "app/org.freeciv.Freeciv/x86_64/stable",
-      "name": "Freeciv (gtk2)",
-      "summary": "Turn-based strategy game inspired by the history of human civilization",
-      "flatpakref": "https://flathub.org/repo/appstream/org.freeciv.Freeciv.flatpakref",
-      "color": "#93781F",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.freeciv.Freeciv.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.freeciv.Freeciv.png"
-      }
-    },
-    {
-      "id": "org.gnome.Characters",
-      "ref": "app/org.gnome.Characters/x86_64/stable",
-      "name": "GNOME Characters",
-      "summary": "Character map application",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Characters.flatpakref",
-      "color": "#A5A4A5",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Characters.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Characters.png"
-      }
-    },
-    {
-      "id": "org.gnome.Geary",
-      "ref": "app/org.gnome.Geary/x86_64/stable",
-      "name": "Geary",
-      "summary": "Send and receive email",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Geary.flatpakref",
-      "color": "#E9D6B5",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Geary.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Geary.png"
-      }
-    },
-    {
-      "id": "com.tux4kids.tuxtype",
-      "ref": "app/com.tux4kids.tuxtype/x86_64/stable",
-      "name": "Tux Typing",
-      "summary": "Educational typing tutor game starring Tux",
-      "flatpakref": "https://flathub.org/repo/appstream/com.tux4kids.tuxtype.flatpakref",
-      "color": "#B9B09F",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.tux4kids.tuxtype.png"
-      }
-    },
-    {
-      "id": "org.gimp.GIMP",
-      "ref": "app/org.gimp.GIMP/x86_64/stable",
-      "name": "GNU Image Manipulation Program",
-      "summary": "Create images and edit photographs",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref",
-      "color": "#837E77",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gimp.GIMP.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gimp.GIMP.png"
-      }
-    },
-    {
-      "id": "io.github.Pithos",
-      "ref": "app/io.github.Pithos/x86_64/stable",
-      "name": "Pithos",
-      "summary": "Pandora radio client",
-      "flatpakref": "https://flathub.org/repo/appstream/io.github.Pithos.flatpakref",
-      "color": "#A99886",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.Pithos.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Pithos.png"
-      }
-    },
-    {
-      "id": "io.github.Hexchat",
-      "ref": "app/io.github.Hexchat/x86_64/stable",
-      "name": "HexChat",
-      "summary": "IRC Client",
-      "flatpakref": "https://flathub.org/repo/appstream/io.github.Hexchat.flatpakref",
-      "color": "#D27100",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.Hexchat.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Hexchat.png"
-      }
-    },
-    {
-      "id": "org.gnome.Dictionary",
-      "ref": "app/org.gnome.Dictionary/x86_64/stable",
-      "name": "GNOME Dictionary",
-      "summary": "Check word definitions and spellings in an online dictionary",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Dictionary.flatpakref",
-      "color": "#888",
-      "icons": {
-      }
-    },
-    {
-      "id": "ws.openarena.OpenArena",
-      "ref": "app/ws.openarena.OpenArena/x86_64/stable",
-      "name": "OpenArena",
-      "summary": "Free and open source first-person shooter",
-      "flatpakref": "https://flathub.org/repo/appstream/ws.openarena.OpenArena.flatpakref",
-      "color": "#C2B6AD",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ws.openarena.OpenArena.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ws.openarena.OpenArena.png"
-      }
-    },
-    {
-      "id": "org.videolan.VLC",
-      "ref": "app/org.videolan.VLC/x86_64/stable",
-      "name": "VLC",
-      "summary": "VLC media player, the open-source multimedia player",
-      "flatpakref": "https://flathub.org/repo/appstream/org.videolan.VLC.flatpakref",
-      "color": "#DB946C",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.videolan.VLC.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.videolan.VLC.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.mars-game",
-      "ref": "app/net.sourceforge.mars-game/x86_64/stable",
-      "name": "M.A.R.S. - A ridiculous shooter",
-      "summary": "2D space shooter with awesome visual effects",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.mars-game.flatpakref",
-      "color": "#C5B1BA",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.mars-game.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.mars-game.png"
-      }
-    },
-    {
-      "id": "org.gnome.Nautilus",
-      "ref": "app/org.gnome.Nautilus/x86_64/stable",
-      "name": "Nautilus",
-      "summary": "Access and organize files",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Nautilus.flatpakref",
-      "color": "#6A94D0",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Nautilus.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Nautilus.png"
-      }
-    },
-    {
-      "id": "com.github.philip_scott.spice-up",
-      "ref": "app/com.github.philip_scott.spice-up/x86_64/stable",
-      "name": "Spice-Up",
-      "summary": "Create simple and beautiful presentations",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.philip_scott.spice-up.flatpakref",
-      "color": "#6789CE",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.philip_scott.spice-up.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.philip_scott.spice-up.png"
-      }
-    },
-    {
-      "id": "org.geogebra.GeoGebra",
-      "ref": "app/org.geogebra.GeoGebra/x86_64/stable",
-      "name": "GeoGebra",
-      "summary": "Dynamic mathematics software",
-      "flatpakref": "https://flathub.org/repo/appstream/org.geogebra.GeoGebra.flatpakref",
-      "color": "#6A6AA0",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.geogebra.GeoGebra.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.geogebra.GeoGebra.png"
-      }
-    },
-    {
-      "id": "com.slack.Slack",
-      "ref": "app/com.slack.Slack/x86_64/stable",
-      "name": "Slack",
-      "summary": "Chat with your team",
-      "flatpakref": "https://flathub.org/repo/appstream/com.slack.Slack.flatpakref",
-      "color": "#C5BFB5",
-      "icons": {
-        "64": "https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w64"
-      }
-    },
-    {
-      "id": "ch.x29a.playitslowly",
-      "ref": "app/ch.x29a.playitslowly/x86_64/stable",
-      "name": "Play it Slowly",
-      "summary": "Play music at a different speed",
-      "flatpakref": "https://flathub.org/repo/appstream/ch.x29a.playitslowly.flatpakref",
       "color": "#A72D2D",
+      "flatpakref": "https://flathub.org/repo/appstream/ch.x29a.playitslowly.flatpakref",
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ch.x29a.playitslowly.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ch.x29a.playitslowly.png"
-      }
+      },
+      "id": "ch.x29a.playitslowly",
+      "name": "Play it Slowly",
+      "ref": "app/ch.x29a.playitslowly/x86_64/stable",
+      "summary": "Play music at a different speed"
     },
     {
-      "id": "org.gnucash.GnuCash",
-      "ref": "app/org.gnucash.GnuCash/x86_64/stable",
-      "name": "GnuCash",
-      "summary": "Manage your finances, accounts, and investments",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnucash.GnuCash.flatpakref",
-      "color": "#B8BCA4",
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/com.albiononline.AlbionOnline.flatpakref",
       "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnucash.GnuCash.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnucash.GnuCash.png"
-      }
+      },
+      "id": "com.albiononline.AlbionOnline",
+      "name": "Albion Online",
+      "ref": "app/com.albiononline.AlbionOnline/x86_64/stable",
+      "summary": "MMORPG open medieval fantasy game"
     },
     {
-      "id": "org.frozen_bubble.frozen-bubble",
-      "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
-      "name": "Frozen Bubble",
-      "summary": "An addictive game about frozen bubbles",
-      "flatpakref": "https://flathub.org/repo/appstream/org.frozen_bubble.frozen-bubble.flatpakref",
-      "color": "#BC9D7E",
+      "color": "#E0BA5F",
+      "flatpakref": "https://flathub.org/repo/appstream/com.bixense.PasswordCalculator.flatpakref",
       "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
-      }
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.bixense.PasswordCalculator.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.bixense.PasswordCalculator.png"
+      },
+      "id": "com.bixense.PasswordCalculator",
+      "name": "Password Calculator",
+      "ref": "app/com.bixense.PasswordCalculator/x86_64/stable",
+      "summary": "Calculate strong passwords for each alias from your single secret"
     },
     {
-      "id": "org.gnome.Maps",
-      "ref": "app/org.gnome.Maps/x86_64/stable",
-      "name": "GNOME Maps",
-      "summary": "Find places around the world",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Maps.flatpakref",
-      "color": "#CB9584",
+      "color": "#A4ADD7",
+      "flatpakref": "https://flathub.org/repo/appstream/com.discordapp.Discord.flatpakref",
       "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Maps.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Maps.png"
-      }
+        "64": "https://lh3.googleusercontent.com/_4zBNFjA8S9yjNB_ONwqBvxTvyXYdC7Nh1jYZ2x6YEcldBr2fyijdjM2J5EoVdTpnkA=w256"
+      },
+      "id": "com.discordapp.Discord",
+      "name": "Discord",
+      "ref": "app/com.discordapp.Discord/x86_64/stable",
+      "summary": "Chat client"
     },
     {
-      "id": "org.audacityteam.Audacity",
-      "ref": "app/org.audacityteam.Audacity/x86_64/stable",
-      "name": "Audacity",
-      "summary": "Record and edit audio files",
-      "flatpakref": "https://flathub.org/repo/appstream/org.audacityteam.Audacity.flatpakref",
-      "color": "#B57F5E",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.audacityteam.Audacity.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.audacityteam.Audacity.png"
-      }
-    },
-    {
-      "id": "org.gnome.Eolie",
-      "ref": "app/org.gnome.Eolie/x86_64/stable",
-      "name": "Eolie",
-      "summary": "Web browser",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Eolie.flatpakref",
-      "color": "#7BA3E8",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Eolie.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Eolie.png"
-      }
-    },
-    {
-      "id": "org.subsurface_divelog.Subsurface",
-      "ref": "app/org.subsurface_divelog.Subsurface/x86_64/stable",
-      "name": "Subsurface",
-      "summary": "Manage and display dive computer data",
-      "flatpakref": "https://flathub.org/repo/appstream/org.subsurface_divelog.Subsurface.flatpakref",
-      "color": "#7B8BAB",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.subsurface_divelog.Subsurface.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.subsurface_divelog.Subsurface.png"
-      }
-    },
-    {
-      "id": "org.godotengine.Godot",
-      "ref": "app/org.godotengine.Godot/x86_64/stable",
-      "name": "Godot",
-      "summary": "Godot game engine editor",
-      "flatpakref": "https://flathub.org/repo/appstream/org.godotengine.Godot.flatpakref",
-      "color": "#5F94C0",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.godotengine.Godot.png"
-      }
-    },
-    {
-      "id": "org.baedert.corebird",
-      "ref": "app/org.baedert.corebird/x86_64/stable",
-      "name": "Corebird",
-      "summary": "Twitter Client",
-      "flatpakref": "https://flathub.org/repo/appstream/org.baedert.corebird.flatpakref",
-      "color": "#BEACBD",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.baedert.corebird.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.baedert.corebird.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.torcs",
-      "ref": "app/net.sourceforge.torcs/x86_64/stable",
-      "name": "TORCS",
-      "summary": "The Open Racing Car Simulator",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.torcs.flatpakref",
-      "color": "#7E6392",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.torcs.png"
-      }
-    },
-    {
-      "id": "org.seul.pingus",
-      "ref": "app/org.seul.pingus/x86_64/stable",
-      "name": "Pingus",
-      "summary": "Free version of Lemmings Puzzle Game",
-      "flatpakref": "https://flathub.org/repo/appstream/org.seul.pingus.flatpakref",
-      "color": "#96A4A4",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.seul.pingus.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.seul.pingus.png"
-      }
-    },
-    {
-      "id": "net.sourceforge.Klavaro",
-      "ref": "app/net.sourceforge.Klavaro/x86_64/stable",
-      "name": "Klavaro",
-      "summary": "A touch typing tutor",
-      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.Klavaro.flatpakref",
-      "color": "#CCCFCA",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.Klavaro.png"
-      }
-    },
-    {
-      "id": "com.github.gkarsay.parlatype",
-      "ref": "app/com.github.gkarsay.parlatype/x86_64/stable",
-      "name": "Parlatype",
-      "summary": "Media player for manual speech transcription",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.gkarsay.parlatype.flatpakref",
-      "color": "#B4B6B1",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.gkarsay.parlatype.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.gkarsay.parlatype.png"
-      }
-    },
-    {
-      "id": "org.megaglest.MegaGlest",
-      "ref": "app/org.megaglest.MegaGlest/x86_64/stable",
-      "name": "MegaGlest",
-      "summary": "Real time strategy game (RTS)",
-      "flatpakref": "https://flathub.org/repo/appstream/org.megaglest.MegaGlest.flatpakref",
-      "color": "#8C7154",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.megaglest.MegaGlest.png"
-      }
-    },
-    {
-      "id": "com.scoutshonour.Digital",
-      "ref": "app/com.scoutshonour.Digital/x86_64/stable",
-      "name": "Digital: A Love Story",
-      "summary": "A computer mistery/romance set five minutes into the future of 1988",
-      "flatpakref": "https://flathub.org/repo/appstream/com.scoutshonour.Digital.flatpakref",
-      "color": "#7B81F1",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.scoutshonour.Digital.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.scoutshonour.Digital.png"
-      }
-    },
-    {
-      "id": "org.gnome.bijiben",
-      "ref": "app/org.gnome.bijiben/x86_64/stable",
-      "name": "Bijiben",
-      "summary": "Quickly jot notes",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.bijiben.flatpakref",
-      "color": "#EDDC57",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.bijiben.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.bijiben.png"
-      }
-    },
-    {
-      "id": "org.wesnoth.Wesnoth",
-      "ref": "app/org.wesnoth.Wesnoth/x86_64/stable",
-      "name": "Battle for Wesnoth",
-      "summary": "A fantasy turn-based strategy game",
-      "flatpakref": "https://flathub.org/repo/appstream/org.wesnoth.Wesnoth.flatpakref",
-      "color": "#8F8165",
-      "icons": {
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.wesnoth.Wesnoth.png"
-      }
-    },
-    {
-      "id": "org.gnode.NixView",
-      "ref": "app/org.gnode.NixView/x86_64/stable",
-      "name": "NixView",
-      "summary": "Viewer for nix datafiles",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnode.NixView.flatpakref",
-      "color": "#B7BACE",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
-      }
-    },
-    {
-      "id": "com.github.rssguard",
-      "ref": "app/com.github.rssguard/x86_64/stable",
-      "name": "RSS Guard",
-      "summary": "Simple (yet powerful) feed reader",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.rssguard.flatpakref",
-      "color": "#FF780A",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.rssguard.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.rssguard.png"
-      }
-    },
-    {
-      "id": "com.skype.Client",
-      "ref": "app/com.skype.Client/x86_64/stable",
-      "name": "Skype",
-      "summary": "Call and message skype users, with video chat support",
-      "flatpakref": "https://flathub.org/repo/appstream/com.skype.Client.flatpakref",
-      "color": "#7CBDEA",
-      "icons": {
-        "64": "https://lh3.googleusercontent.com/QfAEt_ya6-n8w_TD9-PsghFC2DMSO7fLGNZB4cQ3RtbBbHFkXJE_gxOc3l32-j6LXg=w64"
-      }
-    },
-    {
-      "id": "com.github.JannikHv.Gydl",
-      "ref": "app/com.github.JannikHv.Gydl/x86_64/stable",
-      "name": "Gydl",
-      "summary": "Download content from sites like YouTube",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.JannikHv.Gydl.flatpakref",
-      "color": "#D78584",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.JannikHv.Gydl.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.JannikHv.Gydl.png"
-      }
-    },
-    {
-      "id": "com.play0ad.zeroad",
-      "ref": "app/com.play0ad.zeroad/x86_64/stable",
-      "name": "0 A.D.",
-      "summary": "A real-time strategy game of ancient warfare",
-      "flatpakref": "https://flathub.org/repo/appstream/com.play0ad.zeroad.flatpakref",
-      "color": "#7B6A44",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.play0ad.zeroad.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.play0ad.zeroad.png"
-      }
-    },
-    {
-      "id": "com.snes9x.Snes9x",
-      "ref": "app/com.snes9x.Snes9x/x86_64/stable",
-      "name": "Snes9x",
-      "summary": "A Super Nintendo emulator",
-      "flatpakref": "https://flathub.org/repo/appstream/com.snes9x.Snes9x.flatpakref",
-      "color": "#8F88C7",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.snes9x.Snes9x.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.snes9x.Snes9x.png"
-      }
-    },
-    {
-      "id": "org.tordini.flavio.Minitube",
-      "ref": "app/org.tordini.flavio.Minitube/x86_64/stable",
-      "name": "Minitube",
-      "summary": "YouTube app",
-      "flatpakref": "https://flathub.org/repo/appstream/org.tordini.flavio.Minitube.flatpakref",
-      "color": "#9099A3",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.tordini.flavio.Minitube.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.tordini.flavio.Minitube.png"
-      }
-    },
-    {
-      "id": "com.github.philip_scott.notes-up",
-      "ref": "app/com.github.philip_scott.notes-up/x86_64/stable",
-      "name": "Notes-Up",
-      "summary": "Your New Notebook",
-      "flatpakref": "https://flathub.org/repo/appstream/com.github.philip_scott.notes-up.flatpakref",
-      "color": "#5A76A7",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.philip_scott.notes-up.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.philip_scott.notes-up.png"
-      }
-    },
-    {
-      "id": "com.teeworlds.Teeworlds",
-      "ref": "app/com.teeworlds.Teeworlds/x86_64/stable",
-      "name": "Teeworlds",
-      "summary": "Online multiplayer shooter game",
-      "flatpakref": "https://flathub.org/repo/appstream/com.teeworlds.Teeworlds.flatpakref",
-      "color": "#D6A553",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.teeworlds.Teeworlds.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.teeworlds.Teeworlds.png"
-      }
-    },
-    {
-      "id": "org.telegram.desktop",
-      "ref": "app/org.telegram.desktop/x86_64/stable",
-      "name": "Telegram Desktop",
-      "summary": "Telegram Desktop messenger",
-      "flatpakref": "https://flathub.org/repo/appstream/org.telegram.desktop.flatpakref",
-      "color": "#6DA9D6",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.telegram.desktop.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.telegram.desktop.png"
-      }
-    },
-    {
-      "id": "com.frac_tion.teleport",
-      "ref": "app/com.frac_tion.teleport/x86_64/stable",
-      "name": "Teleport",
-      "summary": "Share files over the local network",
-      "flatpakref": "https://flathub.org/repo/appstream/com.frac_tion.teleport.flatpakref",
       "color": "#9AD4D5",
+      "flatpakref": "https://flathub.org/repo/appstream/com.frac_tion.teleport.flatpakref",
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.frac_tion.teleport.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.frac_tion.teleport.png"
-      }
+      },
+      "id": "com.frac_tion.teleport",
+      "name": "Teleport",
+      "ref": "app/com.frac_tion.teleport/x86_64/stable",
+      "summary": "Share files over the local network"
     },
     {
-      "id": "org.gottcode.FocusWriter",
-      "ref": "app/org.gottcode.FocusWriter/x86_64/stable",
-      "name": "FocusWriter",
-      "summary": "Fullscreen word processor",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gottcode.FocusWriter.flatpakref",
-      "color": "#818181",
+      "color": "#D78584",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.JannikHv.Gydl.flatpakref",
       "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gottcode.FocusWriter.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gottcode.FocusWriter.png"
-      }
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.JannikHv.Gydl.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.JannikHv.Gydl.png"
+      },
+      "id": "com.github.JannikHv.Gydl",
+      "name": "Gydl",
+      "ref": "app/com.github.JannikHv.Gydl/x86_64/stable",
+      "summary": "Download content from sites like YouTube"
     },
     {
-      "id": "org.gnome.Games",
-      "ref": "app/org.gnome.Games/x86_64/stable",
-      "name": "Games",
-      "summary": "Simple game launcher for GNOME",
-      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Games.flatpakref",
+      "color": "#B865AA",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.babluboy.bookworm.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.babluboy.bookworm.png"
+      },
+      "id": "com.github.babluboy.bookworm",
+      "name": "Bookworm",
+      "ref": "app/com.github.babluboy.bookworm/x86_64/stable",
+      "summary": "A simple, focused eBook reader"
+    },
+    {
+      "color": "#DBDDE0",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.dahenson.agenda.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.dahenson.agenda.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.dahenson.agenda.png"
+      },
+      "id": "com.github.dahenson.agenda",
+      "name": "Agenda",
+      "ref": "app/com.github.dahenson.agenda/x86_64/stable",
+      "summary": "Get things done"
+    },
+    {
+      "color": "#B4B6B1",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.gkarsay.parlatype.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.gkarsay.parlatype.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.gkarsay.parlatype.png"
+      },
+      "id": "com.github.gkarsay.parlatype",
+      "name": "Parlatype",
+      "ref": "app/com.github.gkarsay.parlatype/x86_64/stable",
+      "summary": "Media player for manual speech transcription"
+    },
+    {
+      "color": "#B794D4",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.needleandthread.vocal.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.needleandthread.vocal.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.needleandthread.vocal.png"
+      },
+      "id": "com.github.needleandthread.vocal",
+      "name": "Vocal",
+      "ref": "app/com.github.needleandthread.vocal/x86_64/stable",
+      "summary": "A Great Podcast Client for the Modern Free Desktop"
+    },
+    {
+      "color": "#A19C81",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.ojubaorg.Othman.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.ojubaorg.Othman.png"
+      },
+      "id": "com.github.ojubaorg.Othman",
+      "name": "Othman Quran Browser",
+      "ref": "app/com.github.ojubaorg.Othman/x86_64/stable",
+      "summary": "Electronic Quran Browser"
+    },
+    {
+      "color": "#5A76A7",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.philip_scott.notes-up.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.philip_scott.notes-up.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.philip_scott.notes-up.png"
+      },
+      "id": "com.github.philip_scott.notes-up",
+      "name": "Notes-Up",
+      "ref": "app/com.github.philip_scott.notes-up/x86_64/stable",
+      "summary": "Your New Notebook"
+    },
+    {
+      "color": "#6789CE",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.philip_scott.spice-up.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.philip_scott.spice-up.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.philip_scott.spice-up.png"
+      },
+      "id": "com.github.philip_scott.spice-up",
+      "name": "Spice-Up",
+      "ref": "app/com.github.philip_scott.spice-up/x86_64/stable",
+      "summary": "Create simple and beautiful presentations"
+    },
+    {
+      "color": "#FF780A",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.rssguard.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.rssguard.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.rssguard.png"
+      },
+      "id": "com.github.rssguard",
+      "name": "RSS Guard",
+      "ref": "app/com.github.rssguard/x86_64/stable",
+      "summary": "Simple (yet powerful) feed reader"
+    },
+    {
+      "color": "#4D5B42",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.wwmm.pulseeffects.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.wwmm.pulseeffects.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.wwmm.pulseeffects.png"
+      },
+      "id": "com.github.wwmm.pulseeffects",
+      "name": "PulseEffects",
+      "ref": "app/com.github.wwmm.pulseeffects/x86_64/stable",
+      "summary": "Audio Effects for PulseAudio Applications"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/com.jagex.RuneScape.flatpakref",
+      "icons": {
+      },
+      "id": "com.jagex.RuneScape",
+      "name": "RuneScape",
+      "ref": "app/com.jagex.RuneScape/x86_64/stable",
+      "summary": "A free-to-play fantasy MMORPG"
+    },
+    {
+      "color": "#7B6A44",
+      "flatpakref": "https://flathub.org/repo/appstream/com.play0ad.zeroad.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.play0ad.zeroad.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.play0ad.zeroad.png"
+      },
+      "id": "com.play0ad.zeroad",
+      "name": "0 A.D.",
+      "ref": "app/com.play0ad.zeroad/x86_64/stable",
+      "summary": "A real-time strategy game of ancient warfare"
+    },
+    {
+      "color": "#7B81F1",
+      "flatpakref": "https://flathub.org/repo/appstream/com.scoutshonour.Digital.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.scoutshonour.Digital.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.scoutshonour.Digital.png"
+      },
+      "id": "com.scoutshonour.Digital",
+      "name": "Digital: A Love Story",
+      "ref": "app/com.scoutshonour.Digital/x86_64/stable",
+      "summary": "A computer mistery/romance set five minutes into the future of 1988"
+    },
+    {
+      "color": "#7CBDEA",
+      "flatpakref": "https://flathub.org/repo/appstream/com.skype.Client.flatpakref",
+      "icons": {
+        "64": "https://lh3.googleusercontent.com/QfAEt_ya6-n8w_TD9-PsghFC2DMSO7fLGNZB4cQ3RtbBbHFkXJE_gxOc3l32-j6LXg=w64"
+      },
+      "id": "com.skype.Client",
+      "name": "Skype",
+      "ref": "app/com.skype.Client/x86_64/stable",
+      "summary": "Call and message skype users, with video chat support"
+    },
+    {
+      "color": "#C5BFB5",
+      "flatpakref": "https://flathub.org/repo/appstream/com.slack.Slack.flatpakref",
+      "icons": {
+        "64": "https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w64"
+      },
+      "id": "com.slack.Slack",
+      "name": "Slack",
+      "ref": "app/com.slack.Slack/x86_64/stable",
+      "summary": "Chat with your team"
+    },
+    {
+      "color": "#8F88C7",
+      "flatpakref": "https://flathub.org/repo/appstream/com.snes9x.Snes9x.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.snes9x.Snes9x.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.snes9x.Snes9x.png"
+      },
+      "id": "com.snes9x.Snes9x",
+      "name": "Snes9x",
+      "ref": "app/com.snes9x.Snes9x/x86_64/stable",
+      "summary": "A Super Nintendo emulator"
+    },
+    {
+      "color": "#1DC558",
+      "flatpakref": "https://flathub.org/repo/appstream/com.spotify.Client.flatpakref",
+      "icons": {
+        "64": "https://lh3.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w64"
+      },
+      "id": "com.spotify.Client",
+      "name": "Spotify",
+      "ref": "app/com.spotify.Client/x86_64/stable",
+      "summary": "Online music streaming service"
+    },
+    {
+      "color": "#D6A553",
+      "flatpakref": "https://flathub.org/repo/appstream/com.teeworlds.Teeworlds.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.teeworlds.Teeworlds.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.teeworlds.Teeworlds.png"
+      },
+      "id": "com.teeworlds.Teeworlds",
+      "name": "Teeworlds",
+      "ref": "app/com.teeworlds.Teeworlds/x86_64/stable",
+      "summary": "Online multiplayer shooter game"
+    },
+    {
+      "color": "#B6AEAC",
+      "flatpakref": "https://flathub.org/repo/appstream/com.transmissionbt.Transmission.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.transmissionbt.Transmission.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.transmissionbt.Transmission.png"
+      },
+      "id": "com.transmissionbt.Transmission",
+      "name": "Transmission",
+      "ref": "app/com.transmissionbt.Transmission/x86_64/stable",
+      "summary": "Download and share files over BitTorrent"
+    },
+    {
+      "color": "#C0BAA9",
+      "flatpakref": "https://flathub.org/repo/appstream/com.tux4kids.tuxmath.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.tux4kids.tuxmath.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.tux4kids.tuxmath.png"
+      },
+      "id": "com.tux4kids.tuxmath",
+      "name": "Tux, of Math Command",
+      "ref": "app/com.tux4kids.tuxmath/x86_64/stable",
+      "summary": "TuxMath is an arcade game that helps kids practice their math facts"
+    },
+    {
+      "color": "#B9B09F",
+      "flatpakref": "https://flathub.org/repo/appstream/com.tux4kids.tuxtype.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.tux4kids.tuxtype.png"
+      },
+      "id": "com.tux4kids.tuxtype",
+      "name": "Tux Typing",
+      "ref": "app/com.tux4kids.tuxtype/x86_64/stable",
+      "summary": "Educational typing tutor game starring Tux"
+    },
+    {
+      "color": "#F9BFAA",
+      "flatpakref": "https://flathub.org/repo/appstream/com.uploadedlobster.peek.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.uploadedlobster.peek.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.uploadedlobster.peek.png"
+      },
+      "id": "com.uploadedlobster.peek",
+      "name": "Peek",
+      "ref": "app/com.uploadedlobster.peek/x86_64/stable",
+      "summary": "Simple animated GIF screen recorder with an easy to use interface"
+    },
+    {
+      "color": "#7C8699",
+      "flatpakref": "https://flathub.org/repo/appstream/com.valvesoftware.Steam.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.valvesoftware.Steam.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.valvesoftware.Steam.png"
+      },
+      "id": "com.valvesoftware.Steam",
+      "name": "Steam",
+      "ref": "app/com.valvesoftware.Steam/x86_64/stable",
+      "summary": "Application for managing and playing games on Steam"
+    },
+    {
+      "color": "#B7B4D2",
+      "flatpakref": "https://flathub.org/repo/appstream/com.viber.Viber.flatpakref",
+      "icons": {
+        "64": "https://lh3.googleusercontent.com/8WsuI2NpvYJljZshzCgLXKRLnFLzz3q4I3JGw3L0vfintPGEiTChOXDIrnoXFFfme58=w64"
+      },
+      "id": "com.viber.Viber",
+      "name": "Viber",
+      "ref": "app/com.viber.Viber/x86_64/stable",
+      "summary": "We connect people, no matter who they are or where they are from."
+    },
+    {
+      "color": "#B1A8CC",
+      "flatpakref": "https://flathub.org/repo/appstream/com.vinszent.GnomeTwitch.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.vinszent.GnomeTwitch.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.vinszent.GnomeTwitch.png"
+      },
+      "id": "com.vinszent.GnomeTwitch",
+      "name": "GNOME Twitch",
+      "ref": "app/com.vinszent.GnomeTwitch/x86_64/stable",
+      "summary": "Twitch desktop client"
+    },
+    {
+      "color": "#626973",
+      "flatpakref": "https://flathub.org/repo/appstream/de.haeckerfelix.gradio.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/de.haeckerfelix.gradio.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/de.haeckerfelix.gradio.png"
+      },
+      "id": "de.haeckerfelix.gradio",
+      "name": "Gradio",
+      "ref": "app/de.haeckerfelix.gradio/x86_64/stable",
+      "summary": "Find and listen to internet radio stations"
+    },
+    {
+      "color": "#DCD2A2",
+      "flatpakref": "https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/fr.free.Homebank.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/fr.free.Homebank.png"
+      },
+      "id": "fr.free.Homebank",
+      "name": "HomeBank",
+      "ref": "app/fr.free.Homebank/x86_64/stable",
+      "summary": "Free, easy, personal accounting for everyone"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/io.elementary.code.flatpakref",
+      "icons": {
+      },
+      "id": "io.elementary.code",
+      "name": "Scratch",
+      "ref": "app/io.elementary.code/x86_64/stable",
+      "summary": "The text editor that works"
+    },
+    {
+      "color": "#76615B",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.EndlessSky.endless-sky.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.EndlessSky.endless-sky.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.EndlessSky.endless-sky.png"
+      },
+      "id": "io.github.EndlessSky.endless-sky",
+      "name": "Endless Sky",
+      "ref": "app/io.github.EndlessSky.endless-sky/x86_64/stable",
+      "summary": "Space exploration and combat game"
+    },
+    {
+      "color": "#616159",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.Freedoom-Phase-1.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Freedoom-Phase-1.png"
+      },
+      "id": "io.github.Freedoom-Phase-1",
+      "name": "Freedoom: Phase 1",
+      "ref": "app/io.github.Freedoom-Phase-1/x86_64/stable",
+      "summary": "First-person shooter based on the Doom engine"
+    },
+    {
+      "color": "#653F3B",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.Freedoom-Phase-2.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Freedoom-Phase-2.png"
+      },
+      "id": "io.github.Freedoom-Phase-2",
+      "name": "Freedoom: Phase 2",
+      "ref": "app/io.github.Freedoom-Phase-2/x86_64/stable",
+      "summary": "First-person shooter based on the Doom engine"
+    },
+    {
+      "color": "#92C1FF",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.GnomeMpv.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.GnomeMpv.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.GnomeMpv.png"
+      },
+      "id": "io.github.GnomeMpv",
+      "name": "GNOME MPV",
+      "ref": "app/io.github.GnomeMpv/x86_64/stable",
+      "summary": "GTK+ frontend for mpv"
+    },
+    {
+      "color": "#D27100",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.Hexchat.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.Hexchat.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Hexchat.png"
+      },
+      "id": "io.github.Hexchat",
+      "name": "HexChat",
+      "ref": "app/io.github.Hexchat/x86_64/stable",
+      "summary": "IRC Client"
+    },
+    {
+      "color": "#A99886",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.Pithos.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.Pithos.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Pithos.png"
+      },
+      "id": "io.github.Pithos",
+      "name": "Pithos",
+      "ref": "app/io.github.Pithos/x86_64/stable",
+      "summary": "Pandora radio client"
+    },
+    {
+      "color": "#D2CACB",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.cloose.CuteMarkEd.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.cloose.CuteMarkEd.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.cloose.CuteMarkEd.png"
+      },
+      "id": "io.github.cloose.CuteMarkEd",
+      "name": "CuteMarkEd",
+      "ref": "app/io.github.cloose.CuteMarkEd/x86_64/stable",
+      "summary": "Qt Markdown Editor"
+    },
+    {
+      "color": "#595970",
+      "flatpakref": "https://flathub.org/repo/appstream/io.gitlab.osslugaru.Lugaru.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.gitlab.osslugaru.Lugaru.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.gitlab.osslugaru.Lugaru.png"
+      },
+      "id": "io.gitlab.osslugaru.Lugaru",
+      "name": "Lugaru HD",
+      "ref": "app/io.gitlab.osslugaru.Lugaru/x86_64/stable",
+      "summary": "Third person ninja rabbit fighting game"
+    },
+    {
+      "color": "#5C4B92",
+      "flatpakref": "https://flathub.org/repo/appstream/io.mgba.mGBA.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.mgba.mGBA.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.mgba.mGBA.png"
+      },
+      "id": "io.mgba.mGBA",
+      "name": "mGBA",
+      "ref": "app/io.mgba.mGBA/x86_64/stable",
+      "summary": "Nintendo Game Boy Advance Emulator"
+    },
+    {
+      "color": "#CCC4BD",
+      "flatpakref": "https://flathub.org/repo/appstream/io.thp.numptyphysics.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.thp.numptyphysics.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.thp.numptyphysics.png"
+      },
+      "id": "io.thp.numptyphysics",
+      "name": "NumptyPhysics",
+      "ref": "app/io.thp.numptyphysics/x86_64/stable",
+      "summary": "A crayon-drawing based physics puzzle game"
+    },
+    {
+      "color": "#8B8B8B",
+      "flatpakref": "https://flathub.org/repo/appstream/net.blockout.BlockOutII.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.blockout.BlockOutII.png"
+      },
+      "id": "net.blockout.BlockOutII",
+      "name": "BlockOut II",
+      "ref": "app/net.blockout.BlockOutII/x86_64/stable",
+      "summary": "A free adaptation of the original BlockOut game"
+    },
+    {
+      "color": "#899A61",
+      "flatpakref": "https://flathub.org/repo/appstream/net.minetest.Minetest.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.minetest.Minetest.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.minetest.Minetest.png"
+      },
+      "id": "net.minetest.Minetest",
+      "name": "Minetest",
+      "ref": "app/net.minetest.Minetest/x86_64/stable",
+      "summary": "Multiplayer infinite-world block sandbox game"
+    },
+    {
+      "color": "#737886",
+      "flatpakref": "https://flathub.org/repo/appstream/net.olofson.KoboDeluxe.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.olofson.KoboDeluxe.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.olofson.KoboDeluxe.png"
+      },
+      "id": "net.olofson.KoboDeluxe",
+      "name": "Kobo Deluxe",
+      "ref": "app/net.olofson.KoboDeluxe/x86_64/stable",
+      "summary": "Third person scrolling 2D shooter"
+    },
+    {
+      "color": "#D2735C",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.ExtremeTuxRacer.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.ExtremeTuxRacer.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.ExtremeTuxRacer.png"
+      },
+      "id": "net.sourceforge.ExtremeTuxRacer",
+      "name": "Extreme Tuxracer",
+      "ref": "app/net.sourceforge.ExtremeTuxRacer/x86_64/stable",
+      "summary": "High speed arctic racing game based on Tux Racer"
+    },
+    {
+      "color": "#CCCFCA",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.Klavaro.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.Klavaro.png"
+      },
+      "id": "net.sourceforge.Klavaro",
+      "name": "Klavaro",
+      "ref": "app/net.sourceforge.Klavaro/x86_64/stable",
+      "summary": "A touch typing tutor"
+    },
+    {
+      "color": "#664B5E",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.Ri-li.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.Ri-li.png"
+      },
+      "id": "net.sourceforge.Ri-li",
+      "name": "Ri-li",
+      "ref": "app/net.sourceforge.Ri-li/x86_64/stable",
+      "summary": "Kidsgame, drive a toy wood engine"
+    },
+    {
+      "color": "#A6A6A6",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.TuxFootball.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.TuxFootball.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.TuxFootball.png"
+      },
+      "id": "net.sourceforge.TuxFootball",
+      "name": "Tux Football",
+      "ref": "app/net.sourceforge.TuxFootball/x86_64/stable",
+      "summary": "A great 2D soccer (sometimes called football) game"
+    },
+    {
+      "color": "#6C894D",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.atanks.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.atanks.png"
+      },
+      "id": "net.sourceforge.atanks",
+      "name": "Atomic Tanks",
+      "ref": "app/net.sourceforge.atanks/x86_64/stable",
+      "summary": "Turn-based artillery strategy game"
+    },
+    {
+      "color": "#B8A361",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.btanks.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.btanks.png"
+      },
+      "id": "net.sourceforge.btanks",
+      "name": "Battle Tanks",
+      "ref": "app/net.sourceforge.btanks/x86_64/stable",
+      "summary": "A fun filled scrolling game with battle tanks"
+    },
+    {
+      "color": "#706A8D",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.chromium-bsu.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.chromium-bsu.png"
+      },
+      "id": "net.sourceforge.chromium-bsu",
+      "name": "Chromium B.S.U.",
+      "ref": "app/net.sourceforge.chromium-bsu/x86_64/stable",
+      "summary": "Fast paced, arcade-style, top-scrolling space shooter"
+    },
+    {
+      "color": "#C5B1BA",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.mars-game.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.mars-game.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.mars-game.png"
+      },
+      "id": "net.sourceforge.mars-game",
+      "name": "M.A.R.S. - A ridiculous shooter",
+      "ref": "app/net.sourceforge.mars-game/x86_64/stable",
+      "summary": "2D space shooter with awesome visual effects"
+    },
+    {
+      "color": "#7E6392",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.torcs.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.torcs.png"
+      },
+      "id": "net.sourceforge.torcs",
+      "name": "TORCS",
+      "ref": "app/net.sourceforge.torcs/x86_64/stable",
+      "summary": "The Open Racing Car Simulator"
+    },
+    {
+      "color": "#92675C",
+      "flatpakref": "https://flathub.org/repo/appstream/net.supertuxkart.SuperTuxKart.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.supertuxkart.SuperTuxKart.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.supertuxkart.SuperTuxKart.png"
+      },
+      "id": "net.supertuxkart.SuperTuxKart",
+      "name": "SuperTuxKart",
+      "ref": "app/net.supertuxkart.SuperTuxKart/x86_64/stable",
+      "summary": "A racing game"
+    },
+    {
+      "color": "#5C7CAB",
+      "flatpakref": "https://flathub.org/repo/appstream/nl.openoffice.bluefish.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/nl.openoffice.bluefish.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/nl.openoffice.bluefish.png"
+      },
+      "id": "nl.openoffice.bluefish",
+      "name": "Bluefish",
+      "ref": "app/nl.openoffice.bluefish/x86_64/stable",
+      "summary": "Text editor with many web and software development extra's"
+    },
+    {
+      "color": "#2FACED",
+      "flatpakref": "https://flathub.org/repo/appstream/org.DolphinEmu.dolphin-emu.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.DolphinEmu.dolphin-emu.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.DolphinEmu.dolphin-emu.png"
+      },
+      "id": "org.DolphinEmu.dolphin-emu",
+      "name": "Dolphin Emulator",
+      "ref": "app/org.DolphinEmu.dolphin-emu/x86_64/stable",
+      "summary": "GameCube / Wii / Triforce Emulator"
+    },
+    {
+      "color": "#826838",
+      "flatpakref": "https://flathub.org/repo/appstream/org.armagetronad.ArmagetronAdvanced.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.armagetronad.ArmagetronAdvanced.png"
+      },
+      "id": "org.armagetronad.ArmagetronAdvanced",
+      "name": "Armagetron Advanced",
+      "ref": "app/org.armagetronad.ArmagetronAdvanced/x86_64/stable",
+      "summary": "3D motorcycle battle"
+    },
+    {
+      "color": "#B57F5E",
+      "flatpakref": "https://flathub.org/repo/appstream/org.audacityteam.Audacity.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.audacityteam.Audacity.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.audacityteam.Audacity.png"
+      },
+      "id": "org.audacityteam.Audacity",
+      "name": "Audacity",
+      "ref": "app/org.audacityteam.Audacity/x86_64/stable",
+      "summary": "Record and edit audio files"
+    },
+    {
+      "color": "#BEACBD",
+      "flatpakref": "https://flathub.org/repo/appstream/org.baedert.corebird.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.baedert.corebird.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.baedert.corebird.png"
+      },
+      "id": "org.baedert.corebird",
+      "name": "Corebird",
+      "ref": "app/org.baedert.corebird/x86_64/stable",
+      "summary": "Twitter Client"
+    },
+    {
+      "color": "#D89C7F",
+      "flatpakref": "https://flathub.org/repo/appstream/org.blender.Blender.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.blender.Blender.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.blender.Blender.png"
+      },
+      "id": "org.blender.Blender",
+      "name": "Blender",
+      "ref": "app/org.blender.Blender/x86_64/stable",
+      "summary": "A 3D creation application"
+    },
+    {
+      "color": "#916963",
+      "flatpakref": "https://flathub.org/repo/appstream/org.darktable.Darktable.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.darktable.Darktable.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.darktable.Darktable.png"
+      },
+      "id": "org.darktable.Darktable",
+      "name": "darktable",
+      "ref": "app/org.darktable.Darktable/x86_64/stable",
+      "summary": "Organize and develop images from digital cameras"
+    },
+    {
+      "color": "#99C5E1",
+      "flatpakref": "https://flathub.org/repo/appstream/org.debian.TuxPuck.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.debian.TuxPuck.png"
+      },
+      "id": "org.debian.TuxPuck",
+      "name": "TuxPuck",
+      "ref": "app/org.debian.TuxPuck/x86_64/stable",
+      "summary": "3D Shufflepuck Pong Game"
+    },
+    {
+      "color": "#C68D8D",
+      "flatpakref": "https://flathub.org/repo/appstream/org.filezillaproject.Filezilla.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.filezillaproject.Filezilla.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.filezillaproject.Filezilla.png"
+      },
+      "id": "org.filezillaproject.Filezilla",
+      "name": "FileZilla",
+      "ref": "app/org.filezillaproject.Filezilla/x86_64/stable",
+      "summary": "Download and upload files via FTP, FTPS and SFTP"
+    },
+    {
+      "color": "#93781F",
+      "flatpakref": "https://flathub.org/repo/appstream/org.freeciv.Freeciv.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.freeciv.Freeciv.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.freeciv.Freeciv.png"
+      },
+      "id": "org.freeciv.Freeciv",
+      "name": "Freeciv (gtk2)",
+      "ref": "app/org.freeciv.Freeciv/x86_64/stable",
+      "summary": "Turn-based strategy game inspired by the history of human civilization"
+    },
+    {
+      "color": "#4E7C4E",
+      "flatpakref": "https://flathub.org/repo/appstream/org.freedesktop.Bustle.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.freedesktop.Bustle.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.freedesktop.Bustle.png"
+      },
+      "id": "org.freedesktop.Bustle",
+      "name": "Bustle",
+      "ref": "app/org.freedesktop.Bustle/x86_64/stable",
+      "summary": "Draw sequence diagrams of D-Bus activity"
+    },
+    {
+      "color": "#BC9D7E",
+      "flatpakref": "https://flathub.org/repo/appstream/org.frozen_bubble.frozen-bubble.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.frozen_bubble.frozen-bubble.png"
+      },
+      "id": "org.frozen_bubble.frozen-bubble",
+      "name": "Frozen Bubble",
+      "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
+      "summary": "An addictive game about frozen bubbles"
+    },
+    {
+      "color": "#6A6AA0",
+      "flatpakref": "https://flathub.org/repo/appstream/org.geogebra.GeoGebra.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.geogebra.GeoGebra.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.geogebra.GeoGebra.png"
+      },
+      "id": "org.geogebra.GeoGebra",
+      "name": "GeoGebra",
+      "ref": "app/org.geogebra.GeoGebra/x86_64/stable",
+      "summary": "Dynamic mathematics software"
+    },
+    {
+      "color": "#837E77",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gimp.GIMP.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gimp.GIMP.png"
+      },
+      "id": "org.gimp.GIMP",
+      "name": "GNU Image Manipulation Program",
+      "ref": "app/org.gimp.GIMP/x86_64/stable",
+      "summary": "Create images and edit photographs"
+    },
+    {
+      "color": "#736F66",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gna.Warmux.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gna.Warmux.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gna.Warmux.png"
+      },
+      "id": "org.gna.Warmux",
+      "name": "Warmux",
+      "ref": "app/org.gna.Warmux/x86_64/stable",
+      "summary": "A 2D game where funny characters launch funny weapons"
+    },
+    {
+      "color": "#B7BACE",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnode.NixView.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnode.NixView.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnode.NixView.png"
+      },
+      "id": "org.gnode.NixView",
+      "name": "NixView",
+      "ref": "app/org.gnode.NixView/x86_64/stable",
+      "summary": "Viewer for nix datafiles"
+    },
+    {
+      "color": "#9B954C",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Builder.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Builder.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Builder.png"
+      },
+      "id": "org.gnome.Builder",
+      "name": "Builder",
+      "ref": "app/org.gnome.Builder/x86_64/stable",
+      "summary": "An IDE for GNOME"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Calculator.flatpakref",
+      "icons": {
+      },
+      "id": "org.gnome.Calculator",
+      "name": "GNOME Calculator",
+      "ref": "app/org.gnome.Calculator/x86_64/stable",
+      "summary": "Perform arithmetic, scientific or financial calculations"
+    },
+    {
+      "color": "#C2CBDE",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Calendar.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Calendar.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Calendar.png"
+      },
+      "id": "org.gnome.Calendar",
+      "name": "Calendar",
+      "ref": "app/org.gnome.Calendar/x86_64/stable",
+      "summary": "Calendar for GNOME"
+    },
+    {
+      "color": "#A5A4A5",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Characters.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Characters.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Characters.png"
+      },
+      "id": "org.gnome.Characters",
+      "name": "GNOME Characters",
+      "ref": "app/org.gnome.Characters/x86_64/stable",
+      "summary": "Character map application"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Dictionary.flatpakref",
+      "icons": {
+      },
+      "id": "org.gnome.Dictionary",
+      "name": "GNOME Dictionary",
+      "ref": "app/org.gnome.Dictionary/x86_64/stable",
+      "summary": "Check word definitions and spellings in an online dictionary"
+    },
+    {
+      "color": "#7BA3E8",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Eolie.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Eolie.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Eolie.png"
+      },
+      "id": "org.gnome.Eolie",
+      "name": "Eolie",
+      "ref": "app/org.gnome.Eolie/x86_64/stable",
+      "summary": "Web browser"
+    },
+    {
+      "color": "#F39464",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.FeedReader.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.FeedReader.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.FeedReader.png"
+      },
+      "id": "org.gnome.FeedReader",
+      "name": "FeedReader",
+      "ref": "app/org.gnome.FeedReader/x86_64/stable",
+      "summary": "RSS client for various webservices"
+    },
+    {
       "color": "#B4B7BB",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Games.flatpakref",
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Games.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Games.png"
-      }
+      },
+      "id": "org.gnome.Games",
+      "name": "Games",
+      "ref": "app/org.gnome.Games/x86_64/stable",
+      "summary": "Simple game launcher for GNOME"
+    },
+    {
+      "color": "#E9D6B5",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Geary.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Geary.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Geary.png"
+      },
+      "id": "org.gnome.Geary",
+      "name": "Geary",
+      "ref": "app/org.gnome.Geary/x86_64/stable",
+      "summary": "Send and receive email"
+    },
+    {
+      "color": "#BCD9A8",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Glade.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Glade.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Glade.png"
+      },
+      "id": "org.gnome.Glade",
+      "name": "Glade",
+      "ref": "app/org.gnome.Glade/x86_64/stable",
+      "summary": "Create or open user interface designs for GTK+ applications"
+    },
+    {
+      "color": "#CDC5BD",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Hitori.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Hitori.png"
+      },
+      "id": "org.gnome.Hitori",
+      "name": "GNOME Hitori",
+      "ref": "app/org.gnome.Hitori/x86_64/stable",
+      "summary": "Play the Hitori puzzle game"
+    },
+    {
+      "color": "#F9BFC6",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Lollypop.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Lollypop.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Lollypop.png"
+      },
+      "id": "org.gnome.Lollypop",
+      "name": "Lollypop",
+      "ref": "app/org.gnome.Lollypop/x86_64/stable",
+      "summary": "Play and organize your music collection"
+    },
+    {
+      "color": "#CB9584",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Maps.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Maps.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Maps.png"
+      },
+      "id": "org.gnome.Maps",
+      "name": "GNOME Maps",
+      "ref": "app/org.gnome.Maps/x86_64/stable",
+      "summary": "Find places around the world"
+    },
+    {
+      "color": "#6A94D0",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Nautilus.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Nautilus.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Nautilus.png"
+      },
+      "id": "org.gnome.Nautilus",
+      "name": "Nautilus",
+      "ref": "app/org.gnome.Nautilus/x86_64/stable",
+      "summary": "Access and organize files"
+    },
+    {
+      "color": "#716F6E",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Photos.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Photos.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Photos.png"
+      },
+      "id": "org.gnome.Photos",
+      "name": "Photos",
+      "ref": "app/org.gnome.Photos/x86_64/stable",
+      "summary": "Access, organize and share your photos on GNOME"
+    },
+    {
+      "color": "#D4EAC7",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Polari.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Polari.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Polari.png"
+      },
+      "id": "org.gnome.Polari",
+      "name": "Polari",
+      "ref": "app/org.gnome.Polari/x86_64/stable",
+      "summary": "An Internet Relay Chat Client for GNOME"
+    },
+    {
+      "color": "#D2B28B",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Recipes.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Recipes.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Recipes.png"
+      },
+      "id": "org.gnome.Recipes",
+      "name": "Recipes",
+      "ref": "app/org.gnome.Recipes/x86_64/stable",
+      "summary": "GNOME loves to cook"
+    },
+    {
+      "color": "#BABAB3",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Rhythmbox3.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Rhythmbox3.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Rhythmbox3.png"
+      },
+      "id": "org.gnome.Rhythmbox3",
+      "name": "Rhythmbox",
+      "ref": "app/org.gnome.Rhythmbox3/x86_64/stable",
+      "summary": "Play and organize your music collection"
+    },
+    {
+      "color": "#EDDC57",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.bijiben.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.bijiben.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.bijiben.png"
+      },
+      "id": "org.gnome.bijiben",
+      "name": "Bijiben",
+      "ref": "app/org.gnome.bijiben/x86_64/stable",
+      "summary": "Quickly jot notes"
+    },
+    {
+      "color": "#535355",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.clocks.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.clocks.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.clocks.png"
+      },
+      "id": "org.gnome.clocks",
+      "name": "GNOME Clocks",
+      "ref": "app/org.gnome.clocks/x86_64/stable",
+      "summary": "Clocks for world times, plus alarms, stopwatch and a timer"
+    },
+    {
+      "color": "#BDBEAB",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.eog.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.eog.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.eog.png"
+      },
+      "id": "org.gnome.eog",
+      "name": "Eye of GNOME",
+      "ref": "app/org.gnome.eog/x86_64/stable",
+      "summary": "Browse and rotate images"
+    },
+    {
+      "color": "#A1CE7D",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.frogr.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.frogr.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.frogr.png"
+      },
+      "id": "org.gnome.frogr",
+      "name": "frogr",
+      "ref": "app/org.gnome.frogr/x86_64/stable",
+      "summary": "frogr: a Flickr Remote Organizer for GNOME"
+    },
+    {
+      "color": "#DAD5D0",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.gedit.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.gedit.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.gedit.png"
+      },
+      "id": "org.gnome.gedit",
+      "name": "gedit",
+      "ref": "app/org.gnome.gedit/x86_64/stable",
+      "summary": "Edit text files"
+    },
+    {
+      "color": "#B8B288",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.iagno.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.iagno.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.iagno.png"
+      },
+      "id": "org.gnome.iagno",
+      "name": "Iagno",
+      "ref": "app/org.gnome.iagno/x86_64/stable",
+      "summary": "Dominate the board in a classic version of Reversi"
+    },
+    {
+      "color": "#B8BCA4",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnucash.GnuCash.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnucash.GnuCash.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnucash.GnuCash.png"
+      },
+      "id": "org.gnucash.GnuCash",
+      "name": "GnuCash",
+      "ref": "app/org.gnucash.GnuCash/x86_64/stable",
+      "summary": "Manage your finances, accounts, and investments"
+    },
+    {
+      "color": "#5F94C0",
+      "flatpakref": "https://flathub.org/repo/appstream/org.godotengine.Godot.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.godotengine.Godot.png"
+      },
+      "id": "org.godotengine.Godot",
+      "name": "Godot",
+      "ref": "app/org.godotengine.Godot/x86_64/stable",
+      "summary": "Godot game engine editor"
+    },
+    {
+      "color": "#818181",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gottcode.FocusWriter.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gottcode.FocusWriter.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gottcode.FocusWriter.png"
+      },
+      "id": "org.gottcode.FocusWriter",
+      "name": "FocusWriter",
+      "ref": "app/org.gottcode.FocusWriter/x86_64/stable",
+      "summary": "Fullscreen word processor"
+    },
+    {
+      "color": "#5A5A5F",
+      "flatpakref": "https://flathub.org/repo/appstream/org.inkscape.Inkscape.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.inkscape.Inkscape.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.inkscape.Inkscape.png"
+      },
+      "id": "org.inkscape.Inkscape",
+      "name": "Inkscape",
+      "ref": "app/org.inkscape.Inkscape/x86_64/stable",
+      "summary": "Vector Graphics Editor"
+    },
+    {
+      "color": "#858585",
+      "flatpakref": "https://flathub.org/repo/appstream/org.libretro.RetroArch.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.libretro.RetroArch.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.libretro.RetroArch.png"
+      },
+      "id": "org.libretro.RetroArch",
+      "name": "RetroArch",
+      "ref": "app/org.libretro.RetroArch/x86_64/stable",
+      "summary": "Frontend for emulators, game engines and media players."
+    },
+    {
+      "color": "#8C7154",
+      "flatpakref": "https://flathub.org/repo/appstream/org.megaglest.MegaGlest.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.megaglest.MegaGlest.png"
+      },
+      "id": "org.megaglest.MegaGlest",
+      "name": "MegaGlest",
+      "ref": "app/org.megaglest.MegaGlest/x86_64/stable",
+      "summary": "Real time strategy game (RTS)"
+    },
+    {
+      "color": "#E5E1D7",
+      "flatpakref": "https://flathub.org/repo/appstream/org.musescore.MuseScore.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.musescore.MuseScore.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.musescore.MuseScore.png"
+      },
+      "id": "org.musescore.MuseScore",
+      "name": "MuseScore",
+      "ref": "app/org.musescore.MuseScore/x86_64/stable",
+      "summary": "Free music composition and notation software"
+    },
+    {
+      "color": "#C57885",
+      "flatpakref": "https://flathub.org/repo/appstream/org.musicbrainz.Picard.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.musicbrainz.Picard.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.musicbrainz.Picard.png"
+      },
+      "id": "org.musicbrainz.Picard",
+      "name": "Picard",
+      "ref": "app/org.musicbrainz.Picard/x86_64/stable",
+      "summary": "MusicBrainz's music tagger"
+    },
+    {
+      "color": "#C0BBBC",
+      "flatpakref": "https://flathub.org/repo/appstream/org.mypaint.MyPaint.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mypaint.MyPaint.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.mypaint.MyPaint.png"
+      },
+      "id": "org.mypaint.MyPaint",
+      "name": "MyPaint",
+      "ref": "app/org.mypaint.MyPaint/x86_64/stable",
+      "summary": "Painting program for digital artists"
+    },
+    {
+      "color": "#6C93BD",
+      "flatpakref": "https://flathub.org/repo/appstream/org.nextcloud.Nextcloud.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.nextcloud.Nextcloud.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.nextcloud.Nextcloud.png"
+      },
+      "id": "org.nextcloud.Nextcloud",
+      "name": "Nextcloud",
+      "ref": "app/org.nextcloud.Nextcloud/x86_64/stable",
+      "summary": "Nextcloud sync client"
+    },
+    {
+      "color": "#AF949D",
+      "flatpakref": "https://flathub.org/repo/appstream/org.octave.Octave.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.octave.Octave.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.octave.Octave.png"
+      },
+      "id": "org.octave.Octave",
+      "name": "GNU Octave",
+      "ref": "app/org.octave.Octave/x86_64/stable",
+      "summary": "Interactive programming environment for numerical computations"
+    },
+    {
+      "color": "#69614A",
+      "flatpakref": "https://flathub.org/repo/appstream/org.openmw.OpenMW.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.openmw.OpenMW.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.openmw.OpenMW.png"
+      },
+      "id": "org.openmw.OpenMW",
+      "name": "OpenMW",
+      "ref": "app/org.openmw.OpenMW/x86_64/stable",
+      "summary": "Unofficial open source engine re-implementation of the game Morrowind"
+    },
+    {
+      "color": "#504B4A",
+      "flatpakref": "https://flathub.org/repo/appstream/org.pitivi.Pitivi.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.pitivi.Pitivi.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.pitivi.Pitivi.png"
+      },
+      "id": "org.pitivi.Pitivi",
+      "name": "Pitivi",
+      "ref": "app/org.pitivi.Pitivi/x86_64/stable",
+      "summary": "Create and edit your own movies"
+    },
+    {
+      "color": "#83B5C5",
+      "flatpakref": "https://flathub.org/repo/appstream/org.ppsspp.PPSSPP.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.ppsspp.PPSSPP.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.ppsspp.PPSSPP.png"
+      },
+      "id": "org.ppsspp.PPSSPP",
+      "name": "PPSSPP",
+      "ref": "app/org.ppsspp.PPSSPP/x86_64/stable",
+      "summary": "A PlayStation Portable emulator"
+    },
+    {
+      "color": "#96A4A4",
+      "flatpakref": "https://flathub.org/repo/appstream/org.seul.pingus.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.seul.pingus.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.seul.pingus.png"
+      },
+      "id": "org.seul.pingus",
+      "name": "Pingus",
+      "ref": "app/org.seul.pingus/x86_64/stable",
+      "summary": "Free version of Lemmings Puzzle Game"
+    },
+    {
+      "color": "#90B5EA",
+      "flatpakref": "https://flathub.org/repo/appstream/org.signal.Signal.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.signal.Signal.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.signal.Signal.png"
+      },
+      "id": "org.signal.Signal",
+      "name": "Signal",
+      "ref": "app/org.signal.Signal/x86_64/stable",
+      "summary": "Private messenger for the desktop"
+    },
+    {
+      "color": "#F59941",
+      "flatpakref": "https://flathub.org/repo/appstream/org.sparkleshare.SparkleShare.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.sparkleshare.SparkleShare.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.sparkleshare.SparkleShare.png"
+      },
+      "id": "org.sparkleshare.SparkleShare",
+      "name": "SparkleShare",
+      "ref": "app/org.sparkleshare.SparkleShare/x86_64/stable",
+      "summary": "Self hosted, instant, secure file sync"
+    },
+    {
+      "color": "#7B8BAB",
+      "flatpakref": "https://flathub.org/repo/appstream/org.subsurface_divelog.Subsurface.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.subsurface_divelog.Subsurface.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.subsurface_divelog.Subsurface.png"
+      },
+      "id": "org.subsurface_divelog.Subsurface",
+      "name": "Subsurface",
+      "ref": "app/org.subsurface_divelog.Subsurface/x86_64/stable",
+      "summary": "Manage and display dive computer data"
+    },
+    {
+      "color": "#8E969B",
+      "flatpakref": "https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.supertuxproject.SuperTux.png"
+      },
+      "id": "org.supertuxproject.SuperTux",
+      "name": "SuperTux 2",
+      "ref": "app/org.supertuxproject.SuperTux/x86_64/stable",
+      "summary": "Run and jump game similar to Super Mario"
+    },
+    {
+      "color": "#6DA9D6",
+      "flatpakref": "https://flathub.org/repo/appstream/org.telegram.desktop.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.telegram.desktop.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.telegram.desktop.png"
+      },
+      "id": "org.telegram.desktop",
+      "name": "Telegram Desktop",
+      "ref": "app/org.telegram.desktop/x86_64/stable",
+      "summary": "Telegram Desktop messenger"
+    },
+    {
+      "color": "#9099A3",
+      "flatpakref": "https://flathub.org/repo/appstream/org.tordini.flavio.Minitube.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.tordini.flavio.Minitube.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.tordini.flavio.Minitube.png"
+      },
+      "id": "org.tordini.flavio.Minitube",
+      "name": "Minitube",
+      "ref": "app/org.tordini.flavio.Minitube/x86_64/stable",
+      "summary": "YouTube app"
+    },
+    {
+      "color": "#634F34",
+      "flatpakref": "https://flathub.org/repo/appstream/org.tuxfamily.XMoto.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.tuxfamily.XMoto.png"
+      },
+      "id": "org.tuxfamily.XMoto",
+      "name": "XMoto",
+      "ref": "app/org.tuxfamily.XMoto/x86_64/stable",
+      "summary": "2D motocross platform game"
+    },
+    {
+      "color": "#96897D",
+      "flatpakref": "https://flathub.org/repo/appstream/org.tuxpaint.Tuxpaint.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.tuxpaint.Tuxpaint.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.tuxpaint.Tuxpaint.png"
+      },
+      "id": "org.tuxpaint.Tuxpaint",
+      "name": "Tux Paint",
+      "ref": "app/org.tuxpaint.Tuxpaint/x86_64/stable",
+      "summary": "A drawing program for children"
+    },
+    {
+      "color": "#DB946C",
+      "flatpakref": "https://flathub.org/repo/appstream/org.videolan.VLC.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.videolan.VLC.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.videolan.VLC.png"
+      },
+      "id": "org.videolan.VLC",
+      "name": "VLC",
+      "ref": "app/org.videolan.VLC/x86_64/stable",
+      "summary": "VLC media player, the open-source multimedia player"
+    },
+    {
+      "color": "#8F8165",
+      "flatpakref": "https://flathub.org/repo/appstream/org.wesnoth.Wesnoth.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.wesnoth.Wesnoth.png"
+      },
+      "id": "org.wesnoth.Wesnoth",
+      "name": "Battle for Wesnoth",
+      "ref": "app/org.wesnoth.Wesnoth/x86_64/stable",
+      "summary": "A fantasy turn-based strategy game"
+    },
+    {
+      "color": "#BD9891",
+      "flatpakref": "https://flathub.org/repo/appstream/org.xiphos.Xiphos.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.xiphos.Xiphos.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.xiphos.Xiphos.png"
+      },
+      "id": "org.xiphos.Xiphos",
+      "name": "Xiphos",
+      "ref": "app/org.xiphos.Xiphos/x86_64/stable",
+      "summary": "Bible Study Guide"
+    },
+    {
+      "color": "#C2B6AD",
+      "flatpakref": "https://flathub.org/repo/appstream/ws.openarena.OpenArena.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/ws.openarena.OpenArena.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/ws.openarena.OpenArena.png"
+      },
+      "id": "ws.openarena.OpenArena",
+      "name": "OpenArena",
+      "ref": "app/ws.openarena.OpenArena/x86_64/stable",
+      "summary": "Free and open source first-person shooter"
     }
   ]
 }
