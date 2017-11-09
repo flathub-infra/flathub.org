@@ -200,6 +200,18 @@
       "summary": "Audio Effects for PulseAudio Applications"
     },
     {
+      "color": "#FAA22B",
+      "flatpakref": "https://flathub.org/repo/appstream/com.googleplaymusicdesktopplayer.GPMDP.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.googleplaymusicdesktopplayer.GPMDP.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.googleplaymusicdesktopplayer.GPMDP.png"
+      },
+      "id": "com.googleplaymusicdesktopplayer.GPMDP",
+      "name": "Google Play Music Desktop Player",
+      "ref": "app/com.googleplaymusicdesktopplayer.GPMDP/x86_64/stable",
+      "summary": "Run Google Play Music as a standalone desktop app"
+    },
+    {
       "color": "#888",
       "flatpakref": "https://flathub.org/repo/appstream/com.jagex.RuneScape.flatpakref",
       "icons": {
@@ -395,6 +407,18 @@
       "name": "HomeBank",
       "ref": "app/fr.free.Homebank/x86_64/stable",
       "summary": "Free, easy, personal accounting for everyone"
+    },
+    {
+      "color": "#96CBA5",
+      "flatpakref": "https://flathub.org/repo/appstream/io.atom.Atom.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.atom.Atom.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.atom.Atom.png"
+      },
+      "id": "io.atom.Atom",
+      "name": "Atom",
+      "ref": "app/io.atom.Atom/x86_64/stable",
+      "summary": "Text Editor"
     },
     {
       "color": "#888",
@@ -863,6 +887,18 @@
       "summary": "Viewer for nix datafiles"
     },
     {
+      "color": "#C4C4C3",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Books.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Books.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Books.png"
+      },
+      "id": "org.gnome.Books",
+      "name": "Books",
+      "ref": "app/org.gnome.Books/x86_64/stable",
+      "summary": "An e-book manager application for GNOME"
+    },
+    {
       "color": "#9B954C",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Builder.flatpakref",
       "icons": {
@@ -919,6 +955,18 @@
       "summary": "Check word definitions and spellings in an online dictionary"
     },
     {
+      "color": "#E8E6E4",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Documents.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Documents.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Documents.png"
+      },
+      "id": "org.gnome.Documents",
+      "name": "Documents",
+      "ref": "app/org.gnome.Documents/x86_64/stable",
+      "summary": "A document manager application for GNOME"
+    },
+    {
       "color": "#7BA3E8",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Eolie.flatpakref",
       "icons": {
@@ -929,6 +977,18 @@
       "name": "Eolie",
       "ref": "app/org.gnome.Eolie/x86_64/stable",
       "summary": "Web browser"
+    },
+    {
+      "color": "#E2D4D3",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Evince.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Evince.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Evince.png"
+      },
+      "id": "org.gnome.Evince",
+      "name": "Evince",
+      "ref": "app/org.gnome.Evince/x86_64/stable",
+      "summary": "Document viewer for popular document formats"
     },
     {
       "color": "#F39464",
@@ -1074,6 +1134,18 @@
       "summary": "Play and organize your music collection"
     },
     {
+      "color": "#7594BD",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Todo.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Todo.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Todo.png"
+      },
+      "id": "org.gnome.Todo",
+      "name": "To Do",
+      "ref": "app/org.gnome.Todo/x86_64/stable",
+      "summary": "Task manager for GNOME"
+    },
+    {
       "color": "#EDDC57",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.bijiben.flatpakref",
       "icons": {
@@ -1132,6 +1204,18 @@
       "name": "gedit",
       "ref": "app/org.gnome.gedit/x86_64/stable",
       "summary": "Edit text files"
+    },
+    {
+      "color": "#DF7979",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.gitg.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.gitg.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.gitg.png"
+      },
+      "id": "org.gnome.gitg",
+      "name": "gitg",
+      "ref": "app/org.gnome.gitg/x86_64/stable",
+      "summary": "Git repository browser"
     },
     {
       "color": "#B8B288",
