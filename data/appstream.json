@@ -945,6 +945,18 @@
       "summary": "Character map application"
     },
     {
+      "color": "#CA7B79",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Devhelp.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Devhelp.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Devhelp.png"
+      },
+      "id": "org.gnome.Devhelp",
+      "name": "Devhelp",
+      "ref": "app/org.gnome.Devhelp/x86_64/stable",
+      "summary": "Developer’s Help program"
+    },
+    {
       "color": "#888",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Dictionary.flatpakref",
       "icons": {
@@ -977,6 +989,18 @@
       "name": "Eolie",
       "ref": "app/org.gnome.Eolie/x86_64/stable",
       "summary": "Web browser"
+    },
+    {
+      "color": "#C0CBDB",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Epiphany.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Epiphany.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Epiphany.png"
+      },
+      "id": "org.gnome.Epiphany",
+      "name": "GNOME Web",
+      "ref": "app/org.gnome.Epiphany/x86_64/stable",
+      "summary": "Web browser for GNOME"
     },
     {
       "color": "#E2D4D3",
@@ -1144,6 +1168,30 @@
       "name": "To Do",
       "ref": "app/org.gnome.Todo/x86_64/stable",
       "summary": "Task manager for GNOME"
+    },
+    {
+      "color": "#687C99",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Totem.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Totem.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Totem.png"
+      },
+      "id": "org.gnome.Totem",
+      "name": "Videos",
+      "ref": "app/org.gnome.Totem/x86_64/stable",
+      "summary": "Play movies"
+    },
+    {
+      "color": "#FBF1DB",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Weather.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Weather.Application.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Weather.Application.png"
+      },
+      "id": "org.gnome.Weather",
+      "name": "Weather",
+      "ref": "app/org.gnome.Weather/x86_64/stable",
+      "summary": "Show weather conditions and forecast"
     },
     {
       "color": "#EDDC57",
@@ -1394,6 +1442,18 @@
       "name": "PPSSPP",
       "ref": "app/org.ppsspp.PPSSPP/x86_64/stable",
       "summary": "A PlayStation Portable emulator"
+    },
+    {
+      "color": "#3C8FD7",
+      "flatpakref": "https://flathub.org/repo/appstream/org.quassel_irc.QuasselClient.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.quassel_irc.QuasselClient.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.quassel_irc.QuasselClient.png"
+      },
+      "id": "org.quassel_irc.QuasselClient",
+      "name": "Quassel IRC (Client only)",
+      "ref": "app/org.quassel_irc.QuasselClient/x86_64/stable",
+      "summary": "Quassel IRC is a modern, cross-platform, distributed IRC client."
     },
     {
       "color": "#96A4A4",
