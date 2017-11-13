@@ -397,6 +397,18 @@
       "summary": "Find and listen to internet radio stations"
     },
     {
+      "color": "#BEC8BF",
+      "flatpakref": "https://flathub.org/repo/appstream/de.manuel_kehl.go-for-it.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/de.manuel_kehl.go-for-it.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/de.manuel_kehl.go-for-it.png"
+      },
+      "id": "de.manuel_kehl.go-for-it",
+      "name": "Go For It!",
+      "ref": "app/de.manuel_kehl.go-for-it/x86_64/stable",
+      "summary": "A stylish to-do list with built-in productivity timer"
+    },
+    {
       "color": "#DCD2A2",
       "flatpakref": "https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref",
       "icons": {
@@ -409,6 +421,16 @@
       "summary": "Free, easy, personal accounting for everyone"
     },
     {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/im.riot.Riot.flatpakref",
+      "icons": {
+      },
+      "id": "im.riot.Riot",
+      "name": "Riot",
+      "ref": "app/im.riot.Riot/x86_64/stable",
+      "summary": "A glossy Matrix collaboration client for the web"
+    },
+    {
       "color": "#96CBA5",
       "flatpakref": "https://flathub.org/repo/appstream/io.atom.Atom.flatpakref",
       "icons": {
@@ -418,7 +440,7 @@
       "id": "io.atom.Atom",
       "name": "Atom",
       "ref": "app/io.atom.Atom/x86_64/stable",
-      "summary": "Text Editor"
+      "summary": "A hackable text editor for the 21st Century"
     },
     {
       "color": "#888",
