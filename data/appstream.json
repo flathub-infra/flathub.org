@@ -1049,6 +1049,16 @@
       "summary": "RSS client for various webservices"
     },
     {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Fractal.flatpakref",
+      "icons": {
+      },
+      "id": "org.gnome.Fractal",
+      "name": "Fractal",
+      "ref": "app/org.gnome.Fractal/x86_64/stable",
+      "summary": "Gtk+ Matrix.org client"
+    },
+    {
       "color": "#B4B7BB",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Games.flatpakref",
       "icons": {
@@ -1264,6 +1274,18 @@
       "summary": "frogr: a Flickr Remote Organizer for GNOME"
     },
     {
+      "color": "#B1CBDC",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.gbrainy.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.gbrainy.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.gbrainy.png"
+      },
+      "id": "org.gnome.gbrainy",
+      "name": "gbrainy",
+      "ref": "app/org.gnome.gbrainy/x86_64/stable",
+      "summary": "Play games that challenge your logic, verbal, calculation and memory abilities"
+    },
+    {
       "color": "#DAD5D0",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.gedit.flatpakref",
       "icons": {
@@ -1345,6 +1367,16 @@
       "name": "Inkscape",
       "ref": "app/org.inkscape.Inkscape/x86_64/stable",
       "summary": "Vector Graphics Editor"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/org.libreoffice.LibreOffice.flatpakref",
+      "icons": {
+      },
+      "id": "org.libreoffice.LibreOffice",
+      "name": "LibreOffice",
+      "ref": "app/org.libreoffice.LibreOffice/x86_64/stable",
+      "summary": "The LibreOffice productivity suite"
     },
     {
       "color": "#858585",
