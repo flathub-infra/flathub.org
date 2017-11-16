@@ -814,6 +814,18 @@
       "summary": "3D Shufflepuck Pong Game"
     },
     {
+      "color": "#999DB8",
+      "flatpakref": "https://flathub.org/repo/appstream/org.fedoraproject.MediaWriter.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.fedoraproject.MediaWriter.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.fedoraproject.MediaWriter.png"
+      },
+      "id": "org.fedoraproject.MediaWriter",
+      "name": "Fedora Media Writer",
+      "ref": "app/org.fedoraproject.MediaWriter/x86_64/stable",
+      "summary": "A tool to create a live USB drive with an edition of Fedora"
+    },
+    {
       "color": "#C68D8D",
       "flatpakref": "https://flathub.org/repo/appstream/org.filezillaproject.Filezilla.flatpakref",
       "icons": {
