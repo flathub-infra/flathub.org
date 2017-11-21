@@ -234,6 +234,16 @@
       "summary": "A real-time strategy game of ancient warfare"
     },
     {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/com.remarkable.reMarkable.flatpakref",
+      "icons": {
+      },
+      "id": "com.remarkable.reMarkable",
+      "name": "reMarkable",
+      "ref": "app/com.remarkable.reMarkable/x86_64/stable",
+      "summary": "Manage reMarkable device"
+    },
+    {
       "color": "#7B81F1",
       "flatpakref": "https://flathub.org/repo/appstream/com.scoutshonour.Digital.flatpakref",
       "icons": {
@@ -383,6 +393,16 @@
       "name": "GNOME Twitch",
       "ref": "app/com.vinszent.GnomeTwitch/x86_64/stable",
       "summary": "Twitch desktop client"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/com.visualstudio.code.flatpakref",
+      "icons": {
+      },
+      "id": "com.visualstudio.code",
+      "name": "Visual Studio Code",
+      "ref": "app/com.visualstudio.code/x86_64/stable",
+      "summary": "Visual Studio Code. Code editing. Redefined."
     },
     {
       "color": "#626973",
@@ -695,6 +715,18 @@
       "name": "M.A.R.S. - A ridiculous shooter",
       "ref": "app/net.sourceforge.mars-game/x86_64/stable",
       "summary": "2D space shooter with awesome visual effects"
+    },
+    {
+      "color": "#004F97",
+      "flatpakref": "https://flathub.org/repo/appstream/net.sourceforge.projectM.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.sourceforge.projectM.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.sourceforge.projectM.png"
+      },
+      "id": "net.sourceforge.projectM",
+      "name": "projectM",
+      "ref": "app/net.sourceforge.projectM/x86_64/stable",
+      "summary": "Music visualizer which uses 3D accelerated iterative image based rendering"
     },
     {
       "color": "#7E6392",
@@ -1381,9 +1413,11 @@
       "summary": "Vector Graphics Editor"
     },
     {
-      "color": "#888",
+      "color": "#D3D3D3",
       "flatpakref": "https://flathub.org/repo/appstream/org.libreoffice.LibreOffice.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.libreoffice.LibreOffice.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.libreoffice.LibreOffice.png"
       },
       "id": "org.libreoffice.LibreOffice",
       "name": "LibreOffice",
