@@ -357,7 +357,7 @@
       "id": "com.uploadedlobster.peek",
       "name": "Peek",
       "ref": "app/com.uploadedlobster.peek/x86_64/stable",
-      "summary": "Simple animated GIF screen recorder with an easy to use interface"
+      "summary": "Simple screen recorder with an easy to use interface"
     },
     {
       "color": "#7C8699",
@@ -600,6 +600,18 @@
       "name": "BlockOut II",
       "ref": "app/net.blockout.BlockOutII/x86_64/stable",
       "summary": "A free adaptation of the original BlockOut game"
+    },
+    {
+      "color": "#6C5970",
+      "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.MediaInfo.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.mediaarea.MediaInfo.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.mediaarea.MediaInfo.png"
+      },
+      "id": "net.mediaarea.MediaInfo",
+      "name": "MediaInfo",
+      "ref": "app/net.mediaarea.MediaInfo/x86_64/stable",
+      "summary": "Convenient unified display of the most relevant technical and tag data for video and audio files"
     },
     {
       "color": "#899A61",
@@ -1695,6 +1707,18 @@
       "name": "Xiphos",
       "ref": "app/org.xiphos.Xiphos/x86_64/stable",
       "summary": "Bible Study Guide"
+    },
+    {
+      "color": "#F0F0F0",
+      "flatpakref": "https://flathub.org/repo/appstream/work.openpaper.Paperwork.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/work.openpaper.Paperwork.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/work.openpaper.Paperwork.png"
+      },
+      "id": "work.openpaper.Paperwork",
+      "name": "Paperwork",
+      "ref": "app/work.openpaper.Paperwork/x86_64/stable",
+      "summary": "Personal document manager"
     },
     {
       "color": "#C2B6AD",
