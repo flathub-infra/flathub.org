@@ -105,7 +105,7 @@
       "summary": "A simple, focused eBook reader"
     },
     {
-      "color": "#DBDDE0",
+      "color": "#DDE0E6",
       "flatpakref": "https://flathub.org/repo/appstream/com.github.dahenson.agenda.flatpakref",
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.dahenson.agenda.png",
@@ -115,6 +115,18 @@
       "name": "Agenda",
       "ref": "app/com.github.dahenson.agenda/x86_64/stable",
       "summary": "Get things done"
+    },
+    {
+      "color": "#E89F8D",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.geigi.cozy.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.geigi.cozy.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.geigi.cozy.png"
+      },
+      "id": "com.github.geigi.cozy",
+      "name": "Cozy",
+      "ref": "app/com.github.geigi.cozy/x86_64/stable",
+      "summary": "A modern audio book player for Linux"
     },
     {
       "color": "#B4B6B1",
@@ -210,6 +222,17 @@
       "name": "Google Play Music Desktop Player",
       "ref": "app/com.googleplaymusicdesktopplayer.GPMDP/x86_64/stable",
       "summary": "Run Google Play Music as a standalone desktop app"
+    },
+    {
+      "color": "#040404",
+      "flatpakref": "https://flathub.org/repo/appstream/com.grangerhub.Tremulous.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.grangerhub.Tremulous.png"
+      },
+      "id": "com.grangerhub.Tremulous",
+      "name": "Tremulous",
+      "ref": "app/com.grangerhub.Tremulous/x86_64/stable",
+      "summary": "First person shooter"
     },
     {
       "color": "#888",
@@ -636,6 +659,18 @@
       "name": "Kobo Deluxe",
       "ref": "app/net.olofson.KoboDeluxe/x86_64/stable",
       "summary": "Third person scrolling 2D shooter"
+    },
+    {
+      "color": "#AE6C14",
+      "flatpakref": "https://flathub.org/repo/appstream/net.openra.OpenRA.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.openra.OpenRA.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.openra.OpenRA.png"
+      },
+      "id": "net.openra.OpenRA",
+      "name": "OpenRA",
+      "ref": "app/net.openra.OpenRA/x86_64/stable",
+      "summary": "Reimagining of early Westwood real-time strategy games"
     },
     {
       "color": "#D2735C",
