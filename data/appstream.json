@@ -245,6 +245,17 @@
       "summary": "A free-to-play fantasy MMORPG"
     },
     {
+      "color": "#84B189",
+      "flatpakref": "https://flathub.org/repo/appstream/com.jetbrains.PyCharm-Community.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.jetbrains.PyCharm-Community.png"
+      },
+      "id": "com.jetbrains.PyCharm-Community",
+      "name": "PyCharm-Community",
+      "ref": "app/com.jetbrains.PyCharm-Community/x86_64/stable",
+      "summary": "Pycharm - The most intelligent Python IDE"
+    },
+    {
       "color": "#7B6A44",
       "flatpakref": "https://flathub.org/repo/appstream/com.play0ad.zeroad.flatpakref",
       "icons": {
@@ -404,6 +415,18 @@
       "name": "Viber",
       "ref": "app/com.viber.Viber/x86_64/stable",
       "summary": "We connect people, no matter who they are or where they are from."
+    },
+    {
+      "color": "#656561",
+      "flatpakref": "https://flathub.org/repo/appstream/com.viewizard.AstroMenace.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.viewizard.AstroMenace.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.viewizard.AstroMenace.png"
+      },
+      "id": "com.viewizard.AstroMenace",
+      "name": "AstroMenace",
+      "ref": "app/com.viewizard.AstroMenace/x86_64/stable",
+      "summary": "Hardcore 3D space shooter with spaceship upgrade possibilities"
     },
     {
       "color": "#B1A8CC",
@@ -623,6 +646,18 @@
       "name": "BlockOut II",
       "ref": "app/net.blockout.BlockOutII/x86_64/stable",
       "summary": "A free adaptation of the original BlockOut game"
+    },
+    {
+      "color": "#70BCE7",
+      "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.BWFMetaEdit.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.mediaarea.BWFMetaEdit.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.mediaarea.BWFMetaEdit.png"
+      },
+      "id": "net.mediaarea.BWFMetaEdit",
+      "name": "BWF MetaEdit",
+      "ref": "app/net.mediaarea.BWFMetaEdit/x86_64/stable",
+      "summary": "Embed, validate, and export BWF files metadata"
     },
     {
       "color": "#6C5970",
