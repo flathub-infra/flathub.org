@@ -70,6 +70,18 @@
       "summary": "Chat client"
     },
     {
+      "color": "#9E7937",
+      "flatpakref": "https://flathub.org/repo/appstream/com.dosbox.DOSBox.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.dosbox.DOSBox.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.dosbox.DOSBox.png"
+      },
+      "id": "com.dosbox.DOSBox",
+      "name": "DOSBox",
+      "ref": "app/com.dosbox.DOSBox/x86_64/stable",
+      "summary": "x86/DOS emulator with sound and graphics"
+    },
+    {
       "color": "#9AD4D5",
       "flatpakref": "https://flathub.org/repo/appstream/com.frac_tion.teleport.flatpakref",
       "icons": {
@@ -103,6 +115,18 @@
       "name": "Bookworm",
       "ref": "app/com.github.babluboy.bookworm/x86_64/stable",
       "summary": "A simple, focused eBook reader"
+    },
+    {
+      "color": "#788EB7",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.birros.WebArchives.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.birros.WebArchives.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.birros.WebArchives.png"
+      },
+      "id": "com.github.birros.WebArchives",
+      "name": "Web archives",
+      "ref": "app/com.github.birros.WebArchives/x86_64/stable",
+      "summary": "A web archives viewer"
     },
     {
       "color": "#DDE0E6",
@@ -974,6 +998,16 @@
       "name": "Bustle",
       "ref": "app/org.freedesktop.Bustle/x86_64/stable",
       "summary": "Draw sequence diagrams of D-Bus activity"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/org.freefilesync.FreeFileSync.flatpakref",
+      "icons": {
+      },
+      "id": "org.freefilesync.FreeFileSync",
+      "name": "FreeFileSync",
+      "ref": "app/org.freefilesync.FreeFileSync/x86_64/stable",
+      "summary": "Visual folder comparison and synchronization"
     },
     {
       "color": "#BC9D7E",
