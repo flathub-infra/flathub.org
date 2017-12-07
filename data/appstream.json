@@ -637,6 +637,18 @@
       "summary": "Third person ninja rabbit fighting game"
     },
     {
+      "color": "#D9DBDB",
+      "flatpakref": "https://flathub.org/repo/appstream/io.lbry.lbry-app.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.lbry.lbry-app.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.lbry.lbry-app.png"
+      },
+      "id": "io.lbry.lbry-app",
+      "name": "LBRY",
+      "ref": "app/io.lbry.lbry-app/x86_64/stable",
+      "summary": "A browser and wallet for LBRY, the decentralized, user-controlled content marketplace."
+    },
+    {
       "color": "#5C4B92",
       "flatpakref": "https://flathub.org/repo/appstream/io.mgba.mGBA.flatpakref",
       "icons": {
@@ -1000,9 +1012,11 @@
       "summary": "Draw sequence diagrams of D-Bus activity"
     },
     {
-      "color": "#888",
+      "color": "#55AE55",
       "flatpakref": "https://flathub.org/repo/appstream/org.freefilesync.FreeFileSync.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.freefilesync.FreeFileSync.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.freefilesync.FreeFileSync.png"
       },
       "id": "org.freefilesync.FreeFileSync",
       "name": "FreeFileSync",
@@ -1527,6 +1541,18 @@
       "name": "Inkscape",
       "ref": "app/org.inkscape.Inkscape/x86_64/stable",
       "summary": "Vector Graphics Editor"
+    },
+    {
+      "color": "#CFBFB0",
+      "flatpakref": "https://flathub.org/repo/appstream/org.kicad_pcb.KiCad.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.kicad_pcb.KiCad.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.kicad_pcb.KiCad.png"
+      },
+      "id": "org.kicad_pcb.KiCad",
+      "name": "KiCad",
+      "ref": "app/org.kicad_pcb.KiCad/x86_64/stable",
+      "summary": "EDA Suite"
     },
     {
       "color": "#D3D3D3",
