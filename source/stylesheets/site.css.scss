@@ -278,24 +278,19 @@ pre {
 
 @media(min-width:768px) {
   header {
-
-  }
-
-  header .header-content {
-  }
-
-  header .header-content .header-content-inner {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1000px;
-    
-  }
-
-  header .header-content .header-content-inner p {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 80%;
-    font-size: 18px;
+    .header-content {
+      > .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+        > p {
+          margin-right: auto;
+          margin-left: auto;
+          max-width: 80%;
+          font-size: 18px;
+        }
+      }
+    }
   }
 }
 
@@ -488,10 +483,6 @@ fieldset[disabled] .btn-default.active {
   }
 }
 
-
-
-
-
 .btn {
   border: 0;
   border-radius: 3px;
@@ -591,13 +582,15 @@ table {
   min-height: 200px;
   box-sizing: content-box;
 }
+
 .apptile {
   box-sizing: content-box;
   position: relative;
   flex: 1;
   margin: 6px;
   padding: 12px;
-  border: 1px solid lighten($neutral_color, 20%);
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow:0 1px 1px 0 rgba(0,0,0,0.2), 0 0 2px 0 rgba(0,0,0,0.1);
   border-radius: 4px;
   min-height: 190px;
   min-width: 190px;
@@ -606,51 +599,66 @@ table {
   text-decoration: none;
   overflow: hidden;
   flex-grow: 0;
-  &:hover, &:active {
-    border-width: 2px;
-    padding: 12px;
-    margin: 5px;
+  &:hover, &:active, &:focus {
     text-decoration: none;
     color: black;
+    border-width: 2px;
+    margin: 5px;
+    box-shadow:none;
     & img.icon {
-     width: 74px; height: 74px;
-     margin: -8px -38px; /* fixme */
-     top: 8%;
-     opacity: 1;
+      width: 76px; height: 76px;
+      transform: translate(-7px,-8px);
     }
-    & div { }
   }
-  
 
   img.icon {
-    position: absolute;
+    position: relative;
     width: 64px; height: 64px;
-    margin: -90px -32px;
-    top: 50%; left: 50%;
+    margin-top: 8px;
+    top: 50%; 
+    left: calc(50% - 34px);
     transition: all 200ms;
-    opacity: .8;
+    opacity: 1;
   }
-  
+
   div {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 0; right: 0;
     bottom: 0;
     flex: 1;
     flex-direction: row;
     background-color: rgba(252,252,252,0.99);
+    box-shadow: 0 -1px 0 0 rgba(0,0,0,0.2);
     padding: 12px;
-    border-top: 3px solid white;
   }
-  
+
   h4 {
     font-size: 100%; font-weight: 600;
     text-transform: capitalize;
     color: $neutral_color;
-    margin: 0 0 2px 0;
+    margin: 3px 0 2px 0;
   }
+
   p { font-size: 80%; }
 }
+
+
+
+@media(max-width:728px) {
+  .appslist {
+    text-align: center;
+  }
+  .apptile {
+    margin-right: auto;
+    margin-left: auto;
+    &:hover, &:active, &:focus {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
+
 
 
 #footer {
