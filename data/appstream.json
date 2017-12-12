@@ -465,14 +465,27 @@
       "summary": "Twitch desktop client"
     },
     {
-      "color": "#888",
+      "color": "#8B5937",
       "flatpakref": "https://flathub.org/repo/appstream/com.visualstudio.code.flatpakref",
       "icons": {
+        "64": "https://code.visualstudio.com/assets/updates/1_17/mac-stable-orange.png"
       },
       "id": "com.visualstudio.code",
       "name": "Visual Studio Code",
       "ref": "app/com.visualstudio.code/x86_64/stable",
       "summary": "Visual Studio Code. Code editing. Redefined."
+    },
+    {
+      "color": "#239BAE",
+      "flatpakref": "https://flathub.org/repo/appstream/cx.ring.Ring.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/cx.ring.Ring.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/cx.ring.Ring.png"
+      },
+      "id": "cx.ring.Ring",
+      "name": "Ring",
+      "ref": "app/cx.ring.Ring/x86_64/stable",
+      "summary": "Gnome client for Ring"
     },
     {
       "color": "#626973",
@@ -1033,6 +1046,18 @@
       "name": "Frozen Bubble",
       "ref": "app/org.frozen_bubble.frozen-bubble/x86_64/stable",
       "summary": "An addictive game about frozen bubbles"
+    },
+    {
+      "color": "#E6D27F",
+      "flatpakref": "https://flathub.org/repo/appstream/org.geany.Geany.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.geany.Geany.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.geany.Geany.png"
+      },
+      "id": "org.geany.Geany",
+      "name": "Geany",
+      "ref": "app/org.geany.Geany/x86_64/stable",
+      "summary": "A fast and lightweight IDE"
     },
     {
       "color": "#6A6AA0",
