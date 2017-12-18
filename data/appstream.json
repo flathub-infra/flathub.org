@@ -150,7 +150,7 @@
       "id": "com.github.geigi.cozy",
       "name": "Cozy",
       "ref": "app/com.github.geigi.cozy/x86_64/stable",
-      "summary": "A modern audio book player for Linux"
+      "summary": "A modern audio book player"
     },
     {
       "color": "#B4B6B1",
@@ -259,9 +259,10 @@
       "summary": "First person shooter"
     },
     {
-      "color": "#888",
+      "color": "#505557",
       "flatpakref": "https://flathub.org/repo/appstream/com.jagex.RuneScape.flatpakref",
       "icons": {
+        "64": "http://lh3.googleusercontent.com/2J5PH-QM9n7DjmdJx4EQZq1t4o6Wc0NBkI2RyRiggAOgLf4mupfSXcrC5Jd0vh2okcc=w64"
       },
       "id": "com.jagex.RuneScape",
       "name": "RuneScape",
@@ -427,7 +428,7 @@
       "id": "com.valvesoftware.Steam",
       "name": "Steam",
       "ref": "app/com.valvesoftware.Steam/x86_64/stable",
-      "summary": "Application for managing and playing games on Steam"
+      "summary": "Manage and play games distributed by Steam"
     },
     {
       "color": "#B7B4D2",
@@ -624,6 +625,18 @@
       "name": "Pithos",
       "ref": "app/io.github.Pithos/x86_64/stable",
       "summary": "Pandora radio client"
+    },
+    {
+      "color": "#61532D",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.betaflight.BetaflightConfigurator.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.betaflight.BetaflightConfigurator.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.betaflight.BetaflightConfigurator.png"
+      },
+      "id": "io.github.betaflight.BetaflightConfigurator",
+      "name": "Betaflight Configurator",
+      "ref": "app/io.github.betaflight.BetaflightConfigurator/x86_64/stable",
+      "summary": "Configuration tool for the cleanflight drone firmware"
     },
     {
       "color": "#D2CACB",
@@ -1108,6 +1121,18 @@
       "summary": "Viewer for nix datafiles"
     },
     {
+      "color": "#D8D4DA",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Aisleriot.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Aisleriot.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Aisleriot.png"
+      },
+      "id": "org.gnome.Aisleriot",
+      "name": "Aisleriot Solitaire",
+      "ref": "app/org.gnome.Aisleriot/x86_64/stable",
+      "summary": "Play many different solitaire games"
+    },
+    {
       "color": "#C4C4C3",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Books.flatpakref",
       "icons": {
@@ -1282,6 +1307,18 @@
       "summary": "Send and receive email"
     },
     {
+      "color": "#8C8C92",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Genius.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Genius.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Genius.png"
+      },
+      "id": "org.gnome.Genius",
+      "name": "Genius",
+      "ref": "app/org.gnome.Genius/x86_64/stable",
+      "summary": "Genius is a general purpose calculator program"
+    },
+    {
       "color": "#BCD9A8",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Glade.flatpakref",
       "icons": {
@@ -1292,6 +1329,18 @@
       "name": "Glade",
       "ref": "app/org.gnome.Glade/x86_64/stable",
       "summary": "Create or open user interface designs for GTK+ applications"
+    },
+    {
+      "color": "#ECD565",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Gnote.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Gnote.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Gnote.png"
+      },
+      "id": "org.gnome.Gnote",
+      "name": "Gnote",
+      "ref": "app/org.gnome.Gnote/x86_64/stable",
+      "summary": "A simple note-taking application"
     },
     {
       "color": "#CDC5BD",
@@ -1521,6 +1570,30 @@
       "summary": "Dominate the board in a classic version of Reversi"
     },
     {
+      "color": "#A16383",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.quadrapassel.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.quadrapassel.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.quadrapassel.png"
+      },
+      "id": "org.gnome.quadrapassel",
+      "name": "Quadrapassel",
+      "ref": "app/org.gnome.quadrapassel/x86_64/stable",
+      "summary": "Fit falling blocks together"
+    },
+    {
+      "color": "#978C80",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.tetravex.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.tetravex.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.tetravex.png"
+      },
+      "id": "org.gnome.tetravex",
+      "name": "GNOME Tetravex",
+      "ref": "app/org.gnome.tetravex/x86_64/stable",
+      "summary": "Reorder tiles to fit a square"
+    },
+    {
       "color": "#B8BCA4",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnucash.GnuCash.flatpakref",
       "icons": {
@@ -1566,6 +1639,18 @@
       "name": "Inkscape",
       "ref": "app/org.inkscape.Inkscape/x86_64/stable",
       "summary": "Vector Graphics Editor"
+    },
+    {
+      "color": "#B6C7B3",
+      "flatpakref": "https://flathub.org/repo/appstream/org.keepassxc.KeePassXC.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.keepassxc.KeePassXC.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.keepassxc.KeePassXC.png"
+      },
+      "id": "org.keepassxc.KeePassXC",
+      "name": "KeePassXC",
+      "ref": "app/org.keepassxc.KeePassXC/x86_64/stable",
+      "summary": "Community-driven port of the Windows application “KeePass Password Safe”"
     },
     {
       "color": "#CFBFB0",
