@@ -236,6 +236,18 @@
       "summary": "Audio Effects for PulseAudio Applications"
     },
     {
+      "color": "#A8DAE4",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.z.Cumulonimbus.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.z.Cumulonimbus.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.z.Cumulonimbus.png"
+      },
+      "id": "com.github.z.Cumulonimbus",
+      "name": "Cumulonimbus",
+      "ref": "app/com.github.z.Cumulonimbus/x86_64/stable",
+      "summary": "A simple, beautiful podcast app"
+    },
+    {
       "color": "#FAA22B",
       "flatpakref": "https://flathub.org/repo/appstream/com.googleplaymusicdesktopplayer.GPMDP.flatpakref",
       "icons": {
