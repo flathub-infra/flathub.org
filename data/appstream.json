@@ -1973,6 +1973,18 @@
       "summary": "Personal document manager"
     },
     {
+      "color": "#EDFFE5",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.Cockatrice.cockatrice.flatpakref",
+      "icons": {
+        "128": "?",
+        "64": "?"
+      },
+      "id": "io.github.Cockatrice.desktop",
+      "name": "Cockatrice",
+      "ref": "?",
+      "summary": "A cross-platform virtual tabletop for multiplayer card games"
+    },
+    {
       "color": "#C2B6AD",
       "flatpakref": "https://flathub.org/repo/appstream/ws.openarena.OpenArena.flatpakref",
       "icons": {
