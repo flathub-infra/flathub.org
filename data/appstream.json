@@ -569,6 +569,17 @@
       "summary": "The text editor that works"
     },
     {
+      "color": "#30607A",
+      "flatpakref": "https://flathub.org/repo/appstream/io.exodus.Exodus.flatpakref",
+      "icons": {
+        "64": "https://cdn-images-1.medium.com/fit/c/100/100/0*YbJNvKJDIlE9thh7.jpg"
+      },
+      "id": "io.exodus.Exodus",
+      "name": "Exodus",
+      "ref": "app/io.exodus.Exodus/x86_64/stable",
+      "summary": "All-in-one app to secure, manage, and exchange blockchain assets"
+    },
+    {
       "color": "#76615B",
       "flatpakref": "https://flathub.org/repo/appstream/io.github.EndlessSky.endless-sky.flatpakref",
       "icons": {
@@ -1285,9 +1296,11 @@
       "summary": "RSS client for various webservices"
     },
     {
-      "color": "#888",
+      "color": "#3ECFDC",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.Fractal.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Fractal.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.Fractal.png"
       },
       "id": "org.gnome.Fractal",
       "name": "Fractal",
@@ -1531,7 +1544,7 @@
       "id": "org.gnome.frogr",
       "name": "frogr",
       "ref": "app/org.gnome.frogr/x86_64/stable",
-      "summary": "frogr: a Flickr Remote Organizer for GNOME"
+      "summary": "A flickr uploader for GNOME"
     },
     {
       "color": "#B1CBDC",
@@ -1651,6 +1664,18 @@
       "name": "Inkscape",
       "ref": "app/org.inkscape.Inkscape/x86_64/stable",
       "summary": "Vector Graphics Editor"
+    },
+    {
+      "color": "#8596C6",
+      "flatpakref": "https://flathub.org/repo/appstream/org.kde.kdenlive.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.kde.kdenlive.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.kde.kdenlive.png"
+      },
+      "id": "org.kde.kdenlive",
+      "name": "Kdenlive",
+      "ref": "app/org.kde.kdenlive/x86_64/stable",
+      "summary": "Video Editor"
     },
     {
       "color": "#B6C7B3",
