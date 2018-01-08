@@ -268,7 +268,7 @@
       "id": "com.grangerhub.Tremulous",
       "name": "Tremulous",
       "ref": "app/com.grangerhub.Tremulous/x86_64/stable",
-      "summary": "First person shooter"
+      "summary": "Aliens vs Humans, First Person Shooter game with elements of Real Time Strategy"
     },
     {
       "color": "#505557",
@@ -545,6 +545,18 @@
       "name": "Riot",
       "ref": "app/im.riot.Riot/x86_64/stable",
       "summary": "A glossy Matrix collaboration client for the web"
+    },
+    {
+      "color": "#EE5456",
+      "flatpakref": "https://flathub.org/repo/appstream/io.ark.Desktop.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.ark.Desktop.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.ark.Desktop.png"
+      },
+      "id": "io.ark.Desktop",
+      "name": "ARK Desktop Wallet",
+      "ref": "app/io.ark.Desktop/x86_64/stable",
+      "summary": "Wallet for ARK"
     },
     {
       "color": "#96CBA5",
@@ -1011,6 +1023,17 @@
       "name": "TuxPuck",
       "ref": "app/org.debian.TuxPuck/x86_64/stable",
       "summary": "3D Shufflepuck Pong Game"
+    },
+    {
+      "color": "#826B55",
+      "flatpakref": "https://flathub.org/repo/appstream/org.develz.Crawl.flatpakref",
+      "icons": {
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.develz.Crawl.png"
+      },
+      "id": "org.develz.Crawl",
+      "name": "crawl",
+      "ref": "app/org.develz.Crawl/x86_64/stable",
+      "summary": "Dungeon Crawl Stone Soup"
     },
     {
       "color": "#999DB8",
