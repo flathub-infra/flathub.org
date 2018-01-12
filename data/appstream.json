@@ -248,6 +248,18 @@
       "summary": "A simple, beautiful podcast app"
     },
     {
+      "color": "#9EBC86",
+      "flatpakref": "https://flathub.org/repo/appstream/com.google.AndroidStudio.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.google.AndroidStudio.png",
+        "64": "https://1.bp.blogspot.com/-DAAJWGccTCQ/We_MGiMuSFI/AAAAAAAAEtk/5_COppUTDusIIx725jENI3fd9rqlRl0gQCLcBGAs/s64/image8.png"
+      },
+      "id": "com.google.AndroidStudio",
+      "name": "Android Studio",
+      "ref": "app/com.google.AndroidStudio/x86_64/stable",
+      "summary": "Integrated development environment for Google's Android platform"
+    },
+    {
       "color": "#FAA22B",
       "flatpakref": "https://flathub.org/repo/appstream/com.googleplaymusicdesktopplayer.GPMDP.flatpakref",
       "icons": {
@@ -745,6 +757,18 @@
       "summary": "A free adaptation of the original BlockOut game"
     },
     {
+      "color": "#3A3A3A",
+      "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.AVIMetaEdit.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.mediaarea.AVIMetaEdit.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.mediaarea.AVIMetaEdit.png"
+      },
+      "id": "net.mediaarea.AVIMetaEdit",
+      "name": "AVI MetaEdit",
+      "ref": "app/net.mediaarea.AVIMetaEdit/x86_64/stable",
+      "summary": "Embed, validate, and export AVI files metadata"
+    },
+    {
       "color": "#70BCE7",
       "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.BWFMetaEdit.flatpakref",
       "icons": {
@@ -755,6 +779,18 @@
       "name": "BWF MetaEdit",
       "ref": "app/net.mediaarea.BWFMetaEdit/x86_64/stable",
       "summary": "Embed, validate, and export BWF files metadata"
+    },
+    {
+      "color": "#EE7600",
+      "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.DVAnalyzer.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.mediaarea.DVAnalyzer.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.mediaarea.DVAnalyzer.png"
+      },
+      "id": "net.mediaarea.DVAnalyzer",
+      "name": "DV Analyzer",
+      "ref": "app/net.mediaarea.DVAnalyzer/x86_64/stable",
+      "summary": "Analyze DV streams and report errors"
     },
     {
       "color": "#6C5970",
@@ -1031,9 +1067,21 @@
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.develz.Crawl.png"
       },
       "id": "org.develz.Crawl",
-      "name": "crawl",
+      "name": "Dungeon Crawl Stone Soup",
       "ref": "app/org.develz.Crawl/x86_64/stable",
-      "summary": "Dungeon Crawl Stone Soup"
+      "summary": ""
+    },
+    {
+      "color": "#A4BEDA",
+      "flatpakref": "https://flathub.org/repo/appstream/org.ethereum.Mist.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.ethereum.Mist.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.ethereum.Mist.png"
+      },
+      "id": "org.ethereum.Mist",
+      "name": "Mist",
+      "ref": "app/org.ethereum.Mist/x86_64/stable",
+      "summary": "Ethereum Dapp Browser"
     },
     {
       "color": "#999DB8",
@@ -1046,18 +1094,6 @@
       "name": "Fedora Media Writer",
       "ref": "app/org.fedoraproject.MediaWriter/x86_64/stable",
       "summary": "A tool to create a live USB drive with an edition of Fedora"
-    },
-    {
-      "color": "#C68D8D",
-      "flatpakref": "https://flathub.org/repo/appstream/org.filezillaproject.Filezilla.flatpakref",
-      "icons": {
-        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.filezillaproject.Filezilla.png",
-        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.filezillaproject.Filezilla.png"
-      },
-      "id": "org.filezillaproject.Filezilla",
-      "name": "FileZilla",
-      "ref": "app/org.filezillaproject.Filezilla/x86_64/stable",
-      "summary": "Download and upload files via FTP, FTPS and SFTP"
     },
     {
       "color": "#93781F",
@@ -1594,6 +1630,18 @@
       "summary": "Edit text files"
     },
     {
+      "color": "#97DA58",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.ghex.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.ghex.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.ghex.png"
+      },
+      "id": "org.gnome.ghex",
+      "name": "GNOME Hex Editor",
+      "ref": "app/org.gnome.ghex/x86_64/stable",
+      "summary": "Inspect and edit binary files"
+    },
+    {
       "color": "#DF7979",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.gitg.flatpakref",
       "icons": {
@@ -1699,6 +1747,18 @@
       "name": "Kdenlive",
       "ref": "app/org.kde.kdenlive/x86_64/stable",
       "summary": "Video Editor"
+    },
+    {
+      "color": "#C2B5DA",
+      "flatpakref": "https://flathub.org/repo/appstream/org.kde.krita.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.kde.krita.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.kde.krita.png"
+      },
+      "id": "org.kde.krita",
+      "name": "Krita",
+      "ref": "app/org.kde.krita/x86_64/stable",
+      "summary": "Digital Painting, Creative Freedom"
     },
     {
       "color": "#B6C7B3",
