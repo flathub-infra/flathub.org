@@ -6,11 +6,11 @@ description: Applications distributed as Flatpaks, ready to download.
   .container
     .row
       .col-lg-10.col-lg-offset-1
-        %h1 Flatpak Applications
-        %p 
-          This page lists some of the apps that are available as Flatpaks, along with instructions for how 
-          to try them. Read more about Flatpak on the 
-          =link_to "Flatpak website.", "http://flatpak.org"
+        %h1 Apps for every Linux distribution
+        %p
+          Follow the
+          =succeed " and try any of these apps today." do
+            =link_to "setup steps", "index.html#setup"
 
         %ul#tabs.nav.nav-tabs{"role" => "tablist"}
           %li.active{:role => "presentation"}
@@ -36,9 +36,7 @@ description: Applications distributed as Flatpaks, ready to download.
           %div#cli.tab-pane.fade{:role => "tabpanel"}
 
             %p
-              These command line instructions require Flatpak 0.6.13 or newer.
-              Once installed, applications can be launched from the usual place in your desktop. For more
-              information on how to update and manage your applications, see the 
+              For more information on how to update and manage your applications, see the
               =link_to "command line tutorial.", "http://flatpak.org/command-line.html"
 
             - data.appstream.apps.sort_by{ |i| i.name.downcase }.each do |i|

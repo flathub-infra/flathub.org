@@ -1,7 +1,4 @@
-- title: Using Flathub
-  link: "#using"
-- title: Applications
-  link: "apps.html"
-- title: Flatpak
-  link: "http://flatpak.org"
-
+- title: Browse apps
+  link: "apps"
+- title: Submit an app
+  link: "https://github.com/flathub/flathub/wiki/Package-Guidelines"
