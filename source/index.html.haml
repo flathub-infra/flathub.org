@@ -11,50 +11,32 @@ description: Build and distribution service for Flatpak applications.
       .row
         .col-sm-8.col-sm-offset-2
           %p
-            Flathub is a build and distribution service for Flatpak applications. Its goal is to act as a central hub for making desktop applications available to users.
-      .row
-        .col-sm-8.col-sm-offset-2
-          %p
-            To download desktop applications on a modern Linux-based system,
-            = link_to "download", "https://dl.flathub.org/repo/flathub.flatpakrepo"
-            the repository file and add it to your system with GNOME Software
-            or the Flatpak command line.
-    
+            Flathub is a a growing collection of apps which can be easily installed on any Linux distribution. Once setup, you can browse and install from an app center, like GNOME Software or KDE Discover. Alternatively, you can browse and install apps from the website or using the command line.
+
 %section
   .container
     .row
       .col-sm-8.col-sm-offset-2
+        %h2#setup Setup instructions
         %p
-          To download and install applications from Flathub, you will need to install Flatpak (if you haven't already) and then add the repository in one of two ways:
-
-        %h2#using Using Flathub in GNOME Software
+          1. Follow the
+          = link_to "Flatpak installation instructions", "https://flatpak.org/getting.html"
+          for your distribution.
         %p
-          If you are on Arch, Debian Stretch (or later), Endless OS, Fedora 25 (or later), Mageia 6 (or later), or OpenSUSE Tumbleweed, you can 
-          = link_to "download", "https://dl.flathub.org/repo/flathub.flatpakrepo"
-          the repository file and use GNOME Software to install it.
-
-        %h2#using Using Flathub on the Command Line
-        %p
-          From the command line, run: 
+          2. Add the Flathub repository - with many distributions, you can download the
+          = link_to "the repository file", "https://dl.flathub.org/repo/flathub.flatpakrepo"
+          and install it with GNOME Software. Alternatively, from the command line, run:
 
         %pre
           :preserve
             <span class="unselectable">$ </span>flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
         %p
-          You can then browse and install applications in the normal manner. See the Flatpak 
-          = link_to "command line tutorial", "http://flatpak.org/command-line.html"
-          for more information on this.
+          3. That's it! You can now install apps from an app center, by
+          =succeed ", or through the flatpak command line." do
+            =link_to "browsing them online", "apps.html"
 
-        %h2 Submitting apps
+        %h2 Issues
         %p
-          If you develop a Linux application and would like to make it available via Flathub, we would appreciate your contribution.
-          Follow the instructions at
-          = link_to "submission guidelines", "https://github.com/flathub/flathub/wiki/Submission-Guidelines"
-          to submit your app.
-
-        %h2 Reporting issues
-        %p
-          Security or legal issues can be reported to the 
+          Security or legal issues can be reported to the
           = succeed "." do
             = link_to "Flathub maintainers", "mailto:flathub@lists.freedesktop.org"
