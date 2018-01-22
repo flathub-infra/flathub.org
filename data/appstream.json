@@ -212,6 +212,18 @@
       "summary": "Create simple and beautiful presentations"
     },
     {
+      "color": "#77CCD5",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.robertsanseries.ciano.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.robertsanseries.ciano.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.github.robertsanseries.ciano.png"
+      },
+      "id": "com.github.robertsanseries.ciano",
+      "name": "Ciano",
+      "ref": "app/com.github.robertsanseries.ciano/x86_64/stable",
+      "summary": "A multimedia file converter"
+    },
+    {
       "color": "#FF780A",
       "flatpakref": "https://flathub.org/repo/appstream/com.github.rssguard.flatpakref",
       "icons": {
@@ -583,14 +595,16 @@
       "summary": "A hackable text editor for the 21st Century"
     },
     {
-      "color": "#888",
+      "color": "#E8E2CF",
       "flatpakref": "https://flathub.org/repo/appstream/io.elementary.code.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.elementary.code.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.elementary.code.png"
       },
       "id": "io.elementary.code",
-      "name": "Scratch",
+      "name": "Code",
       "ref": "app/io.elementary.code/x86_64/stable",
-      "summary": "The text editor that works"
+      "summary": "The editor that works"
     },
     {
       "color": "#30607A",
@@ -619,6 +633,7 @@
       "color": "#616159",
       "flatpakref": "https://flathub.org/repo/appstream/io.github.Freedoom-Phase-1.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.Freedoom-Phase-1.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Freedoom-Phase-1.png"
       },
       "id": "io.github.Freedoom-Phase-1",
@@ -627,9 +642,10 @@
       "summary": "First-person shooter based on the Doom engine"
     },
     {
-      "color": "#653F3B",
+      "color": "#633E39",
       "flatpakref": "https://flathub.org/repo/appstream/io.github.Freedoom-Phase-2.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.Freedoom-Phase-2.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.Freedoom-Phase-2.png"
       },
       "id": "io.github.Freedoom-Phase-2",
@@ -1061,9 +1077,10 @@
       "summary": "3D Shufflepuck Pong Game"
     },
     {
-      "color": "#826B55",
+      "color": "#806A53",
       "flatpakref": "https://flathub.org/repo/appstream/org.develz.Crawl.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.develz.Crawl.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.develz.Crawl.png"
       },
       "id": "org.develz.Crawl",
@@ -1666,6 +1683,18 @@
       "summary": "Dominate the board in a classic version of Reversi"
     },
     {
+      "color": "#CFA18D",
+      "flatpakref": "https://flathub.org/repo/appstream/org.gnome.meld.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.meld.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.gnome.meld.png"
+      },
+      "id": "org.gnome.meld",
+      "name": "Meld",
+      "ref": "app/org.gnome.meld/x86_64/stable",
+      "summary": "Compare and merge your files"
+    },
+    {
       "color": "#A16383",
       "flatpakref": "https://flathub.org/repo/appstream/org.gnome.quadrapassel.flatpakref",
       "icons": {
@@ -1976,9 +2005,10 @@
       "summary": "Manage and display dive computer data"
     },
     {
-      "color": "#8E969B",
+      "color": "#8B9AAA",
       "flatpakref": "https://flathub.org/repo/appstream/org.supertuxproject.SuperTux.flatpakref",
       "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.supertuxproject.SuperTux.png",
         "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.supertuxproject.SuperTux.png"
       },
       "id": "org.supertuxproject.SuperTux",
