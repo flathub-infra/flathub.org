@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman" #, github: "middleman/middleman", branch: "v3-stable"
+gem "middleman", "~> 3" #, github: "middleman/middleman", branch: "v3-stable"
 gem "middleman-google-analytics", '~> 2.1'
 #gem "middleman-blog"
 gem "middleman-livereload" #3.1.0
