@@ -18,7 +18,7 @@ gem "less" #3.2.12
 # gem "middleman-syntax"
 
 #deployment
-gem "middleman-deploy", "~> 2.0.0.pre.alpha"
+gem "middleman-deploy", "1.0.0" #, "~> 2.0.0.pre.alpha"
 #gem "middleman-gh-pages"
 
 #bootstrap
