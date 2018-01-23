@@ -5,38 +5,22 @@ description: Build and distribution service for Flatpak applications.
 %header
   .header-content
     .container
-      .row
+      .row.centered
         .col-sm-8.col-sm-offset-2
-          %h1 Welcome to Flathub
-      .row
+          %h1 Apps for Linux
+      .row.centered
         .col-sm-8.col-sm-offset-2
           %p
-            Flathub is a a growing collection of apps which can be easily installed on any Linux distribution. Once setup, you can browse and install from an app center, like GNOME Software or KDE Discover. Alternatively, you can browse and install apps from the website or using the command line.
+            Flathub is a a growing collection of apps which can be easily installed on any Linux distribution. browse from your app center or command line.
+          %p
+            %a.btn.btn-primary.btn-xl{:href => "#"} Quick Setup
 
 %section
   .container
-    .row
+    .row.centered
       .col-sm-8.col-sm-offset-2
-        %h2#setup Setup instructions
+        %h2 Featured Apps
         %p
-          1. Follow the
-          = link_to "Flatpak installation instructions", "https://flatpak.org/getting.html"
-          for your distribution.
-        %p
-          2. Add the Flathub repository - with many distributions, you can download the
-          = link_to "the repository file", "https://dl.flathub.org/repo/flathub.flatpakrepo"
-          and install it with GNOME Software. Alternatively, from the command line, run:
-
-        %pre
-          :preserve
-            <span class="unselectable">$ </span>flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-        %p
-          3. That's it! You can now install apps from an app center, by
-          =succeed ", or through the flatpak command line." do
-            =link_to "browsing them online", "apps.html"
-
-        %h2 Issues
-        %p
-          Security or legal issues can be reported to the
-          = succeed "." do
-            = link_to "Flathub maintainers", "mailto:flathub@lists.freedesktop.org"
+          Flathub contains 
+          = data.appstream.apps.length
+          apps (and counting!) Here are just some of them:

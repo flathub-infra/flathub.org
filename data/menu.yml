@@ -1,4 +1,5 @@
-- title: Browse apps
-  link: "apps"
 - title: Submit an app
   link: "https://github.com/flathub/flathub/wiki/Package-Guidelines"
+- title: About
+  link: "/about"
+
