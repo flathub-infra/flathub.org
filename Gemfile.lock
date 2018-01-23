@@ -80,7 +80,7 @@ GEM
       rack (>= 1.4.5, < 2.0)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
-    middleman-deploy (2.0.0.pre.alpha)
+    middleman-deploy (1.0.0)
       middleman-core (>= 3.2)
       net-sftp
       ptools
@@ -161,8 +161,8 @@ DEPENDENCIES
   bootstrap-sass
   haml
   less
-  middleman
-  middleman-deploy (~> 2.0.0.pre.alpha)
+  middleman (~> 3)
+  middleman-deploy (= 1.0.0)
   middleman-google-analytics (~> 2.1)
   middleman-livereload
   rb-inotify
