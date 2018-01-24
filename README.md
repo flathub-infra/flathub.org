@@ -17,7 +17,11 @@ To run a local web server to test the site:
 Edit the haml/scss files and commit your changes, pushing to 
 origin/master.
 
-To deploy, simply:
+To deploy, run:
 
     bundle exec middleman build
     bundle exec middleman deploy
+
+The deploy command pushes an updated version of the site to 
+the `gh-pages` branch. A flatpak sysadmin must then be 
+called upon to update the live site.
