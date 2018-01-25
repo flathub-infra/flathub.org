@@ -606,18 +606,15 @@ table {
     grid-template-columns: 1fr 3fr 2fr;
     grid-gap: 16px;
     grid-auto-rows: minmax(48px,auto);
-    /* 
-    grid-align: stretch;
-    grid-justify: stretch;
-    */
-    
+    align-items: center;
+    justify-items: center;
     .icon {
       background: #ddd;
       width: 64px; height: 64px;
       justify-self: center;
     }
     
-    .title { 
+    .title {
       .name {
         font-weight: bold;
       }
