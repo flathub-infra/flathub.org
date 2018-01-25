@@ -24,3 +24,14 @@ description: Build and distribution service for Flatpak applications.
           Flathub contains 
           = data.appstream.apps.length
           apps (and counting!) Here are just some of them:
+    .row
+      .appgrid
+        - (1..12).each do |i|
+          .app
+            .icon
+            .title
+              .name App Name
+              .description
+                App Description is a bit longer.
+            %a.btn.btn-primary.installbutton
+              install

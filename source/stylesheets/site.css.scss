@@ -512,7 +512,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn {
-  border: 0;
+  color: #000;
+  background-color: lighten($neutral_color, 30%);
+  border: 1px solid lighten($neutral_color, 10%);
   border-radius: 3px;
   text-transform: uppercase;
   font-weight: 700;
@@ -592,90 +594,48 @@ table {
   }
 }
 
-
-.appslist {
-  padding: 12px 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-times: stretch;
-  justify-content: flex-start;
-  min-height: 200px;
-  box-sizing: content-box;
-}
-
-.apptile {
-  box-sizing: content-box;
-  position: relative;
-  flex: 1;
-  margin: 6px;
-  padding: 12px;
-  border: 1px solid rgba(0,0,0,0.2);
-  box-shadow:0 1px 1px 0 rgba(0,0,0,0.2), 0 0 2px 0 rgba(0,0,0,0.1);
-  border-radius: 4px;
-  min-height: 190px;
-  min-width: 190px;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-  overflow: hidden;
-  flex-grow: 0;
-  &:hover, &:active, &:focus {
-    text-decoration: none;
-    color: black;
-    border-width: 2px;
-    margin: 5px;
-    box-shadow:none;
-    & img.icon {
-      width: 76px; height: 76px;
-      transform: translate(-7px,-8px);
+.appgrid {
+  display: grid;
+  margin: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2em 4em;
+  grid-auto-rows: minmax(4em, auto);
+  
+  .app {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-gap: 16px;
+    grid-auto-rows: minmax(48px,auto);
+    /* 
+    grid-align: stretch;
+    grid-justify: stretch;
+    */
+    
+    .icon {
+      background: #ddd;
+      width: 64px; height: 64px;
+      justify-self: center;
+    }
+    
+    .title { 
+      .name {
+        font-weight: bold;
+      }
+      .description {
+        color: $neutral_color;
+        font-size: 80%;
+      }
+    }
+    
+    .installbutton {
+      align-self: center;
     }
   }
-
-  img.icon {
-    position: relative;
-    width: 64px; height: 64px;
-    margin-top: 8px;
-    left: calc(50% - 34px);
-    transition: all 200ms;
-    opacity: 1;
-  }
-
-  div {
-    position: absolute;
-    top: 50%;
-    left: 0; right: 0;
-    bottom: 0;
-    flex: 1;
-    flex-direction: row;
-    background-color: rgba(252,252,252,0.99);
-    box-shadow: 0 -1px 0 0 rgba(0,0,0,0.2);
-    padding: 12px;
-  }
-
-  h4 {
-    font-size: 100%; font-weight: 600;
-    text-transform: capitalize;
-    color: $neutral_color;
-    margin: 3px 0 2px 0;
-  }
-
-  p { font-size: 80%; }
 }
-
 
 
 @media(max-width:728px) {
-  .appslist {
-    text-align: center;
-  }
-  .apptile {
-    margin-right: auto;
-    margin-left: auto;
-    &:hover, &:active, &:focus {
-      margin-right: auto;
-      margin-left: auto;
-    }
-  }
+
 }
 
 
@@ -802,5 +762,4 @@ table {
     margin-bottom: 3em;
   }
 }
-
 
