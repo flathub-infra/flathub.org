@@ -141,6 +141,16 @@
       "summary": "Get things done"
     },
     {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.fabiocolacio.marker.flatpakref",
+      "icons": {
+      },
+      "id": "com.github.fabiocolacio.marker",
+      "name": "Marker",
+      "ref": "app/com.github.fabiocolacio.marker/x86_64/stable",
+      "summary": "Powerful markdown editor"
+    },
+    {
       "color": "#E89F8D",
       "flatpakref": "https://flathub.org/repo/appstream/com.github.geigi.cozy.flatpakref",
       "icons": {
@@ -186,6 +196,16 @@
       "name": "Othman Quran Browser",
       "ref": "app/com.github.ojubaorg.Othman/x86_64/stable",
       "summary": "Electronic Quran Browser"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/com.github.paolostivanin.OTPClient.flatpakref",
+      "icons": {
+      },
+      "id": "com.github.paolostivanin.OTPClient",
+      "name": "OTPClient",
+      "ref": "app/com.github.paolostivanin.OTPClient/x86_64/stable",
+      "summary": "Manage TOTP and HOTP tokens in a secure way"
     },
     {
       "color": "#5A76A7",
@@ -298,7 +318,7 @@
       "color": "#505557",
       "flatpakref": "https://flathub.org/repo/appstream/com.jagex.RuneScape.flatpakref",
       "icons": {
-        "64": "http://lh3.googleusercontent.com/2J5PH-QM9n7DjmdJx4EQZq1t4o6Wc0NBkI2RyRiggAOgLf4mupfSXcrC5Jd0vh2okcc=w64"
+        "64": "https://lh3.googleusercontent.com/2J5PH-QM9n7DjmdJx4EQZq1t4o6Wc0NBkI2RyRiggAOgLf4mupfSXcrC5Jd0vh2okcc=w64"
       },
       "id": "com.jagex.RuneScape",
       "name": "RuneScape",
@@ -315,6 +335,18 @@
       "name": "PyCharm-Community",
       "ref": "app/com.jetbrains.PyCharm-Community/x86_64/stable",
       "summary": "Pycharm - The most intelligent Python IDE"
+    },
+    {
+      "color": "#878787",
+      "flatpakref": "https://flathub.org/repo/appstream/com.obsproject.Studio.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/com.obsproject.Studio.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/com.obsproject.Studio.png"
+      },
+      "id": "com.obsproject.Studio",
+      "name": "OBS Studio",
+      "ref": "app/com.obsproject.Studio/x86_64/stable",
+      "summary": "Live streaming and video recording software"
     },
     {
       "color": "#7B6A44",
@@ -568,7 +600,7 @@
       "id": "im.riot.Riot",
       "name": "Riot",
       "ref": "app/im.riot.Riot/x86_64/stable",
-      "summary": "A glossy Matrix collaboration client for the web"
+      "summary": "Create, share, communicate, chat and call securely, and bridge to other apps"
     },
     {
       "color": "#EE5456",
@@ -618,6 +650,16 @@
       "summary": "All-in-one app to secure, manage, and exchange blockchain assets"
     },
     {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.Cockatrice.cockatrice.flatpakref",
+      "icons": {
+      },
+      "id": "io.github.Cockatrice.cockatrice",
+      "name": "Cockatrice",
+      "ref": "app/io.github.Cockatrice.cockatrice/x86_64/stable",
+      "summary": "A cross-platform virtual tabletop for multiplayer card games"
+    },
+    {
       "color": "#76615B",
       "flatpakref": "https://flathub.org/repo/appstream/io.github.EndlessSky.endless-sky.flatpakref",
       "icons": {
@@ -628,6 +670,18 @@
       "name": "Endless Sky",
       "ref": "app/io.github.EndlessSky.endless-sky/x86_64/stable",
       "summary": "Space exploration and combat game"
+    },
+    {
+      "color": "#896B59",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.FreeDM.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.FreeDM.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.FreeDM.png"
+      },
+      "id": "io.github.FreeDM",
+      "name": "FreeDM",
+      "ref": "app/io.github.FreeDM/x86_64/stable",
+      "summary": "Deathmatch game based on the Doom engine"
     },
     {
       "color": "#616159",
@@ -714,6 +768,30 @@
       "summary": "Qt Markdown Editor"
     },
     {
+      "color": "#6B6B6B",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.jliljebl.Flowblade.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.jliljebl.Flowblade.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.jliljebl.Flowblade.png"
+      },
+      "id": "io.github.jliljebl.Flowblade",
+      "name": "Flowblade",
+      "ref": "app/io.github.jliljebl.Flowblade/x86_64/stable",
+      "summary": "Video Editor - Fast, Precise, Stable"
+    },
+    {
+      "color": "#8A01CB",
+      "flatpakref": "https://flathub.org/repo/appstream/io.github.mki1967.mki3dgame.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.mki1967.mki3dgame.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.github.mki1967.mki3dgame.png"
+      },
+      "id": "io.github.mki1967.mki3dgame",
+      "name": "MKI3D Game",
+      "ref": "app/io.github.mki1967.mki3dgame/x86_64/stable",
+      "summary": "A simple OpenGL game of searching for tokens in 3D stages"
+    },
+    {
       "color": "#595970",
       "flatpakref": "https://flathub.org/repo/appstream/io.gitlab.osslugaru.Lugaru.flatpakref",
       "icons": {
@@ -760,6 +838,30 @@
       "name": "NumptyPhysics",
       "ref": "app/io.thp.numptyphysics/x86_64/stable",
       "summary": "A crayon-drawing based physics puzzle game"
+    },
+    {
+      "color": "#A03646",
+      "flatpakref": "https://flathub.org/repo/appstream/io.webtorrent.WebTorrent.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/io.webtorrent.WebTorrent.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/io.webtorrent.WebTorrent.png"
+      },
+      "id": "io.webtorrent.WebTorrent",
+      "name": "WebTorrent",
+      "ref": "app/io.webtorrent.WebTorrent/x86_64/stable",
+      "summary": "Streaming torrent app"
+    },
+    {
+      "color": "#72BA99",
+      "flatpakref": "https://flathub.org/repo/appstream/net.bartkessels.getit.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.bartkessels.getit.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.bartkessels.getit.png"
+      },
+      "id": "net.bartkessels.getit",
+      "name": "GetIt",
+      "ref": "app/net.bartkessels.getit/x86_64/stable",
+      "summary": "Send HTTP requests to API endpoints"
     },
     {
       "color": "#8B8B8B",
@@ -809,6 +911,30 @@
       "summary": "Analyze DV streams and report errors"
     },
     {
+      "color": "#6C576E",
+      "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.MOVMetaEdit.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.mediaarea.MOVMetaEdit.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.mediaarea.MOVMetaEdit.png"
+      },
+      "id": "net.mediaarea.MOVMetaEdit",
+      "name": "MOV MetaEdit",
+      "ref": "app/net.mediaarea.MOVMetaEdit/x86_64/stable",
+      "summary": "Embed and edit Universal Ad ID metadata in MOV or MP4 files"
+    },
+    {
+      "color": "#B4674C",
+      "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.MediaConch.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.mediaarea.MediaConch.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.mediaarea.MediaConch.png"
+      },
+      "id": "net.mediaarea.MediaConch",
+      "name": "MediaConch",
+      "ref": "app/net.mediaarea.MediaConch/x86_64/stable",
+      "summary": "Implementation checker, policy checker, reporter, and fixer"
+    },
+    {
       "color": "#6C5970",
       "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.MediaInfo.flatpakref",
       "icons": {
@@ -819,6 +945,18 @@
       "name": "MediaInfo",
       "ref": "app/net.mediaarea.MediaInfo/x86_64/stable",
       "summary": "Convenient unified display of the most relevant technical and tag data for video and audio files"
+    },
+    {
+      "color": "#9BA2A8",
+      "flatpakref": "https://flathub.org/repo/appstream/net.mediaarea.QCTools.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/net.mediaarea.QCTools.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/net.mediaarea.QCTools.png"
+      },
+      "id": "net.mediaarea.QCTools",
+      "name": "QCTools",
+      "ref": "app/net.mediaarea.QCTools/x86_64/stable",
+      "summary": "Quality Control Tools for Video Preservation"
     },
     {
       "color": "#899A61",
@@ -1113,6 +1251,18 @@
       "summary": "A tool to create a live USB drive with an edition of Fedora"
     },
     {
+      "color": "#C68D8D",
+      "flatpakref": "https://flathub.org/repo/appstream/org.filezillaproject.Filezilla.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.filezillaproject.Filezilla.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.filezillaproject.Filezilla.png"
+      },
+      "id": "org.filezillaproject.Filezilla",
+      "name": "FileZilla",
+      "ref": "app/org.filezillaproject.Filezilla/x86_64/stable",
+      "summary": "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface."
+    },
+    {
       "color": "#93781F",
       "flatpakref": "https://flathub.org/repo/appstream/org.freeciv.Freeciv.flatpakref",
       "icons": {
@@ -1172,7 +1322,7 @@
       "summary": "A fast and lightweight IDE"
     },
     {
-      "color": "#6A6AA0",
+      "color": "#6C6CA4",
       "flatpakref": "https://flathub.org/repo/appstream/org.geogebra.GeoGebra.flatpakref",
       "icons": {
         "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.geogebra.GeoGebra.png",
@@ -1957,6 +2107,18 @@
       "summary": "Quassel IRC is a modern, cross-platform, distributed IRC client."
     },
     {
+      "color": "#286C6C",
+      "flatpakref": "https://flathub.org/repo/appstream/org.quetoo.Quetoo.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.quetoo.Quetoo.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.quetoo.Quetoo.png"
+      },
+      "id": "org.quetoo.Quetoo",
+      "name": "Quetoo",
+      "ref": "app/org.quetoo.Quetoo/x86_64/stable",
+      "summary": "A Free, standalone first person shooter video game"
+    },
+    {
       "color": "#96A4A4",
       "flatpakref": "https://flathub.org/repo/appstream/org.seul.pingus.flatpakref",
       "icons": {
@@ -2076,6 +2238,18 @@
       "summary": "VLC media player, the open-source multimedia player"
     },
     {
+      "color": "#A0A8A7",
+      "flatpakref": "https://flathub.org/repo/appstream/org.vim.Vim.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.vim.Vim.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.vim.Vim.png"
+      },
+      "id": "org.vim.Vim",
+      "name": "Vim",
+      "ref": "app/org.vim.Vim/x86_64/stable",
+      "summary": "Edit text files"
+    },
+    {
       "color": "#8F8165",
       "flatpakref": "https://flathub.org/repo/appstream/org.wesnoth.Wesnoth.flatpakref",
       "icons": {
@@ -2097,6 +2271,28 @@
       "name": "Xiphos",
       "ref": "app/org.xiphos.Xiphos/x86_64/stable",
       "summary": "Bible Study Guide"
+    },
+    {
+      "color": "#888",
+      "flatpakref": "https://flathub.org/repo/appstream/org.zotero.Zotero.flatpakref",
+      "icons": {
+      },
+      "id": "org.zotero.Zotero",
+      "name": "Zotero",
+      "ref": "app/org.zotero.Zotero/x86_64/stable",
+      "summary": ""
+    },
+    {
+      "color": "#A6C5FC",
+      "flatpakref": "https://flathub.org/repo/appstream/us.zoom.Zoom.flatpakref",
+      "icons": {
+        "128": "https://flathub.org/repo/appstream/x86_64/icons/128x128/us.zoom.Zoom.png",
+        "64": "https://flathub.org/repo/appstream/x86_64/icons/64x64/us.zoom.Zoom.png"
+      },
+      "id": "us.zoom.Zoom",
+      "name": "Zoom",
+      "ref": "app/us.zoom.Zoom/x86_64/stable",
+      "summary": "Video Conferencing, Web Conferencing, Webinars, Screen Sharing"
     },
     {
       "color": "#F0F0F0",
