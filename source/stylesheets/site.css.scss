@@ -602,19 +602,25 @@ table {
   grid-auto-rows: minmax(4em, auto);
   
   .app {
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
-    grid-gap: 16px;
-    grid-auto-rows: minmax(48px,auto);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     align-items: center;
-    justify-items: center;
     .icon {
       width: 64px; height: 64px;
       background-size: contain;
       justify-self: center;
+      background-repeat: no-repeat;
+      flex: auto;
+      background-position: center;
     }
-    
+    & > * {
+      margin: 4px;
+      flex: 1;
+    }
     .title {
+      flex-grow: 6;
       .name {
         font-weight: bold;
       }
