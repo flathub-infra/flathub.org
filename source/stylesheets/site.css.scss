@@ -606,11 +606,10 @@ table {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     .icon {
       width: 64px; height: 64px;
       background-size: contain;
-      justify-self: center;
       background-repeat: no-repeat;
       flex: auto;
       background-position: center;
