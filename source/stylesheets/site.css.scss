@@ -609,8 +609,8 @@ table {
     align-items: center;
     justify-items: center;
     .icon {
-      background: #ddd;
       width: 64px; height: 64px;
+      background-size: contain;
       justify-self: center;
     }
     

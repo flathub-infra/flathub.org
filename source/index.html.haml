@@ -26,13 +26,17 @@ description: Build and distribution service for Flatpak applications.
           apps (and counting!) Here are just some of them:
     .row
       .appgrid
-        - (1..12).each do |i|
+        - data.apps.each do |i|
           .app
-            .icon
+            - if i.icons["128"]
+              .icon{:style => "background-image: url(#{i.icons['128']})"}
+            - elsif i.icons["64"]
+              .icon{:style => "background-image: url(#{i.icons['64']})"}            
             .title
-              .name App Name
+              .name 
+                = i.name
               .description
-                App Description is a bit longer.
-            %a.btn.btn-primary.installbutton
+                = i.summary
+            %a{:class => 'btn btn-primary installbutton', :href => i.flatpakref}
               install
 
