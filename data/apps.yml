@@ -1,7 +1,7 @@
 - name:     "Telegram"
   id:       "org.telegram.desktop"
   ref:      "app/org.telegram.desktop/x86_64/stable"
-  summary:  "Telegram Desktop messenger"
+  summary:  "Desktop messenger"
   color:    "#6DA9D6"
   "flatpakref": "https://flathub.org/repo/appstream/org.telegram.desktop.flatpakref"
   icons:
@@ -20,7 +20,7 @@
 - name:     "Inkscape"
   id:       "org.inkscape.Inkscape"
   ref:      "app/org.inkscape.Inkscape/x86_64/stable"
-  summary:  "Vector Graphics Editor"
+  summary:  "Vector graphics editor"
   color:    "#C5BFB5"
   "flatpakref": "https://flathub.org/repo/appstream/org.inkscape.Inkscape.flatpakref"
   icons:
@@ -69,7 +69,7 @@
 - name:     "Kdenlive"
   id:       "org.kde.kdenlive"
   ref:      "app/org.kde.kdenlive/x86_64/stable"
-  summary:  "Video Editor"
+  summary:  "Video editor"
   color:    "#8596C6"
   "flatpakref": "https://flathub.org/repo/appstream/org.kde.kdenlive.flatpakref"
   icons:
@@ -79,16 +79,16 @@
 - name:     "Skype"
   id:       "com.skype.Client"
   ref:      "app/com.skype.Client/x86_64/stable"
-  summary:  "Call and message skype users, with video chat support"
+  summary:  "Call and message Skype users"
   color:    "#C5BFB5"
   "flatpakref": "https://flathub.org/repo/appstream/com.skype.Client.flatpakref"
   icons:
     "64":   "https://lh3.googleusercontent.com/QfAEt_ya6-n8w_TD9-PsghFC2DMSO7fLGNZB4cQ3RtbBbHFkXJE_gxOc3l32-j6LXg=w64"
 
-- name:     "Google Play Music Player"
+- name:     "Google Play Music"
   id:       "com.googleplaymusicdesktopplayer.GPMDP"
   ref:      "app/com.googleplaymusicdesktopplayer.GPMDP/x86_64/stable"
-  summary:  "Run Google Play Music as a standalone desktop app"
+  summary:  "Google Play Music desktop app"
   color:    "#FAA22B"
   "flatpakref": "https://flathub.org/repo/appstream/com.googleplaymusicdesktopplayer.GPMDP.flatpakref"
   icons:
@@ -98,7 +98,7 @@
 - name:     "VLC"
   id:       "org.videolan.VLC"
   ref:      "app/org.videolan.VLC/x86_64/stable"
-  summary:  "VLC media player, the open-source multimedia player"
+  summary:  "Open-source multimedia player"
   color:    "#DB946C"
   "flatpakref": "https://flathub.org/repo/appstream/org.videolan.VLC.flatpakref"
   icons:
@@ -108,7 +108,7 @@
 - name:     "Blender"
   id:       "org.blender.Blender"
   ref:      "app/org.blender.Blender/x86_64/stable"
-  summary:  "A 3D creation application"
+  summary:  "3D modelling and animation"
   color:    "#D89C7F"
   "flatpakref": "https://flathub.org/repo/appstream/com.slack.Slack.flatpakref"
   icons:
