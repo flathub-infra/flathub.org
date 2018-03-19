@@ -8,11 +8,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
  
-$primary_color: #4a86cf;
+$key_color: #4a90d9;
 $secondary_orange_color: #f57900;
 $secondary_green_color: #4e9a06;
 $secondary_purple_color: #692c52;
-$neutral_color: #808080;
+$neutral_color: #919191;
 $dark_neutral_color: #333333;
 $defaultfont: 'Source Sans Pro', 'Source Sans', sans-serif;
 
@@ -35,7 +35,7 @@ main {
 
 hr {
   max-width: 50px;
-  border-color: $primary_color;
+  border-color: $key_color;
   border-width: 3px;
 }
 
@@ -44,13 +44,13 @@ hr.light {
 }
 
 a {
-  color: $primary_color;
+  color: $key_color;
   -webkit-transition: color .35s;
   -moz-transition: color .35s;
   transition: color .35s;
-  &:active, &:visited { color: $primary_color; }
+  &:active, &:visited { color: $key_color; }
   &:hover, &:focus {
-    color: lighten($primary_color,5%);
+    color: lighten($key_color,5%);
   }
   &.search {
     img {
@@ -94,8 +94,17 @@ p {
   line-height: 1.5;
 }
 
+.centered { text-align: center; }
+.wide { width: 100%; }
+.largegap { margin-top: 5em; }
+.mediumgap { margin-top: 2em; }
+.largegapafter { margin-bottom: 10em; }
+.right { text-align: right; }
+.floatright { display: inline-block; float: right; }
+.toneddown { opacity: 0.5; }
+
 .bg-primary {
-  background-color: $primary_color;
+  background-color: $key_color;
   h3 { color: transparentize(#fff,0.5); }
 }
 
@@ -131,7 +140,9 @@ aside {
   transition: all .35s;
   color: white;
   border-width: 0;
-  background-color: $primary_color;
+  background-color: $key_color;
+  text-transform: uppercase;
+  font-size: 90%;
   .navbar-toggle {
     border-color: white;
     .icon-bar { background-color: white; }
@@ -155,6 +166,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
+
 }
 
 .navbar-default .nav > li>a,
@@ -187,7 +199,8 @@ aside {
 @media(min-width:768px) {
   .navbar-default {
     border-width: none;
-    background-color: transparentize($primary_color,0.2);
+    float: right;
+    background-color: transparentize($key_color,0.2);
     /* background-image: linear-gradient(to bottom,transparentize(#fff,.1),transparentize(#fff,0.9)); */
   }
 
@@ -210,7 +223,7 @@ aside {
   }
 
   .navbar-default.affix, .navbar-default.affix-top {
-    background-color: $primary_color;
+    background-color: $key_color;
   }
 
   .navbar-default.affix .navbar-header .navbar-brand {
@@ -246,18 +259,18 @@ header {
     position: relative;
     width: 100%;
     padding: 200px 15px;
-    background: $primary_color url('/img/tiles.svg') no-repeat top left;
+    background: $key_color url('/img/tiles.svg') no-repeat top left;
     color: white;
     h1 {
       margin-top: 0;
       margin-bottom: 1em;
       font-size: 250%;
-      background-color: transparentize($primary_color, 0.2);
+      background-color: transparentize($key_color, 0.2);
     }
     h2 {
       margin-top: 2em;
       margin-bottom: 1em;
-      background-color: $primary_color;
+      background-color: $key_color;
     }
     hr {
       margin: 30px auto;
@@ -267,7 +280,7 @@ header {
       margin-bottom: 50px;
       font-size: 110%;
       font-weight: 300;
-      background-color: $primary_color;
+      background-color: $key_color;
     }
   }
 }
@@ -387,11 +400,15 @@ pre {
 }
 
 .btn-default {
-  color: #000;
-  background-color: $neutral_color;
+  color: #fff;
+  background-color: $key_color;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
+  .hader-content &, .bg-primary & {
+    color: #222;
+    background-color: #fff;
+  }
 }
 
 .btn-default:hover,
@@ -437,8 +454,8 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  background-color: lighten($neutral_color,30%);
-  color: #000;
+  color: $key_color;
+  background-color: #fff;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -446,9 +463,8 @@ fieldset[disabled] .btn-default.active {
   &:focus,
   &.focus,
   .open > .dropdown-toggle.btn-primary {
-    border-color: darken($primary_color,5%);
     color: #fff;
-    background-color: lighten($primary_color,10%);
+    background-color: lighten($key_color,10%);
   }
   &:active,
   &.active,
@@ -458,6 +474,19 @@ fieldset[disabled] .btn-default.active {
   .badge {
     color: #f05f40;
     background-color: #fff;
+  }
+  .header-content & { 
+    color: $key_color;
+    &:hover, &:active, &:focus {
+      color: #fff;
+    }
+  }
+  &:hover,
+  &:focus {
+    border-color: rgba(0,0,0,0.1);
+  }
+  &:active { /* fixme */
+    border-color: rgba(0,0,0,0);
   }
   
   &.disabled,
@@ -478,13 +507,14 @@ fieldset[disabled] .btn-default.active {
   &.disabled.active,
   &[disabled].active,
   fieldset[disabled] &.active {
-      border-color: #f05f40;
       background-color: #f05f40;
   }
 }
 
 .btn {
-  border: 0;
+  color: #000;
+  background-color: lighten($neutral_color, 30%);
+  border: 1px solid lighten($neutral_color, 10%);
   border-radius: 3px;
   text-transform: uppercase;
   font-weight: 700;
@@ -492,12 +522,6 @@ fieldset[disabled] .btn-default.active {
 
 .btn-xl {
   padding: 15px 30px;
-}
-
-::-moz-selection {
-  text-shadow: none;
-  color: #fff;
-  background: #222;
 }
 
 ::selection {
@@ -537,8 +561,6 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-.wide { width: 100%; }
-
 table {
   border-collapse: collapse;
   margin-bottom: 3em;
@@ -566,96 +588,56 @@ table {
     width: 100%;
     border: 1px solid lighten($neutral_color,30%);
     th {
-      background-color: $primary_color;
+      background-color: $key_color;
       color: #fff;
     }
   }
 }
 
-
-.appslist {
-  padding: 12px 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-times: stretch;
-  justify-content: flex-start;
-  min-height: 200px;
-  box-sizing: content-box;
-}
-
-.apptile {
-  box-sizing: content-box;
-  position: relative;
-  flex: 1;
-  margin: 6px;
-  padding: 12px;
-  border: 1px solid rgba(0,0,0,0.2);
-  box-shadow:0 1px 1px 0 rgba(0,0,0,0.2), 0 0 2px 0 rgba(0,0,0,0.1);
-  border-radius: 4px;
-  min-height: 190px;
-  min-width: 190px;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-  overflow: hidden;
-  flex-grow: 0;
-  &:hover, &:active, &:focus {
-    text-decoration: none;
-    color: black;
-    border-width: 2px;
-    margin: 5px;
-    box-shadow:none;
-    & img.icon {
-      width: 76px; height: 76px;
-      transform: translate(-7px,-8px);
+.appgrid {
+  display: grid;
+  margin: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2em 4em;
+  grid-auto-rows: minmax(4em, auto);
+  
+  .app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .icon {
+      width: 64px; height: 64px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      flex: auto;
+      background-position: center;
+    }
+    & > * {
+      margin: 4px;
+      flex: 1;
+    }
+    .title {
+      flex-grow: 6;
+      .name {
+        font-weight: bold;
+      }
+      .description {
+        color: $neutral_color;
+        font-size: 80%;
+      }
+    }
+    
+    .installbutton {
+      align-self: center;
     }
   }
-
-  img.icon {
-    position: relative;
-    width: 64px; height: 64px;
-    margin-top: 8px;
-    left: calc(50% - 34px);
-    transition: all 200ms;
-    opacity: 1;
-  }
-
-  div {
-    position: absolute;
-    top: 50%;
-    left: 0; right: 0;
-    bottom: 0;
-    flex: 1;
-    flex-direction: row;
-    background-color: rgba(252,252,252,0.99);
-    box-shadow: 0 -1px 0 0 rgba(0,0,0,0.2);
-    padding: 12px;
-  }
-
-  h4 {
-    font-size: 100%; font-weight: 600;
-    text-transform: capitalize;
-    color: $neutral_color;
-    margin: 3px 0 2px 0;
-  }
-
-  p { font-size: 80%; }
 }
-
 
 
 @media(max-width:728px) {
-  .appslist {
-    text-align: center;
-  }
-  .apptile {
-    margin-right: auto;
-    margin-left: auto;
-    &:hover, &:active, &:focus {
-      margin-right: auto;
-      margin-left: auto;
-    }
-  }
+
 }
 
 
@@ -727,7 +709,7 @@ table {
 
 .row.toned {
   background-color: lighten($neutral_color,35%);
-  /* background-color: lighten($primary_color,30%); */
+  /* background-color: lighten($key_color,30%); */
   margin: 3em -65px 3em -65px;
   padding: 3em;
   a.icon {
@@ -782,5 +764,4 @@ table {
     margin-bottom: 3em;
   }
 }
-
 
