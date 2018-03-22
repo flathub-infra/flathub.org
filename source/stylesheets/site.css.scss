@@ -476,9 +476,11 @@ fieldset[disabled] .btn-default.active {
     background-color: #fff;
   }
   .header-content & { 
-    color: $key_color;
+    color: darken($key_color, 10%);
+    background-color: #fff;
     &:hover, &:active, &:focus {
       color: #fff;
+      background-color: darken($key_color, 10%);
     }
   }
   &:hover,
