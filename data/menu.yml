@@ -1,5 +1,7 @@
 - title: Submit an app
   link: "https://github.com/flathub/flathub/wiki/App-Submission"
+- title: About
+  link: "/about"
 - title: Flathub Status
   link: "https://status.flathub.org/"
   onlyfooter: true
