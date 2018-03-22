@@ -110,7 +110,7 @@
   ref:      "app/org.blender.Blender/x86_64/stable"
   summary:  "3D modelling and animation"
   color:    "#D89C7F"
-  "flatpakref": "https://flathub.org/repo/appstream/com.slack.Slack.flatpakref"
+  "flatpakref": "https://flathub.org/repo/appstream/org.blender.Blender.flatpakref"
   icons:
     "128":  "https://flathub.org/repo/appstream/x86_64/icons/128x128/org.blender.Blender.png"
     "64":   "https://flathub.org/repo/appstream/x86_64/icons/64x64/org.blender.Blender.png"
