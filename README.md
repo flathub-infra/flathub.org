@@ -1,5 +1,10 @@
-Flathub.org website
-===================
+This is the old flathub.org website
+===================================
+
+The new site can be found at https://github.com/flathub/linux-store-frontend .
+
+Setup and deployment instructions
+---------------------------------
 
 To set up middleman locally on Fedora:
 
